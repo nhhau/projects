@@ -1245,6 +1245,9 @@ div.aligncenter {
         font-size: 20px;
         font-weight: 700;
         line-height: 52px;
+        &:hover {
+            background-color: #A7A4DF;
+        }
     }
 }
 

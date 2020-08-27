@@ -1188,6 +1188,9 @@ div.aligncenter {
   font-weight: 700;
   line-height: 52px;
 }
+.find-block .btn:hover {
+  background-color: #A7A4DF;
+}
 
 @media (max-width: 991px) {
   .find-block .find-block__title {
