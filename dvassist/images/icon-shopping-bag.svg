@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="33px" viewBox="0 0 30 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-shopping-bag</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="icon-shopping-bag" transform="translate(1.000000, 1.000000)" stroke="#FEAE44" stroke-width="3">
+            <path d="M5,0.5 L0.5,6.5 L0.5,27.5 C0.5,29.1568542 1.84314575,30.5 3.5,30.5 L24.5,30.5 C26.1568542,30.5 27.5,29.1568542 27.5,27.5 L27.5,6.5 L23,0.5 L5,0.5 Z" id="Path_2"></path>
+            <line x1="0.5" y1="6.5" x2="27.5" y2="6.5" id="Path_3"></line>
+            <path d="M20,12.5 C20,15.8137085 17.3137085,18.5 14,18.5 C10.6862915,18.5 8,15.8137085 8,12.5" id="Path_4"></path>
+        </g>
+    </g>
+</svg>
