@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="102px" height="98px" viewBox="0 0 102 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>photo-worlds-best-fuel-cell</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="photo-worlds-best-fuel-cell" transform="translate(3.000000, 3.000000)" stroke="#2B2B2B" stroke-width="5">
+            <g id="Group_36" stroke-linejoin="round" transform="translate(11.080070, 0.788035)">
+                <g id="Group_35">
+                    <g id="Group_32" transform="translate(0.000000, 2.313183)">
+                        <line x1="23.0241391" y1="0" x2="6.34351304" y2="80.0397913" id="Line_23"></line>
+                        <line x1="0" y1="65.8944" x2="16.5504" y2="1.7613913" id="Line_24"></line>
+                    </g>
+                    <g id="Group_33" transform="translate(51.452661, 2.313183)">
+                        <line x1="0" y1="0" x2="16.6806261" y2="80.0397913" id="Line_25"></line>
+                        <line x1="23.0241391" y1="65.8944" x2="6.47373913" y2="1.7613913" id="Line_26"></line>
+                    </g>
+                    <g id="Group_34" transform="translate(32.664209, 0.000000)">
+                        <polyline id="Path_280" points="0 90.9645913 0.352278261 72.6770087 8.79526957 72.6770087 9.14754783 90.9587478"></polyline>
+                        <polygon id="Path_281" points="0.589356522 61.7889391 0.984208696 43.6407652 8.16333913 43.6407652 8.5581913 61.7889391"></polygon>
+                        <polygon id="Path_282" points="1.18121739 34.5658435 1.536 18.232487 7.61154783 18.232487 7.96633043 34.5658435"></polygon>
+                        <polyline id="Path_283" points="7.26010435 0 7.45377391 10.9732174 1.69377391 10.9732174 1.88744348 0.00166956522"></polyline>
+                    </g>
+                </g>
+            </g>
+            <path d="M3.46768696,64.7899826 C-3.99624053,44.9523123 2.5609536,22.5695528 19.5494583,9.89540243 C36.5379629,-2.77874798 59.8612667,-2.68811679 76.7507598,10.1176789 C93.6402532,22.9234746 100.023299,45.3565181 92.4054261,65.1355826" id="Path_284" stroke-linecap="round"></path>
+        </g>
+    </g>
+</svg>

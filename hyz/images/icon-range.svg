@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="41px" height="41px" viewBox="0 0 41 41" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-range</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="icon-range" transform="translate(1.000000, 1.000000)" stroke="#AAAAAA" stroke-width="2">
+            <g id="Group_8" transform="translate(0.970000, 0.211000)">
+                <line x1="12.315" y1="0" x2="3.927" y2="38.583" id="Line_7"></line>
+                <line x1="0" y1="37.973" x2="9.48" y2="0.078" id="Line_8"></line>
+            </g>
+            <g id="Group_9" transform="translate(26.002000, 0.211000)">
+                <line x1="0" y1="0" x2="8.388" y2="38.583" id="Line_9"></line>
+                <line x1="12.315" y1="37.973" x2="2.835" y2="0.078" id="Line_10"></line>
+            </g>
+            <g id="Group_10" transform="translate(17.597000, 0.102000)">
+                <polyline id="Path_60" points="0 38.844 0.158 31.588 3.935 31.588 4.093 38.843"></polyline>
+                <polygon id="Path_61" points="0.259 26.716 0.436 18.597 3.648 18.597 3.824 26.716"></polygon>
+                <polygon id="Path_62" points="0.528 14.538 0.687 7.231 3.405 7.231 3.564 14.538"></polygon>
+                <polyline id="Path_63" points="3.245 0 3.332 3.984 0.755 3.984 0.842 0.001"></polyline>
+            </g>
+        </g>
+    </g>
+</svg>

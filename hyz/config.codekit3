@@ -4,19 +4,29 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "512D1041-4435-4516-895F-A6C89E5141B1"
+		"uuidString": "37D8A3BF-69E5-43C4-B78E-4A1B6DBC0E8B"
 		}
 	],
 "creatorBuild": "32186",
 "files": {
+	"/css/plugins.min-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/plugins.min-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/css/plugins.min.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
-		"oAP": "/css/plugins.min.css",
-		"oF": 3,
+		"oA": 0,
+		"oAP": "/css/plugins.min-min.css",
+		"oF": 0,
 		"oS": 3
 		},
 	"/css/theme.css": {
@@ -42,196 +52,470 @@
 		"oS": 1,
 		"sct": 0
 		},
-	"/images/chosen-sprite.png": {
-		"ft": 32768,
-		"iS": 538,
+	"/images/citybus-photo-2.jpg": {
+		"ft": 16384,
+		"iS": 99447,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/chosen-sprite.png",
+		"oAP": "/images/citybus-photo-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/citybus-photo.jpg": {
+		"ft": 16384,
+		"iS": 263891,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/citybus-photo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/citybus-slide.jpg": {
+		"ft": 16384,
+		"iS": 53405,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/citybus-slide.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/images/heavy-trucks-photo.jpg": {
+		"ft": 16384,
+		"iS": 210576,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/heavy-trucks-photo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/heavy-trucks-slide.jpg": {
+		"ft": 16384,
+		"iS": 482780,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/heavy-trucks-slide.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/images/icon-arrow-left-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/icon-arrow-left-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/icon-arrow-left.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/icon-arrow-left.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/icon-arrow-right-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/icon-arrow-right-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/icon-capacity.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/icon-capacity.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/icon-category.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/icon-category.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/icon-emissions.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/icon-emissions.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/icon-range.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/icon-range.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/icon-tag.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/icon-tag.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/logo-bloomberg.png": {
+		"ft": 32768,
+		"iS": 30300,
+		"oA": 0,
+		"oAP": "/images/logo-bloomberg.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/images/chosen-sprite@2x.png": {
+	"/images/logo-cleantechnica.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/logo-cleantechnica.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/logo-fmg.png": {
 		"ft": 32768,
-		"iS": 738,
+		"iS": 9623,
 		"oA": 0,
-		"oAP": "/images/chosen-sprite@2x.png",
+		"oAP": "/images/logo-fmg.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/images/flag-1.jpg": {
-		"ft": 16384,
-		"iS": 12163,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/flag-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/flag-2.jpg": {
-		"ft": 16384,
-		"iS": 12634,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/flag-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/flag-3.jpg": {
-		"ft": 16384,
-		"iS": 12065,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/flag-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/icon-file-text.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/icon-file-text.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/icon-home.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/icon-home.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/icon-question.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/icon-question.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/icon-search.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/icon-search.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/icon-shopping-bag.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/icon-shopping-bag.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/logo-icon-white.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/logo-icon-white.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/logo-icon.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/logo-icon.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/logo-white.png": {
+	"/images/logo-gasworld.png": {
 		"ft": 32768,
-		"iS": 12380,
+		"iS": 12302,
 		"oA": 0,
-		"oAP": "/images/logo-white.png",
+		"oAP": "/images/logo-gasworld.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/logo-h2mob.png": {
+		"ft": 32768,
+		"iS": 26273,
+		"oA": 0,
+		"oAP": "/images/logo-h2mob.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/medium-trucks-photo-2.jpg": {
+		"ft": 16384,
+		"iS": 387822,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/medium-trucks-photo-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/medium-trucks-photo.jpg": {
+		"ft": 16384,
+		"iS": 344407,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/medium-trucks-photo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/medium-trucks-slide.jpg": {
+		"ft": 16384,
+		"iS": 73963,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/medium-trucks-slide.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/images/photo-500-horsepower-fuel-cell.png": {
+		"ft": 32768,
+		"iS": 45979,
+		"oA": 0,
+		"oAP": "/images/photo-500-horsepower-fuel-cell.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"/images/logo.png": {
-		"ft": 32768,
-		"iS": 15363,
+	"/images/photo-bg-1.jpg": {
+		"ft": 16384,
+		"iS": 326634,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/logo.png",
+		"oAP": "/images/photo-bg-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/photo-bg-2.jpg": {
+		"ft": 16384,
+		"iS": 107336,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/photo-bg-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/photo-bg-3.jpg": {
+		"ft": 16384,
+		"iS": 415585,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/photo-bg-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/photo-bg-4.jpg": {
+		"ft": 16384,
+		"iS": 288298,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/photo-bg-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/photo-bg-5.jpg": {
+		"ft": 16384,
+		"iS": 105924,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/photo-bg-5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/photo-bg-6.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/images/photo-bg-6.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"/images/post-1.jpg": {
+	"/images/photo-geo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/photo-geo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/photo-global-deployment.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/photo-global-deployment.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/photo-h2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/photo-h2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/photo-multiple-vehicle-platforms.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/photo-multiple-vehicle-platforms.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/photo-people-1.jpg": {
 		"ft": 16384,
-		"iS": 35032,
+		"iS": 183654,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/post-1.jpg",
+		"oAP": "/images/photo-people-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/images/photo-people-2.jpg": {
+		"ft": 16384,
+		"iS": 112715,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/photo-people-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/images/post-2.jpg": {
+	"/images/photo-people-3.jpg": {
 		"ft": 16384,
-		"iS": 34841,
+		"iS": 109594,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/post-2.jpg",
+		"oAP": "/images/photo-people-3.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/images/post-3.jpg": {
+	"/images/photo-people.jpg": {
 		"ft": 16384,
-		"iS": 33189,
+		"iS": 71841,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/post-3.jpg",
+		"oAP": "/images/photo-people.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/images/photo-solar.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/photo-solar.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/photo-usa.jpg": {
+		"ft": 16384,
+		"iS": 104201,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/photo-usa.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"/images/welcome-photo.jpg": {
+	"/images/photo-waste.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/photo-waste.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/photo-welcome.jpg": {
 		"ft": 16384,
-		"iS": 314501,
+		"iS": 358244,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/welcome-photo.jpg",
+		"oAP": "/images/photo-welcome.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/images/photo-wind.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/photo-wind.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/photo-worlds-best-fuel-cell.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/photo-worlds-best-fuel-cell.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/photo-zero-carbon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/photo-zero-carbon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/index.html": {
 		"cB": 0,
@@ -247,8 +531,8 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "/js/jquery-3.5.1.min-min.js",
-		"oF": 1,
+		"oAP": "/js/jquery-3.5.1.min.js",
+		"oF": 3,
 		"sC": 3,
 		"tS": 0
 		},
@@ -269,19 +553,8 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "/js/plugins.min-min.js",
-		"oF": 1,
-		"sC": 3,
-		"tS": 0
-		},
-	"/js/theme-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/js/theme-min-min.js",
-		"oF": 0,
+		"oAP": "/js/plugins.min.js",
+		"oF": 3,
 		"sC": 3,
 		"tS": 0
 		},
@@ -291,66 +564,21 @@
 		"ma": 0,
 		"mi": 1,
 		"oA": 2,
-		"oAP": "/js/theme-min.js",
-		"oF": 1,
+		"oAP": "/js/theme.js",
+		"oF": 3,
 		"sC": 3,
 		"tS": 0
-		},
-	"/page.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/page.html",
-		"oF": 0
-		},
-	"/page_home.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/page_home.php",
-		"oF": 0
-		},
-	"/source-0903-3-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/source-0903-3-min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/source-0903-3.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/source-0903-3-min.css",
-		"oF": 1,
-		"oS": 3
 		}
 	},
 "hooks": [
-	{
-		"enabled": 1,
-		"name": "Hook #1",
-		"predicateDataBase64Encoded": "YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGvEBYLDBMYICorLjU5Pj9CRkpPUFNZXWFjVSRudWxs0w0ODxAREl8QF05TQ29tcG91bmRQcmVkaWNhdGVUeXBlXxAPTlNTdWJwcmVkaWNhdGVzViRjbGFzcxACgAKAFdIUDxUXWk5TLm9iamVjdHOhFoADgBTUDxkaGxwdHh9fEBFOU1JpZ2h0RXhwcmVzc2lvbl8QEE5TTGVmdEV4cHJlc3Npb25fEBNOU1ByZWRpY2F0ZU9wZXJhdG9ygBOADoAEgBHVISIjJA8lJicoKVlOU09wZXJhbmReTlNTZWxlY3Rvck5hbWVfEBBOU0V4cHJlc3Npb25UeXBlW05TQXJndW1lbnRzgAaABRADgAiADVx2YWx1ZUZvcktleTrSIw8sLRABgAfSLzAxMlokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNTZWxmRXhwcmVzc2lvbqMxMzRcTlNFeHByZXNzaW9uWE5TT2JqZWN00hQPNjihN4AJgAzTDyM6Ozw9WU5TS2V5UGF0aIALEAqACl1pbnB1dEZ1bGxQYXRo0i8wQEFfEBxOU0tleVBhdGhTcGVjaWZpZXJFeHByZXNzaW9uo0AzNNIvMENEXk5TTXV0YWJsZUFycmF5o0NFNFdOU0FycmF50i8wR0hfEBNOU0tleVBhdGhFeHByZXNzaW9upEdJMzRfEBROU0Z1bmN0aW9uRXhwcmVzc2lvbtNLIw9MTU5fEA9OU0NvbnN0YW50VmFsdWWADxAAgBBYZHZhc3Npc3TSLzBRUl8QGU5TQ29uc3RhbnRWYWx1ZUV4cHJlc3Npb26jUTM01A9UVVZXTSxYWk5TTW9kaWZpZXJXTlNGbGFnc15OU09wZXJhdG9yVHlwZYASEGPSLzBaW18QFU5TSW5QcmVkaWNhdGVPcGVyYXRvcqNaXDRfEBNOU1ByZWRpY2F0ZU9wZXJhdG9y0i8wXl9fEBVOU0NvbXBhcmlzb25QcmVkaWNhdGWjXmA0W05TUHJlZGljYXRl0i8wRWKiRTTSLzBkZV8QE05TQ29tcG91bmRQcmVkaWNhdGWjZGA0AAgAEQAaACQAKQAyADcASQBMAFEAUwBsAHIAeQCTAKUArACuALAAsgC3AMIAxADGAMgA0QDlAPgBDgEQARIBFAEWASEBKwE6AU0BWQFbAV0BXwFhAWMBcAF1AXcBeQF+AYkBkgGlAakBtgG/AcQBxgHIAcoB0QHbAd0B3wHhAe8B9AITAhcCHAIrAi8CNwI8AlICVwJuAnUChwKJAosCjQKWApsCtwK7AsQCzwLXAuYC6ALqAu8DBwMLAyEDJgM+A0IDTgNTA1YDWwNxAAAAAAAAAgEAAAAAAAAAZgAAAAAAAAAAAAAAAAAAA3U=",
-		"runOrder": 0,
-		"scriptSourceString": "",
-		"scriptType": 1,
-		"uuidString": "0D245EAE-264D-42A7-A81D-D46F5FACE989"
-		}
 	],
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 618805583.60208499,
-	"displayValue": "dvassist",
+	"creationDate": 621009877.10012305,
+	"displayValue": "hyz",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_gray",
+	"iconImageName": "brackets-slime",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
@@ -1865,7 +2093,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "https://metastage.com.au/dvassist/",
+	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -2456,7 +2684,7 @@
 	"npmInstallOptionalDependencies": 0,
 	"npmSaveExactVersion": 0,
 	"npmTargetDependencyListType": 1,
-	"overrideExternalServerCSS": 1,
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"rollupExternals": "",
 	"rollupReplacements": "process.env.NODE_ENV:::$NODE_ENV,,,ENVIRONMENT:::$NODE_ENV",
