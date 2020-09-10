@@ -51,6 +51,7 @@
                 dots: false,
                 slidesToShow: 1,
                 slidesToScroll: 1,
+                fade: true,
                 infinite: true,
                 draggable: false,
                 asNavFor: '#vehicle .primary-slider'
@@ -60,7 +61,7 @@
                 resetProgressbar();
                 percentTime = 0;
                 isPause = false;
-                tick = setInterval(interval, 40);
+                tick = setInterval(interval, 45);
             }
             
             function interval() {
