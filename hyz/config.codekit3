@@ -541,6 +541,17 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/photo-zero-carbon.png": {
+		"ft": 32768,
+		"iS": 56395,
+		"oA": 0,
+		"oAP": "/images/photo-zero-carbon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/photo-zero-carbon.svg": {
 		"ft": 2097152,
 		"miP": 0,
