@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="21px" viewBox="0 0 20 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-arrow-left</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+        <g id="icon-arrow-left" transform="translate(2.000000, 2.000000)" stroke="#1B9BC5" stroke-width="4">
+            <line x1="15.828" y1="8.828" x2="5.828" y2="8.828" id="Line_30"></line>
+            <line x1="5.828" y1="0.828" x2="0.828" y2="5.828" id="Line_31"></line>
+            <line x1="5.828" y1="16.828" x2="0.828" y2="11.828" id="Line_32"></line>
+        </g>
+    </g>
+</svg>

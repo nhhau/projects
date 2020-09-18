@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="117px" viewBox="0 0 150 117" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>photo-h2</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="photo-h2" transform="translate(4.000000, 5.000000)">
+            <path d="M93.5330666,19.4438222 L99.3365337,13.6042666 C109.945126,3.05720359 124.961401,-1.77442918 139.729955,0.607288888 L137.801066,12.6043555 C126.881832,10.8399863 115.777571,14.4067185 107.928178,22.1996445 L100.841688,29.2805334" id="Path_389" stroke="#FFFFFF" stroke-width="10"></path>
+            <line x1="27.6783112" y1="66.1882666" x2="0.323555555" y2="93.2972447" id="Line_34" stroke="#FFFFFF" stroke-width="10" stroke-linejoin="round"></line>
+            <line x1="38.3867555" y1="78.7652445" x2="8.41244445" y2="108.230578" id="Line_35" stroke="#FFFFFF" stroke-width="10" stroke-linejoin="round"></line>
+            <path d="M84.8294222,49.8101334 C84.8294222,49.8101334 71.6140445,63.5338666 68.5520888,66.5976888 C65.4901334,69.6615112 68.5520888,75.0051555 68.5520888,75.0051555" id="Path_391" stroke="#FFFFFF" stroke-width="10" stroke-linecap="round"></path>
+            <path d="M37.1367112,45.4384 L21.9837334,60.3891555 L40.6124445,79.7900445 L73.2168888,47.1588445 C76.0073875,44.3869399 80.5119902,44.3869399 83.3024888,47.1588445 L90.8674666,54.7238222" id="Path_392" stroke="#FFFFFF" stroke-width="10" stroke-linejoin="round"></path>
+            <path d="M50.9338666,78.2033778 L62.7834666,90.0504886 C65.5709531,92.8222661 70.0748346,92.8186493 72.8578666,90.0424 L89.3946666,73.5087112 L91.2538666,54.4220445 L107.493866,38.1820445 C108.702014,36.974094 108.70702,35.0169588 107.505066,33.8028445 L99.9176881,26.2129778 C98.7112,25.0083555 86.0421334,11.7021334 84.8368888,12.9067555 L82.8457778,14.9065778 L58.6537778,10.7146666 L27.3790222,39.8589334 L32.7456888,45.4589334" id="Path_393" stroke="#FFFFFF" stroke-width="10" stroke-linejoin="round"></path>
+            <g id="H2" transform="translate(66.495023, 35.197253) rotate(-45.000000) translate(-66.495023, -35.197253) translate(51.529506, 11.197253)" fill="#FFFFFF" fill-rule="nonzero" font-family="Helvetica-Bold, Helvetica" font-weight="bold">
+                <g id="H" transform="translate(0.008531, 0.946742)" font-size="40">
+                    <g id="Group">
+                        <text id="H">
+                            <tspan x="0.0429333334" y="39">H</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="2" transform="translate(13.075199, 16.300345)" font-size="23.332">
+                    <g id="Group">
+                        <text id="2">
+                            <tspan x="0" y="23">2</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
