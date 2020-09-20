@@ -6,33 +6,35 @@
         <link rel="profile" href="http://gmpg.org/xfn/11">
         
         <!-- Google Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
         <!-- Font Awesome -->
-        <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous"> -->
+        <script src="https://kit.fontawesome.com/446d74cdd0.js" crossorigin="anonymous"></script>
         
         <link rel="stylesheet" href="css/plugins.min.css">
-        <link rel="stylesheet" href="css/theme.css">
+        <link rel="stylesheet" href="css/theme.min.css">
         <script src="js/jquery-3.5.1.min.js"></script>
     </head>
     <body>
         <!-- HEADER -->
-        <header id="site-header">
-            <div class="container-fluid">
+        <header id="site-header" class="transparent">
+            <div class="container-fluid d-lg-flex align-items-center justify-content-between">
                 <a href="#" class="logo">
-                    <img src="imagé/logo.svh" alt="logo">
+                    <img src="images/logo.svg" alt="logo">
                 </a>
-                <div class="actions">
-                    <a href="#" class="language en"></a>
-                    <button type="button" class="toggle-menu">
+                <div class="actions d-flex align-items-center">
+                    <a href="#" class="language en">
+                        <img src="images/flag-usa.png" alt="usa">
+                    </a>
+                    <button type="button" class="toggle-menu d-lg-none collapsed" data-toggle="collapse" data-target="#menu">
                         <span></span>
                         <span></span>
                         <span></span>
                     </button>
                 </div>
                 <!-- .actions -->
-                <nav>
-                    <ul class="menu">
+                <nav id="menu" class="collapse">
+                    <ul class="menu d-lg-flex align-items-center">
                         <li><a href="#">Giới thiệu</a></li>
                         <li><a href="#">Sản Phẩm & Dịch Vụ</a></li>
                         <li><a href="#">Bài Viết</a></li>
@@ -48,14 +50,13 @@
         <!-- MAIN -->
         <main id="site-content">
             <section id="welcome">
-                <div class="welcome-video">
-
+                <div class="welcome-video" style="background-image: url(images/photo-welcome.jpg);">
                 </div>
                 <!-- .welcome-video -->
-                <div class="welcome-text">
+                <div class="welcome-text text-center">
                     <h1>Nội Dung Chất Lượng. <br/>Trải Nghiệm ấn tượng</h1>
                     <p>TK Media tập trung đầu tư và phát triển các dự án website nội dung chất lượng cao với hàng triệu lượt truy cập tại nhiều thị trường khác nhau.</p>
-                    <a href="#" class="toggle-video"></a>
+                    <button type="button" class="toggle-video"><i class="fas fa-play"></i></button>
                 </div>
                 <!-- .welcome-text -->
             </section>
@@ -65,42 +66,38 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-3">
-                            <div class="item">
+                            <div class="item text-center">
                                 <span class="icon">
-                                    <img src="" alt="">
+                                    <img src="images/icon-rocket.svg" alt="">
                                 </span>
-                                <strong><span>10</span>+</strong>
-                                <p>Năm kinh nghiệm</p>
+                                <p class="mb-0"><strong><span>10</span>+</strong> Năm kinh nghiệm</p>
                             </div>
                             <!-- .item -->
                         </div>
                         <div class="col-md-3">
-                            <div class="item">
+                            <div class="item text-center">
                                 <span class="icon">
-                                    <img src="" alt="">
+                                    <img src="images/icon-mountain.svg" alt="">
                                 </span>
-                                <strong><span>07</span></strong>
-                                <p>Dự án chủ lực</p>
+                                <p class="mb-0"><strong><span>07</span></strong> Dự án chủ lực</p>
                             </div>
                             <!-- .item -->
                         </div>
                         <div class="col-md-3">
-                            <div class="item">
+                            <div class="item text-center">
                                 <span class="icon">
-                                    <img src="" alt="">
+                                    <img src="images/icon-group.svg" alt="">
                                 </span>
-                                <strong><span>50</span>+</strong>
-                                <p>Nhân sự từ xa</p>
+                                <p class="mb-0"><strong><span>50</span>+</strong> Nhân sự từ xa</p>
                             </div>
                             <!-- .item -->
                         </div>
                         <div class="col-md-3">
-                            <div class="item">
+                            <div class="item text-center">
                                 <span class="icon">
-                                    <img src="" alt="">
+                                    <img src="images/icon-browser.svg" alt="">
                                 </span>
-                                <strong><span>10</span>triệu</strong>
-                                <p>Lượt truy cập</p>
+                                <p class="mb-0"><strong><span>10</span>triệu</strong> Lượt truy cập</p>
                             </div>
                             <!-- .item -->
                         </div>
@@ -112,7 +109,7 @@
             <!-- #statis -->
 
             <section id="services">
-                <div class="conatiner">
+                <div class="container">
                     <div class="heading text-center">
                         <h2>Sản phẩm & Dịch vụ</h2>
                         <p>Các lĩnh vực hoạt động của TK Media tập trung vào 4 nhóm sản phẩm chủ lực, mang đến cho người dùng những trải nghiệm phong phú và đơn giản hơn.</p>
@@ -120,15 +117,15 @@
                     <!-- .heading -->
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="accordion services">
+                            <div class="accordion services" id="accordionExample">
                                 <div class="card">
                                     <div class="card-header">
                                         <button type="button" data-toggle="collapse" data-target="#collapseOne">Xuất bản điện tử</button>
                                     </div>
                                     <!-- .card-header -->
-                                    <div id="collapseOne" class="collapse show">
+                                    <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
                                         <div class="card-body">
-                                            <img src="" alt="">
+                                            <img src="images/photo-service-1.jpg" alt="">
                                             <p>Sau đại hội đảng Cộng hòa, kết quả các cuộc thăm dò cho thấy ông Trump có sự bứt phá và thu hẹp cách biệt với ông Biden. Cuộc thăm dò 27/8, ông Trump đã thu hẹp 4 điểm phần trăm, với 44% cho biết sẽ bỏ phiếu cho ông (trước đại hội là 42%), 50% ủng hộ Biden, giảm so với 52% trước đó. Một cuộc thăm dò Hill-HarrisX cho thấy tỷ lệ ủng hộ ông Trump</p>
                                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, nisi!</p>
                                         </div>
@@ -141,9 +138,9 @@
                                         <button type="button" data-toggle="collapse" data-target="#collapseTwo">Quảng cáo trực tuyến</button>
                                     </div>
                                     <!-- .card-header -->
-                                    <div id="collapseTwo" class="collapse ">
+                                    <div id="collapseTwo" class="collapse " data-parent="#accordionExample">
                                         <div class="card-body">
-                                            <img src="" alt="">
+                                            <img src="images/photo-service-2.jpg" alt="">
                                             <p>Sau đại hội đảng Cộng hòa, kết quả các cuộc thăm dò cho thấy ông Trump có sự bứt phá và thu hẹp cách biệt với ông Biden. Cuộc thăm dò 27/8, ông Trump đã thu hẹp 4 điểm phần trăm, với 44% cho biết sẽ bỏ phiếu cho ông (trước đại hội là 42%), 50% ủng hộ Biden, giảm so với 52% trước đó. Một cuộc thăm dò Hill-HarrisX cho thấy tỷ lệ ủng hộ ông Trump</p>
                                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, nisi!</p>
                                         </div>
@@ -156,8 +153,9 @@
                                         <button type="button" data-toggle="collapse" data-target="#collapseThree">Thương mại điện tử</button>
                                     </div>
                                     <!-- .card-header -->
-                                    <div id="collapseThree" class="collapse ">
+                                    <div id="collapseThree" class="collapse " data-parent="#accordionExample">
                                         <div class="card-body">
+                                            <img src="images/photo-service-3.jpg" alt="">
                                             <p>Sau đại hội đảng Cộng hòa, kết quả các cuộc thăm dò cho thấy ông Trump có sự bứt phá và thu hẹp cách biệt với ông Biden. Cuộc thăm dò 27/8, ông Trump đã thu hẹp 4 điểm phần trăm, với 44% cho biết sẽ bỏ phiếu cho ông (trước đại hội là 42%), 50% ủng hộ Biden, giảm so với 52% trước đó. Một cuộc thăm dò Hill-HarrisX cho thấy tỷ lệ ủng hộ ông Trump</p>
                                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, nisi!</p>
                                         </div>
@@ -170,8 +168,9 @@
                                         <button type="button" data-toggle="collapse" data-target="#collapseFour">Mua bán và sát nhập</button>
                                     </div>
                                     <!-- .card-header -->
-                                    <div id="collapseFour" class="collapse ">
+                                    <div id="collapseFour" class="collapse " data-parent="#accordionExample">
                                         <div class="card-body">
+                                            <img src="images/photo-service-4.jpg" alt="">
                                             <p>Sau đại hội đảng Cộng hòa, kết quả các cuộc thăm dò cho thấy ông Trump có sự bứt phá và thu hẹp cách biệt với ông Biden. Cuộc thăm dò 27/8, ông Trump đã thu hẹp 4 điểm phần trăm, với 44% cho biết sẽ bỏ phiếu cho ông (trước đại hội là 42%), 50% ủng hộ Biden, giảm so với 52% trước đó. Một cuộc thăm dò Hill-HarrisX cho thấy tỷ lệ ủng hộ ông Trump</p>
                                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem, nisi!</p>
                                         </div>
@@ -185,7 +184,16 @@
                         <div class="col-md-6">
                             <div class="slideshow">
                                 <div class="click-slide">
-                                    <img src="" alt="">
+                                    <img src="images/photo-service-1.jpg" alt="">
+                                </div>
+                                <div class="click-slide">
+                                    <img src="images/photo-service-2.jpg" alt="">
+                                </div>
+                                <div class="click-slide">
+                                    <img src="images/photo-service-3.jpg" alt="">
+                                </div>
+                                <div class="click-slide">
+                                    <img src="images/photo-service-4.jpg" alt="">
                                 </div>
                             </div>
                             <!-- .slideshow -->
@@ -193,17 +201,339 @@
                     </div>
                     <!-- .row -->
                 </div>
-                <!-- .conatiner -->
+                <!-- .container -->
             </section>
             <!-- #services -->
+
+            <section id="news">
+                <div class="container">
+                    <div class="heading text-center">
+                        <h2>Tin tức & Sự kiện</h2>
+                        <p>Chia sẻ các bài viết về tin tức và nội bộ của công ty.</p>
+                    </div>
+                    <!-- .heading -->
+                </div>
+                <!-- .container -->
+                <div class="post-slider">
+                    <div class="slick-slide">
+                        <div class="item">
+                            <a href="#">
+                                <img src="images/photo-post-1.jpg" alt="">
+                            </a>
+                            <p class="title"><a href="#">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, eaque?</a></p>
+                            <p class="meta">13/09/2020</p>
+                        </div>
+                        <!-- .item -->
+                    </div>
+                    <div class="slick-slide">
+                        <div class="item">
+                            <a href="#">
+                                <img src="images/photo-post-2.jpg" alt="">
+                            </a>
+                            <p class="title"><a href="#">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, eaque?</a></p>
+                            <p class="meta">13/09/2020</p>
+                        </div>
+                        <!-- .item -->
+                    </div>
+                    <div class="slick-slide">
+                        <div class="item">
+                            <a href="#">
+                                <img src="images/photo-post-1.jpg" alt="">
+                            </a>
+                            <p class="title"><a href="#">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, eaque?</a></p>
+                            <p class="meta">13/09/2020</p>
+                        </div>
+                        <!-- .item -->
+                    </div>
+                    <div class="slick-slide">
+                        <div class="item">
+                            <a href="#">
+                                <img src="images/photo-post-2.jpg" alt="">
+                            </a>
+                            <p class="title"><a href="#">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, eaque?</a></p>
+                            <p class="meta">13/09/2020</p>
+                        </div>
+                        <!-- .item -->
+                    </div>
+                    <div class="slick-slide">
+                        <div class="item">
+                            <a href="#">
+                                <img src="images/photo-post-1.jpg" alt="">
+                            </a>
+                            <p class="title"><a href="#">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, eaque?</a></p>
+                            <p class="meta">13/09/2020</p>
+                        </div>
+                        <!-- .item -->
+                    </div>
+                    <div class="slick-slide">
+                        <div class="item">
+                            <a href="#">
+                                <img src="images/photo-post-2.jpg" alt="">
+                            </a>
+                            <p class="title"><a href="#">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, eaque?</a></p>
+                            <p class="meta">13/09/2020</p>
+                        </div>
+                        <!-- .item -->
+                    </div>
+                </div>
+                <!-- .post-slider -->
+            </section>
+            <!-- #news -->
+
+            <section id="posts">
+                <div class="container">
+                    <div class="heading text-center">
+                        <h2>Kiến thức kinh doanh</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae eveniet praesentium, voluptates perferendis maiores voluptate mollitia dolor fugiat voluptatem id.</p>
+                    </div>
+                    <!-- .heading -->
+                    <div class="post-tabs">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <a class="nav-link active" data-toggle="tab" href="#tab-1">Làm việc từ xa</a>
+                                <a class="nav-link " data-toggle="tab" href="#tab-2">SEO</a>
+                                <a class="nav-link " data-toggle="tab" href="#tab-3">Quản trị doanh nghiệp</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="tab-1">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="images/photo-post-1.jpg" alt="">
+                                                <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, laudantium!</span>
+                                            </a>
+                                        </div>
+                                        <!-- .item -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="images/photo-post-2.jpg" alt="">
+                                                <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, laudantium!</span>
+                                            </a>
+                                        </div>
+                                        <!-- .item -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="images/photo-post-1.jpg" alt="">
+                                                <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, laudantium!</span>
+                                            </a>
+                                        </div>
+                                        <!-- .item -->
+                                    </div>
+                                </div>
+                                <!-- .row -->
+                                <p class="text-center">
+                                    <a href="#" class="btn btn-primary">Xem thêm</a>
+                                </p>
+                            </div>
+                            <!-- .tab-pane -->
+                            <div class="tab-pane fade" id="tab-2">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="images/photo-post-1.jpg" alt="">
+                                                <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, laudantium!</span>
+                                            </a>
+                                        </div>
+                                        <!-- .item -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="images/photo-post-1.jpg" alt="">
+                                                <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, laudantium!</span>
+                                            </a>
+                                        </div>
+                                        <!-- .item -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="images/photo-post-1.jpg" alt="">
+                                                <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, laudantium!</span>
+                                            </a>
+                                        </div>
+                                        <!-- .item -->
+                                    </div>
+                                </div>
+                                <!-- .row -->
+                                <p class="text-center">
+                                    <a href="#" class="btn btn-primary">Xem thêm</a>
+                                </p>
+                            </div>
+                            <!-- .tab-pane -->
+                            <div class="tab-pane fade" id="tab-3">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="images/photo-post-1.jpg" alt="">
+                                                <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, laudantium!</span>
+                                            </a>
+                                        </div>
+                                        <!-- .item -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="images/photo-post-1.jpg" alt="">
+                                                <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, laudantium!</span>
+                                            </a>
+                                        </div>
+                                        <!-- .item -->
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="item">
+                                            <a href="#">
+                                                <img src="images/photo-post-1.jpg" alt="">
+                                                <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt, laudantium!</span>
+                                            </a>
+                                        </div>
+                                        <!-- .item -->
+                                    </div>
+                                </div>
+                                <!-- .row -->
+                                <p class="text-center">
+                                    <a href="#" class="btn btn-primary">Xem thêm</a>
+                                </p>
+                            </div>
+                            <!-- .tab-pane -->
+                        </div>
+                    </div>
+                    <!-- .post-tabs -->
+                </div>
+                <!-- .container -->
+            </section>
+            <!-- #posts -->
+
+            <section id="about" style="background-image: url(images/photo-about.jpg);">
+                <div class="about-text">
+                    <h2>Chúng tôi là <span>TK Media</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, sit? Consequuntur quaerat deleniti similique, ipsum labore ex ea fuga eos.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aut expedita, possimus ipsam rem repellat maiores nesciunt! Adipisci dolorum nihil culpa reprehenderit magnam nesciunt dolor fugiat velit! Non, voluptates veritatis necessitatibus et labore a minus quia, exercitationem quasi delectus eligendi?</p>
+                    <a href="#" class="btn btn-white">Xem chi tiết</a>
+                </div>
+                <!-- .about-text -->
+            </section>
+            <!-- #about -->
+
+            <section id="jobs">
+                <div class="container">
+                    <div class="heading text-center">
+                        <h2>Cơ hội nghề nghiệp</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste illum delectus molestias quisquam non eum provident, voluptatum voluptas a sapiente!</p>
+                    </div>
+                    <!-- .heading -->
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="item">
+                                <img src="images/photo-job-1.svg" alt="">
+                                <p class="title">Project Manager</p>
+                                <p class="meta">Negotiable</p>
+                            </div>
+                            <!-- .item -->
+                        </div>
+                        <div class="col-md-3">
+                            <div class="item">
+                                <img src="images/photo-job-2.svg" alt="">
+                                <p class="title">Project Manager</p>
+                                <p class="meta">Negotiable</p>
+                            </div>
+                            <!-- .item -->
+                        </div>
+                        <div class="col-md-3">
+                            <div class="item">
+                                <img src="images/photo-job-3.svg" alt="">
+                                <p class="title">Project Manager</p>
+                                <p class="meta">Negotiable</p>
+                            </div>
+                            <!-- .item -->
+                        </div>
+                        <div class="col-md-3">
+                            <div class="item">
+                                <img src="images/photo-job-4.svg" alt="">
+                                <p class="title">Project Manager</p>
+                                <p class="meta">Negotiable</p>
+                            </div>
+                            <!-- .item -->
+                        </div>
+                    </div>
+                    <!-- .row -->
+                </div>
+                <!-- .container -->
+            </section>
+            <!-- #jobs -->
+
+            <section id="partners">
+                <div class="container">
+                    <div class="heading text-center">
+                        <h2>Đối tác</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos incidunt impedit consequatur! Veniam possimus dolore repudiandae ducimus officiis voluptatum libero?</p>
+                    </div>
+                    <!-- .heading -->
+                    <div class="logo-slider">
+                        <div class="slick-slide">
+                            <img src="images/logo-payoneer.png" alt="">
+                        </div>
+                        <div class="slick-slide">
+                            <img src="images/logo-facebook.png" alt="">
+                        </div>
+                        <div class="slick-slide">
+                            <img src="images/logo-google.png" alt="">
+                        </div>
+                        <div class="slick-slide">
+                            <img src="images/logo-amazon.png" alt="">
+                        </div>
+                        <div class="slick-slide">
+                            <img src="images/logo-facebook.png" alt="">
+                        </div>
+                        <div class="slick-slide">
+                            <img src="images/logo-google.png" alt="">
+                        </div>
+                        <div class="slick-slide">
+                            <img src="images/logo-amazon.png" alt="">
+                        </div>
+                    </div>
+                    <!-- .logo-slider -->
+                </div>
+                <!-- .container -->
+            </section>
+            <!-- #partners -->
         </main>
         <!-- END MAIN -->
 
         <!-- FOOTER -->
         <footer id="site-footer">
-            <div class="container">
+            <div class="container-fluid">
+                <div class="row align-items-start">
+                    <div class="col-md-4 d-xl-flex align-items-center text-center text-md-left">
+                        <a href="#" class="logo">
+                            <img src="images/logo.svg" alt="logo">
+                        </a>
+                        <ul class="socials d-flex flex-wrap align-items-center justify-content-center justify-content-md-start">
+                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-8">
+                        <ul class="contact d-xl-flex flex-wrap justify-content-end">
+                            <li class="address">Tầng 29 Tòa Keangnam Landmark, KĐT mới Cầu Giấy, Phường Mễ Trì, Quận Nam Từ Liêm, TP. Hà Nội, Việt Nam.</li>
+                            <li class="phone">03255788777</li>
+                            <li class="email"><a href="mailto:">contact@tkmedia.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- .row -->
+                <p class="copyright mb-0 text-center">Copyright &copy; 2020 TK Media.</p>
             </div>
-            <!-- .container -->
+            <!-- .container-fluid -->
         </footer>
         <!-- END FOOTER -->
 
