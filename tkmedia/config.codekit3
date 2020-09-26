@@ -9,6 +9,22 @@
 	],
 "creatorBuild": "32186",
 "files": {
+	"/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/about.html",
+		"oF": 0
+		},
+	"/contact.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/contact.html",
+		"oF": 0
+		},
 	"/css/plugins.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -42,38 +58,36 @@
 		"oS": 3,
 		"sct": 0
 		},
-	"/fonts/CircularStd-Bold.eot": {
+	"/fonts/CircularStd-Black.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/fonts/CircularStd-Bold.eot",
+		"oAP": "/fonts/CircularStd-Black.woff",
 		"oF": 0
 		},
-	"/fonts/CircularStd-Bold.otf": {
+	"/fonts/CircularStd-Black.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/fonts/CircularStd-Bold.otf",
+		"oAP": "/fonts/CircularStd-Black.woff2",
 		"oF": 0
 		},
-	"/fonts/CircularStd-Bold.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/fonts/CircularStd-Bold.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/fonts/CircularStd-Bold.ttf": {
+	"/fonts/CircularStd-BlackItalic.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/fonts/CircularStd-Bold.ttf",
+		"oAP": "/fonts/CircularStd-BlackItalic.woff",
+		"oF": 0
+		},
+	"/fonts/CircularStd-BlackItalic.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/CircularStd-BlackItalic.woff2",
 		"oF": 0
 		},
 	"/fonts/CircularStd-Bold.woff": {
@@ -92,40 +106,6 @@
 		"oAP": "/fonts/CircularStd-Bold.woff2",
 		"oF": 0
 		},
-	"/fonts/CircularStd-BoldItalic.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/CircularStd-BoldItalic.eot",
-		"oF": 0
-		},
-	"/fonts/CircularStd-BoldItalic.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/CircularStd-BoldItalic.otf",
-		"oF": 0
-		},
-	"/fonts/CircularStd-BoldItalic.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/fonts/CircularStd-BoldItalic.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/fonts/CircularStd-BoldItalic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/CircularStd-BoldItalic.ttf",
-		"oF": 0
-		},
 	"/fonts/CircularStd-BoldItalic.woff": {
 		"cB": 0,
 		"ft": 8192,
@@ -140,40 +120,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/fonts/CircularStd-BoldItalic.woff2",
-		"oF": 0
-		},
-	"/fonts/CircularStd-Book.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/CircularStd-Book.eot",
-		"oF": 0
-		},
-	"/fonts/CircularStd-Book.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/CircularStd-Book.otf",
-		"oF": 0
-		},
-	"/fonts/CircularStd-Book.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/fonts/CircularStd-Book.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/fonts/CircularStd-Book.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/CircularStd-Book.ttf",
 		"oF": 0
 		},
 	"/fonts/CircularStd-Book.woff": {
@@ -192,38 +138,12 @@
 		"oAP": "/fonts/CircularStd-Book.woff2",
 		"oF": 0
 		},
-	"/fonts/CircularStd-BookItalic.eot": {
+	"/fonts/CircularStd-BookItalic.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/fonts/CircularStd-BookItalic.eot",
-		"oF": 0
-		},
-	"/fonts/CircularStd-BookItalic.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/CircularStd-BookItalic.otf",
-		"oF": 0
-		},
-	"/fonts/CircularStd-BookItalic.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/fonts/CircularStd-BookItalic.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/fonts/CircularStd-BookItalic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/CircularStd-BookItalic.ttf",
+		"oAP": "/fonts/CircularStd-BookItalic.woff",
 		"oF": 0
 		},
 	"/fonts/CircularStd-BookItalic.woff2": {
@@ -232,40 +152,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/fonts/CircularStd-BookItalic.woff2",
-		"oF": 0
-		},
-	"/fonts/CircularStd-Medium.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/CircularStd-Medium.eot",
-		"oF": 0
-		},
-	"/fonts/CircularStd-Medium.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/CircularStd-Medium.otf",
-		"oF": 0
-		},
-	"/fonts/CircularStd-Medium.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/fonts/CircularStd-Medium.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/fonts/CircularStd-Medium.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/CircularStd-Medium.ttf",
 		"oF": 0
 		},
 	"/fonts/CircularStd-Medium.woff": {
@@ -282,40 +168,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/fonts/CircularStd-Medium.woff2",
-		"oF": 0
-		},
-	"/fonts/CircularStd-MediumItalic.eot": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/CircularStd-MediumItalic.eot",
-		"oF": 0
-		},
-	"/fonts/CircularStd-MediumItalic.otf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/CircularStd-MediumItalic.otf",
-		"oF": 0
-		},
-	"/fonts/CircularStd-MediumItalic.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/fonts/CircularStd-MediumItalic.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/fonts/CircularStd-MediumItalic.ttf": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/CircularStd-MediumItalic.ttf",
 		"oF": 0
 		},
 	"/fonts/CircularStd-MediumItalic.woff": {
@@ -355,11 +207,21 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/images/icon-arrow-right.svg": {
+	"/images/icon-arrow-right-black.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/images/icon-arrow-right.svg",
+		"oAP": "/images/icon-arrow-right-black.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/icon-arrow-right-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/icon-arrow-right-white.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -446,6 +308,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/logo-black.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/logo-black.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/images/logo-facebook.png": {
 		"ft": 32768,
 		"iS": 32879,
@@ -488,6 +360,94 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/images/pattern-tkmedia.png": {
+		"ft": 32768,
+		"iS": 33769,
+		"oA": 0,
+		"oAP": "/images/pattern-tkmedia.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/photo-about-1.png": {
+		"ft": 32768,
+		"iS": 156484,
+		"oA": 0,
+		"oAP": "/images/photo-about-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/photo-about-2.png": {
+		"ft": 32768,
+		"iS": 127055,
+		"oA": 0,
+		"oAP": "/images/photo-about-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/photo-about-3.png": {
+		"ft": 32768,
+		"iS": 184072,
+		"oA": 0,
+		"oAP": "/images/photo-about-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/photo-about-4.png": {
+		"ft": 32768,
+		"iS": 104636,
+		"oA": 0,
+		"oAP": "/images/photo-about-4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/photo-about-5.png": {
+		"ft": 32768,
+		"iS": 118673,
+		"oA": 0,
+		"oAP": "/images/photo-about-5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/photo-about-6.png": {
+		"ft": 32768,
+		"iS": 278655,
+		"oA": 0,
+		"oAP": "/images/photo-about-6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/photo-about-wide.jpg": {
+		"ft": 16384,
+		"iS": 654006,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/photo-about-wide.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/images/photo-about.jpg": {
 		"ft": 16384,
@@ -539,6 +499,17 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/images/photo-kietphung.png": {
+		"ft": 32768,
+		"iS": 50061,
+		"oA": 0,
+		"oAP": "/images/photo-kietphung.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"/images/photo-post-1.jpg": {
 		"ft": 16384,
@@ -617,6 +588,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/photo-truntran.png": {
+		"ft": 32768,
+		"iS": 49625,
+		"oA": 0,
+		"oAP": "/images/photo-truntran.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/images/photo-tungtran.png": {
+		"ft": 32768,
+		"iS": 49616,
+		"oA": 0,
+		"oAP": "/images/photo-tungtran.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/photo-welcome.jpg": {
 		"ft": 16384,
 		"iS": 470872,
@@ -628,106 +621,66 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/images/plane-icon-1.svg": {
+	"/images/plane-1.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/images/plane-icon-1.svg",
+		"oAP": "/images/plane-1.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/images/plane-icon-2.png": {
+	"/images/plane-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/plane-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/plane-3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/plane-3.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/plane-4.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/plane-4.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/plane-5.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/plane-5.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/tkmembers.png": {
 		"ft": 32768,
-		"iS": 869,
+		"iS": 792690,
 		"oA": 0,
-		"oAP": "/images/plane-icon-2.png",
+		"oAP": "/images/tkmembers.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
-		},
-	"/images/plane-icon-3.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/plane-icon-3.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/plane-icon-4.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/plane-icon-4.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/plane-icon-5.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/plane-icon-5.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/plane-path-1.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/plane-path-1.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/plane-path-2.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/plane-path-2.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/plane-path-3.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/plane-path-3.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/plane-path-4.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/plane-path-4.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/plane-path-5.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/plane-path-5.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
 		},
 	"/index.html": {
 		"cB": 0,
@@ -735,6 +688,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/index.html",
+		"oF": 0
+		},
+	"/jobs.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/jobs.html",
 		"oF": 0
 		},
 	"/js/jquery-3.5.1.min.js": {
