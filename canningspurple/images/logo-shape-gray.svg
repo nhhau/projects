@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="674px" height="672px" viewBox="0 0 674 672" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Combined Shape</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="sand-dunes" fill="#A5C6CD">
+            <g id="Rectangle">
+                <path d="M674,0 L674,672 L0,672 L0,0 L674,0 Z M301.904428,1.91897612 L296.379,2.554 C111.885,25.113 -20.163,185.9 2.54,370.391 C25.243,554.882 188.9,653.022 373.394,630.464 L373.394,628.6 L375.694,630.181 L373.682,630.468 L377.993,658.199 C379.717,667.399 387.907,673.286 400.693,671.418 C573.981,639.228 693.1,472.983 671.256,295.53 C648.92556,112.88193 484.072898,-17.5199493 301.904428,1.91897612 Z" id="Combined-Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
