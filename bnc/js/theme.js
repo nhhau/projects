@@ -1,41 +1,110 @@
 (function($) {
     $(document).ready( function() {
         function site_init() {
-            $('#site-header button.toggle-search').on('click', function(e) {
-                $('#site-header').toggleClass('show-search');
-
-                setTimeout( function() {
-                    $('#site-header .search form input[type=search]').focus();
-                }, 300);
-            });
         }
 
         site_init();
 
-        function megamenu() {
-            var set_width = function() {
-                var container_width = $('#site-header>div.container').width(),
-                    window_width = $(window).width(),
-                    margin = (window_width - container_width) / 2;
+        function section_init() {
+            
 
-                $('#site-menu div.mega-menu.lv-1').css({
-                    left: '-' + margin + 'px',
-                    right: '-' + margin + 'px'
-                })
-            }
+            $('#menu a[href*="#"]').on('click', function(e) {
+                var target = $(this).attr('href'),
+                    pos = $(target).offset().top;
 
-            set_width();
+                if( $(window).width() < 1440 ) {
+                    pos = pos - 77;
 
-            $(window).resize( function() {
-                set_width();
+                    $('#menu').collapse('hide');
+                }
+
+                $('html,body').animate({
+                    scrollTop: pos
+                }, 300);
+                
+                e.preventDefault();
             });
         }
 
-        megamenu();
+        section_init();
 
-        function slick_init() {
+        function welcome_section() {
+            var slider = $('#welcome .slider');
+
+            slider.on('init', function(event, slick) {
+                $('#site-content > section').waypoint( function(direction) {
+                    if( direction == 'up' ) {
+                        return;
+                    }
+                    
+                    var section_id = this.element.id;
+    
+                    if( section_id ) {
+                        $('nav#menu a').removeClass('active');
+                        $('nav#menu a[href="#' + section_id + '"]').addClass('active');
+                    }
+                }, {
+                    offset: '50%'
+                });
+
+                $('#site-content > section').waypoint( function(direction) {
+                    if( direction == 'down' ) {
+                        return;
+                    }
+
+                    var section_id = this.element.id;
+    
+                    if( section_id ) {
+                        $('nav#menu a').removeClass('active');
+                        $('nav#menu a[href="#' + section_id + '"]').addClass('active');
+                    }
+                }, {
+                    offset: '-50%'
+                });
+            });
+
+            slider.on('beforeChange', function(event, slick, currentSlide, nextSlide) {
+                if( nextSlide == 4 ) {
+                    console.log('last slide');
+                }
+            });
+            
+            slider.slick({
+                autoplay: false,
+                dots: false,
+                arrows: false,
+                infinite: false,
+                fade: true,
+                speed: 0
+            });
+            
+            // slider.on('mousewheel', function(e) {
+            //     if( e.deltaY > 0 ) {
+            //         slider.slick('slickPrev');
+            //     } else {
+            //         slider.slick('slickNext');
+            //     }
+
+            //     e.preventDefault();
+            //     console.log(e.deltaX, e.deltaY, e.deltaFactor);
+            // });
         }
 
-        slick_init();
+        welcome_section();
+
+        function products_section() {
+            $('#products div.item .title > span, #products div.item a.toggle').on('click', function(e) {
+                $('#products div.item').removeClass('active');
+                $(this).parents('div.item').addClass('active');
+                e.preventDefault();
+            });
+
+            $('#products div.item button.close').on('click', function(e) {
+                $('#products div.item').removeClass('active');
+                e.preventDefault();
+            });
+        }
+
+        products_section();
     });
 })(jQuery);

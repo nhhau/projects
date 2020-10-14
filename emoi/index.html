@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html class="no-js">
+<html class="no-js" lang="vi">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width">
@@ -19,23 +19,50 @@
     <body>
         <!-- HEADER -->
         <header id="site-header">
-            <div class="container">
+            <div class="container d-lg-flex align-items-center justify-content-between">
                 <a href="#" class="logo">
                     <img src="images/logo.svg" alt="logo">
                 </a>
-                <div class="action">
-                    <button type="button" class="toggle-search"></button>
-                    <button type="button" class="toggle-menu">
+                <div class="action d-flex flex-wrap align-items-center">
+                    <button type="button" class="toggle-search">
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8.33333 14.1667C11.555 14.1667 14.1667 11.555 14.1667 8.33333C14.1667 5.11167 11.555 2.5 8.33333 2.5C5.11167 2.5 2.5 5.11167 2.5 8.33333C2.5 11.555 5.11167 14.1667 8.33333 14.1667Z" stroke="#212529" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M17.5 17.5L12.5 12.5" stroke="#212529" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                    <button type="button" class="toggle-menu d-lg-none" data-toggle="collapse" data-target="#site-menu">
                         <span></span>
                         <span></span>
                         <span></span>
                     </button>
                 </div>
                 <!-- .action -->
-                <nav id="site-menu">
-                    <ul class="menu">
+
+                <div class="search">
+                    <form action="">
+                        <input type="search" placeholder="Tìm kiếm...">
+                        <button type="submit">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8.33333 14.1667C11.555 14.1667 14.1667 11.555 14.1667 8.33333C14.1667 5.11167 11.555 2.5 8.33333 2.5C5.11167 2.5 2.5 5.11167 2.5 8.33333C2.5 11.555 5.11167 14.1667 8.33333 14.1667Z" stroke="#212529" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M17.5 17.5L12.5 12.5" stroke="#212529" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+                <!-- .search -->
+
+                <nav id="site-menu" class="collapse">
+                    <ul class="menu d-lg-flex flex-wrap">
                         <li><a href="#">Tin tức</a></li>
-                        <li><a href="#">Giải trí</a></li>
+                        <li>
+                            <a href="#">Giải trí</a>
+                            <button type="button" class="toggle d-lg-none"></button>
+                            <ul class="sub-menu">
+                                <li><a href="#">sub menu item 1</a></li>
+                                <li><a href="#">sub menu item 2</a></li>
+                                <li><a href="#">sub menu item 3</a></li>
+                            </ul>
+                        </li>
                         <li><a href="#">Thời trang</a></li>
                         <li><a href="#">Làm đẹp</a></li>
                         <li><a href="#">Nấu ăn</a></li>
@@ -50,47 +77,57 @@
 
         <!-- CONTENT -->
         <main id="site-content">
-            <section class="page-section">
+            <section class="page-section" id="welcome">
                 <div class="container">
                     <div class="row post-grid">
-                        <div class="col-md-3">
-                            <div class="post-item stack">
-                                <a href="#">
-                                    <img src="images/post-photo-1.jpg" alt="">
-                                </a>
-                                <h3 class="title"><a href="#">Bến xe Miền Đông mới trước ngày hoạt động</a></h3>
-                            </div>
-                            <!-- .post-item -->
-                            <div class="post-item stack">
-                                <a href="#">
-                                    <img src="images/post-photo-2.jpg" alt="">
-                                </a>
-                                <h3 class="title"><a href="#">Cách Châu Bùi ăn kiêng xuống liền 3kg chỉ sau 9 ngày thực hiện</a></h3>
-                            </div>
-                            <!-- .post-item -->
-                        </div>
-                        <div class="col-md-6">
-                            <div class="post-item stack">
-                                <a href="#">
-                                    <img src="images/post-photo-3.jpg" alt="">
-                                </a>
+                        <div class="col-lg-6 col-sm-12 order-lg-2">
+                            <div class="post-item stack large">
+                                <div class="photo">
+                                    <a href="#">
+                                        <img src="images/post-photo-3.jpg" alt="">
+                                    </a>
+                                </div>
                                 <h3 class="title"><a href="#">Amee – Muốn làm nàng công chúa hiện đại, chủ động trong tình yêu</a></h3>
                                 <p>Dòng chia sẻ nửa đùa nửa thật của Huyme khiến dân tình vừa ôm bụng cười, vừa... chẳng biết đường nào mà lần.</p>
                             </div>
                             <!-- .post-item -->
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-lg-3 col-sm-6 order-lg-1">
                             <div class="post-item stack">
-                                <a href="#">
-                                    <img src="images/post-photo-4.jpg" alt="">
-                                </a>
+                                <div class="photo">
+                                    <a href="#">
+                                        <img src="images/post-photo-1.jpg" alt="">
+                                    </a>
+                                </div>
+                                <h3 class="title"><a href="#">Bến xe Miền Đông mới trước ngày hoạt động</a></h3>
+                            </div>
+                            <!-- .post-item -->
+                            <div class="post-item stack">
+                                <div class="photo">
+                                    <a href="#">
+                                        <img src="images/post-photo-2.jpg" alt="">
+                                    </a>
+                                </div>
+                                <h3 class="title"><a href="#">Cách Châu Bùi ăn kiêng xuống liền 3kg chỉ sau 9 ngày thực hiện</a></h3>
+                            </div>
+                            <!-- .post-item -->
+                        </div>
+                        <div class="col-lg-3 col-sm-6 order-lg-3">
+                            <div class="post-item stack">
+                                <div class="photo">
+                                    <a href="#">
+                                        <img src="images/post-photo-4.jpg" alt="">
+                                    </a>
+                                </div>
                                 <h3 class="title"><a href="#">Ai đứng sau các video nội dung nhảm nhí ở Việt Nam?</a></h3>
                             </div>
                             <!-- .post-item -->
                             <div class="post-item stack">
-                                <a href="#">
-                                    <img src="images/post-photo-1.jpg" alt="">
-                                </a>
+                                <div class="photo">
+                                    <a href="#">
+                                        <img src="images/post-photo-2.jpg" alt="">
+                                    </a>
+                                </div>
                                 <h3 class="title"><a href="#">Bến xe Miền Đông mới trước ngày hoạt động</a></h3>
                             </div>
                             <!-- .post-item -->
@@ -102,7 +139,7 @@
             </section>
             <!-- .page-section -->
 
-            <section class="page-section">
+            <section class="page-section" id="featured">
                 <div class="container">
                     <div class="heading">
                         <span>Tin nổi bật</span>
@@ -111,49 +148,57 @@
                     <!-- .heading -->
                     
                     <div class="row post-grid">
-                        <div class="col-md-3">
+                        <div class="col-lg-3 col-sm-6">
                             <div class="post-item stack">
-                                <a href="#">
-                                    <img src="images/post-photo-1.jpg" alt="">
-                                </a>
+                                <div class="photo">
+                                    <a href="#">
+                                        <img src="images/post-photo-1.jpg" alt="">
+                                    </a>
+                                </div>
                                 <ul class="meta">
-                                    <li><a href="#">THỜI TRANG</a></li>
+                                    <li class="category"><a href="#">Thời trang</a></li>
                                 </ul>
                                 <h3 class="title"><a href="#">Bến xe Miền Đông mới trước ngày hoạt động</a></h3>
                             </div>
                             <!-- .post-item -->
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-lg-3 col-sm-6">
                             <div class="post-item stack">
-                                <a href="#">
-                                    <img src="images/post-photo-2.jpg" alt="">
-                                </a>
+                                <div class="photo">
+                                    <a href="#">
+                                        <img src="images/post-photo-2.jpg" alt="">
+                                    </a>
+                                </div>
                                 <ul class="meta">
-                                    <li><a href="#">THỜI TRANG</a></li>
+                                    <li class="category"><a href="#">Thời trang</a></li>
                                 </ul>
                                 <h3 class="title"><a href="#">Bến xe Miền Đông mới trước ngày hoạt động</a></h3>
                             </div>
                             <!-- .post-item -->
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-lg-3 col-sm-6">
                             <div class="post-item stack">
-                                <a href="#">
-                                    <img src="images/post-photo-4.jpg" alt="">
-                                </a>
+                                <div class="photo">
+                                    <a href="#">
+                                        <img src="images/post-photo-3.jpg" alt="">
+                                    </a>
+                                </div>
                                 <ul class="meta">
-                                    <li><a href="#">THỜI TRANG</a></li>
+                                    <li class="category"><a href="#">Thời trang</a></li>
                                 </ul>
                                 <h3 class="title"><a href="#">Bến xe Miền Đông mới trước ngày hoạt động</a></h3>
                             </div>
                             <!-- .post-item -->
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-lg-3 col-sm-6">
                             <div class="post-item stack">
-                                <a href="#">
-                                    <img src="images/post-photo-4.jpg" alt="">
-                                </a>
+                                <div class="photo">
+                                    <a href="#">
+                                        <img src="images/post-photo-4.jpg" alt="">
+                                    </a>
+                                </div>
                                 <ul class="meta">
-                                    <li><a href="#">THỜI TRANG</a></li>
+                                    <li class="category"><a href="#">Thời trang</a></li>
                                 </ul>
                                 <h3 class="title"><a href="#">Bến xe Miền Đông mới trước ngày hoạt động</a></h3>
                             </div>
@@ -166,7 +211,7 @@
             </section>
             <!-- .page-section -->
 
-            <section class="page-section">
+            <section class="page-section" id="trends">
                 <div class="container">
                     <div class="heading">
                         <span>Trending</span>
@@ -177,9 +222,11 @@
                     <div class="row post-grid">
                         <div class="col-md-6">
                             <div class="post-item overlay">
-                                <a href="#">
-                                    <img src="images/post-photo-1.jpg" alt="">
-                                </a>
+                                <div class="photo">
+                                    <a href="#">
+                                        <img src="images/post-photo-1.jpg" alt="">
+                                    </a>
+                                </div>
                                 <div class="text">
                                     <a href="#" class="tag">#hot trends thu 2020</a>
                                     <h3 class="title"><a href="#">11 mẫu váy dài tay nền nã thích hợp cho ngày se lạnh, diện lên là chỉ có xinh lịm tim</a></h3>
@@ -190,9 +237,11 @@
                         </div>
                         <div class="col-md-6">
                             <div class="post-item overlay">
-                                <a href="#">
-                                    <img src="images/post-photo-1.jpg" alt="">
-                                </a>
+                                <div class="photo">
+                                    <a href="#">
+                                        <img src="images/post-photo-2.jpg" alt="">
+                                    </a>
+                                </div>
                                 <div class="text">
                                     <a href="#" class="tag">#hot trends thu 2020</a>
                                     <h3 class="title"><a href="#">11 mẫu váy dài tay nền nã thích hợp cho ngày se lạnh, diện lên là chỉ có xinh lịm tim</a></h3>
@@ -208,10 +257,10 @@
             </section>
             <!-- .page-section -->
 
-            <section class="page-section">
+            <section class="page-section" id="recent">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-9">
+                        <div class="col-lg-9">
                             <div class="heading">
                                 <span>Mới nhất</span>
                                 <h2>Dành cho bạn</h2>
@@ -220,14 +269,16 @@
 
                             <div class="post-list">
                                 <div class="post-item inline">
-                                    <a href="#">
-                                        <img src="images/post-photo-1.jpg" alt="">
-                                    </a>
+                                    <div class="photo">
+                                        <a href="#">
+                                            <img src="images/post-photo-1.jpg" alt="">
+                                        </a>
+                                    </div>
                                     <div class="text">
                                         <h3 class="title"><a href="#">Jack và Binz đại diện Việt Nam tranh giải thưởng âm nhạc quốc tế</a></h3>
                                         <ul class="meta">
-                                            <li><a href="#">Thời trang</a></li>
-                                            <li>1 giờ trước</li>
+                                            <li class="category"><a href="#">Thời trang</a></li>
+                                            <li class="date">1 giờ trước</li>
                                         </ul>
                                         <p>Cả 2 đều là đại sứ Chanel nhưng đây là lần đầu tiên họ cùng là khách mời trong show diễn đặc biệt của hãng.</p>
                                     </div>
@@ -236,14 +287,16 @@
                                 <!-- .post-item -->
                                 
                                 <div class="post-item inline">
-                                    <a href="#">
-                                        <img src="images/post-photo-1.jpg" alt="">
-                                    </a>
+                                    <div class="photo">
+                                        <a href="#">
+                                            <img src="images/post-photo-2.jpg" alt="">
+                                        </a>
+                                    </div>
                                     <div class="text">
                                         <h3 class="title"><a href="#">Jack và Binz đại diện Việt Nam tranh giải thưởng âm nhạc quốc tế</a></h3>
                                         <ul class="meta">
-                                            <li><a href="#">Thời trang</a></li>
-                                            <li>1 giờ trước</li>
+                                            <li class="category"><a href="#">Thời trang</a></li>
+                                            <li class="date">1 giờ trước</li>
                                         </ul>
                                         <p>Cả 2 đều là đại sứ Chanel nhưng đây là lần đầu tiên họ cùng là khách mời trong show diễn đặc biệt của hãng.</p>
                                     </div>
@@ -253,9 +306,9 @@
                             </div>
                             <!-- .post-list -->
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-lg-3 d-none d-lg-block">
                             <div class="ads-zone">
-                                ADS here
+                                <img src="images/ads-sidebar.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -267,33 +320,39 @@
 
             <section class="page-section gray">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-3">
+                    <div class="row category-posts">
+                        <div class="col-lg-3 col-sm-6">
                             <div class="subheading">
                                 <h2>Thời trang</h2>
                             </div>
                             <!-- .subheading -->
                             <div class="post-item stack">
-                                <a href="#">
-                                    <img src="images/post-photo-1.jpg" alt="">
-                                </a>
+                                <div class="photo">
+                                    <a href="#">
+                                        <img src="images/post-photo-1.jpg" alt="">
+                                    </a>
+                                </div>
                                 <h4 class="title">15 kỳ chuyển nhượng của MU dưới thời Woodward</h4>
                             </div>
                             <!-- .post-item -->
                             <div class="post-list">
                                 <div class="post-item inline small">
-                                    <a href="#">
-                                        <img src="images/post-photo-2.jpg" alt="">
-                                    </a>
+                                    <div class="photo">
+                                        <a href="#">
+                                            <img src="images/post-photo-2.jpg" alt="">
+                                        </a>
+                                    </div>
                                     <div class="text">
                                         <h4 class="title"><a href="#">Cách đáp trả của sao nữ khi bị miệt thị ngoại hình</a></h4>
                                     </div>
                                 </div>
                                 <!-- .post-item -->
                                 <div class="post-item inline small">
-                                    <a href="#">
-                                        <img src="images/post-photo-2.jpg" alt="">
-                                    </a>
+                                    <div class="photo">
+                                        <a href="#">
+                                            <img src="images/post-photo-3.jpg" alt="">
+                                        </a>
+                                    </div>
                                     <div class="text">
                                         <h4 class="title"><a href="#">Cách đáp trả của sao nữ khi bị miệt thị ngoại hình</a></h4>
                                     </div>
@@ -302,32 +361,38 @@
                             </div>
                             <!-- .post-list -->
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-lg-3 col-sm-6">
                             <div class="subheading">
                                 <h2>Thời trang</h2>
                             </div>
                             <!-- .subheading -->
                             <div class="post-item stack">
-                                <a href="#">
-                                    <img src="images/post-photo-1.jpg" alt="">
-                                </a>
+                                <div class="photo">
+                                    <a href="#">
+                                        <img src="images/post-photo-1.jpg" alt="">
+                                    </a>
+                                </div>
                                 <h4 class="title">15 kỳ chuyển nhượng của MU dưới thời Woodward</h4>
                             </div>
                             <!-- .post-item -->
                             <div class="post-list">
                                 <div class="post-item inline small">
-                                    <a href="#">
-                                        <img src="images/post-photo-2.jpg" alt="">
-                                    </a>
+                                    <div class="photo">
+                                        <a href="#">
+                                            <img src="images/post-photo-2.jpg" alt="">
+                                        </a>
+                                    </div>
                                     <div class="text">
                                         <h4 class="title"><a href="#">Cách đáp trả của sao nữ khi bị miệt thị ngoại hình</a></h4>
                                     </div>
                                 </div>
                                 <!-- .post-item -->
                                 <div class="post-item inline small">
-                                    <a href="#">
-                                        <img src="images/post-photo-2.jpg" alt="">
-                                    </a>
+                                    <div class="photo">
+                                        <a href="#">
+                                            <img src="images/post-photo-3.jpg" alt="">
+                                        </a>
+                                    </div>
                                     <div class="text">
                                         <h4 class="title"><a href="#">Cách đáp trả của sao nữ khi bị miệt thị ngoại hình</a></h4>
                                     </div>
@@ -336,32 +401,38 @@
                             </div>
                             <!-- .post-list -->
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-lg-3 col-sm-6">
                             <div class="subheading">
                                 <h2>Thời trang</h2>
                             </div>
                             <!-- .subheading -->
                             <div class="post-item stack">
-                                <a href="#">
-                                    <img src="images/post-photo-1.jpg" alt="">
-                                </a>
+                                <div class="photo">
+                                    <a href="#">
+                                        <img src="images/post-photo-1.jpg" alt="">
+                                    </a>
+                                </div>
                                 <h4 class="title">15 kỳ chuyển nhượng của MU dưới thời Woodward</h4>
                             </div>
                             <!-- .post-item -->
                             <div class="post-list">
                                 <div class="post-item inline small">
-                                    <a href="#">
-                                        <img src="images/post-photo-2.jpg" alt="">
-                                    </a>
+                                    <div class="photo">
+                                        <a href="#">
+                                            <img src="images/post-photo-2.jpg" alt="">
+                                        </a>
+                                    </div>
                                     <div class="text">
                                         <h4 class="title"><a href="#">Cách đáp trả của sao nữ khi bị miệt thị ngoại hình</a></h4>
                                     </div>
                                 </div>
                                 <!-- .post-item -->
                                 <div class="post-item inline small">
-                                    <a href="#">
-                                        <img src="images/post-photo-2.jpg" alt="">
-                                    </a>
+                                    <div class="photo">
+                                        <a href="#">
+                                            <img src="images/post-photo-3.jpg" alt="">
+                                        </a>
+                                    </div>
                                     <div class="text">
                                         <h4 class="title"><a href="#">Cách đáp trả của sao nữ khi bị miệt thị ngoại hình</a></h4>
                                     </div>
@@ -370,32 +441,38 @@
                             </div>
                             <!-- .post-list -->
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-lg-3 col-sm-6">
                             <div class="subheading">
                                 <h2>Thời trang</h2>
                             </div>
                             <!-- .subheading -->
                             <div class="post-item stack">
-                                <a href="#">
-                                    <img src="images/post-photo-1.jpg" alt="">
-                                </a>
+                                <div class="photo">
+                                    <a href="#">
+                                        <img src="images/post-photo-1.jpg" alt="">
+                                    </a>
+                                </div>
                                 <h4 class="title">15 kỳ chuyển nhượng của MU dưới thời Woodward</h4>
                             </div>
                             <!-- .post-item -->
                             <div class="post-list">
                                 <div class="post-item inline small">
-                                    <a href="#">
-                                        <img src="images/post-photo-2.jpg" alt="">
-                                    </a>
+                                    <div class="photo">
+                                        <a href="#">
+                                            <img src="images/post-photo-2.jpg" alt="">
+                                        </a>
+                                    </div>
                                     <div class="text">
                                         <h4 class="title"><a href="#">Cách đáp trả của sao nữ khi bị miệt thị ngoại hình</a></h4>
                                     </div>
                                 </div>
                                 <!-- .post-item -->
                                 <div class="post-item inline small">
-                                    <a href="#">
-                                        <img src="images/post-photo-2.jpg" alt="">
-                                    </a>
+                                    <div class="photo">
+                                        <a href="#">
+                                            <img src="images/post-photo-3.jpg" alt="">
+                                        </a>
+                                    </div>
                                     <div class="text">
                                         <h4 class="title"><a href="#">Cách đáp trả của sao nữ khi bị miệt thị ngoại hình</a></h4>
                                     </div>
@@ -414,14 +491,16 @@
                 <div class="container">
                     <div class="post-list">
                         <div class="post-item inline">
-                            <a href="#">
-                                <img src="images/post-photo-1.jpg" alt="">
-                            </a>
+                            <div class="photo">
+                                <a href="#">
+                                    <img src="images/post-photo-1.jpg" alt="">
+                                </a>
+                            </div>
                             <div class="text">
                                 <h3 class="title"><a href="#">Jack và Binz đại diện Việt Nam tranh giải thưởng âm nhạc quốc tế</a></h3>
                                 <ul class="meta">
-                                    <li><a href="#">Thời trang</a></li>
-                                    <li>1 giờ trước</li>
+                                    <li class="category"><a href="#">Thời trang</a></li>
+                                    <li class="date">1 giờ trước</li>
                                 </ul>
                                 <p>Cả 2 đều là đại sứ Chanel nhưng đây là lần đầu tiên họ cùng là khách mời trong show diễn đặc biệt của hãng.</p>
                             </div>
@@ -430,14 +509,16 @@
                         <!-- .post-item -->
                         
                         <div class="post-item inline">
-                            <a href="#">
-                                <img src="images/post-photo-1.jpg" alt="">
-                            </a>
+                            <div class="photo">
+                                <a href="#">
+                                    <img src="images/post-photo-2.jpg" alt="">
+                                </a>
+                            </div>
                             <div class="text">
                                 <h3 class="title"><a href="#">Jack và Binz đại diện Việt Nam tranh giải thưởng âm nhạc quốc tế</a></h3>
                                 <ul class="meta">
-                                    <li><a href="#">Thời trang</a></li>
-                                    <li>1 giờ trước</li>
+                                    <li class="category"><a href="#">Thời trang</a></li>
+                                    <li class="date">1 giờ trước</li>
                                 </ul>
                                 <p>Cả 2 đều là đại sứ Chanel nhưng đây là lần đầu tiên họ cùng là khách mời trong show diễn đặc biệt của hãng.</p>
                             </div>
@@ -457,7 +538,7 @@
         <footer id="site-footer">
             <nav>
                 <div class="container">
-                    <ul class="menu">
+                    <ul class="menu d-flex flex-wrap">
                         <li>
                             <a href="#">Tin tức</a>
                             <ul class="sub-menu">
@@ -508,7 +589,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-6">
-                            <div class="widget">
+                            <div class="widget contact">
                                 <a href="#" class="logo">
                                     <img src="images/logo-white.svg" alt="">
                                 </a>
@@ -520,8 +601,8 @@
                             </div>
                             <!-- .widget -->
                             
-                            <div class="widget">
-                                <p><strong>Chịu trách nhiệm quản lý nội dung</strong></p>
+                            <div class="widget claim">
+                                <h4>Chịu trách nhiệm quản lý nội dung</h4>
                                 <p>Ông Nguyễn Thanh Tùng</p>
                             </div>
                             <!-- .widget -->
@@ -554,20 +635,25 @@
 
                             </div>
                             <!-- .widget -->
-                            <p class="copyright">&copy; 2020, Athena Magazine | All rights reserved</p>
-                            <p>Giấy phép số 2215/GP-TTĐT do Sở Thông tin và Truyền thông Hà Nội cấp ngày 10 tháng 4 năm 2019</p>
-                            <div class="contributor">
-                                <p>Đóng góp nội dung</p>
+
+                            <div class="widget copyright">
+                                <p>&copy; 2020, EMOI.VN | All rights reserved</p>
+                                <p>Giấy phép số 2215/GP-TTĐT do Sở Thông tin và Truyền thông Hà Nội cấp ngày 10 tháng 4 năm 2019</p>
+                            </div>
+                            <!-- .widget -->
+
+                            <div class="widget contributor">
+                                <h4>Đóng góp nội dung</h4>
                                 <ul class="contact">
                                     <li class="email">bandoc@gmail.com</li>
                                 </ul>
                                 <p class="note">Emoi.vn rất hoan nghênh độc giả gửi thông tin và góp ý cho chúng tôi.</p>
                             </div>
-                            <!-- .contributor -->
+                            <!-- .widget -->
                         </div>
                     </div>
                     <!-- .row -->
-                    <ul class="menu bottom">
+                    <ul class="menu bottom d-md-flex justify-content-center">
                         <li><a href="#">Giới Thiệu</a></li>
                         <li><a href="#">Liên Hệ</a></li>
                         <li><a href="#">Chính Sách Bảo Mật</a></li>

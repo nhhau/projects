@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "32186",
 "files": {
+	"/blog.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/blog.html",
+		"oF": 0
+		},
 	"/css/plugins.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -202,6 +210,17 @@
 		"oAP": "/fonts/sf-pro-text/SFProText-SemiboldItalic.woff2",
 		"oF": 0
 		},
+	"/images/ads-sidebar.jpg": {
+		"ft": 16384,
+		"iS": 170760,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/ads-sidebar.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/icon-email.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -346,6 +365,14 @@
 		"oF": 3,
 		"sC": 3,
 		"tS": 0
+		},
+	"/post.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/post.html",
+		"oF": 0
 		}
 	},
 "hooks": [
