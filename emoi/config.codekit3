@@ -221,65 +221,16 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/images/icon-email.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/icon-email.svg",
+	"/images/avatar.jpg": {
+		"ft": 16384,
+		"iS": 19406,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/avatar.jpg",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/icon-location.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/icon-location.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/icon-phone.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/icon-phone.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/icon-search.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/icon-search.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/logo-white.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/logo-white.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
+		"q": 100
 		},
 	"/images/post-photo-1.jpg": {
 		"ft": 16384,
@@ -340,28 +291,6 @@
 		"mi": 1,
 		"oA": 2,
 		"oAP": "/js/jquery-3.5.1.min.js",
-		"oF": 3,
-		"sC": 3,
-		"tS": 0
-		},
-	"/js/plugins.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/js/plugins.min.js",
-		"oF": 3,
-		"sC": 3,
-		"tS": 0
-		},
-	"/js/theme.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/js/theme.js",
 		"oF": 3,
 		"sC": 3,
 		"tS": 0

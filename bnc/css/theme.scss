@@ -1,10 +1,23 @@
-/*
-font-family: 'Dosis', sans-serif;
-font-family: 'Poppins', sans-serif;
-*/
-
 /** GENERAL **/
 $font_do: 'Dosis', sans-serif;
+
+@keyframes scroll {
+    0% { opacity: 0; }
+    10% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(15px); opacity: 0;}
+}
+
+@keyframes float {
+	0% { transform: translatey(0); }
+	50% { transform: translatey(-20px); }
+	100% { transform: translatey(0); }
+}
+
+@keyframes float1 {
+	0% { transform: translatey(0); }
+	50% { transform: translatey(-25px); }
+	100% { transform: translatey(0); }
+}
 
 body {
     font-family: 'Poppins', sans-serif;
@@ -219,7 +232,7 @@ button, input {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     background-color: #152C3B;
     z-index: 500;
     .inner {
@@ -302,7 +315,24 @@ button, input {
         position: absolute;
         bottom: 100px;
         left: 55px;
-        display: none;
+        width: 28px;
+        height: 48px;
+        border: 1px solid #FCFCFC;
+        border-radius: 20px;
+        > span {
+            display: inline-block;    
+            width: 4px;
+            height: 10px;
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            margin-left: -2px;
+            background-color: #FFFFFF;
+            border-radius: 10px;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+            animation-name: scroll;
+        }
     }
     nav {
         ul.menu {
@@ -336,6 +366,8 @@ button, input {
     #site-header {
         width: 140px;
         height: 100vh;
+        opacity: 0;
+        visibility: hidden;
     }
 
     #site-header .inner {
@@ -352,10 +384,6 @@ button, input {
 
     #site-header button.toggle-menu {
         display: none;
-    }
-
-    #site-header button.scroll {
-        display: block;
     }
 
     #site-header nav {
@@ -376,6 +404,10 @@ button, input {
 
     #site-header nav ul.menu {
         padding-top: 20px;
+    }
+
+    #site-header button.scroll {
+        display: none !important;
     }
 }
 /** END HEADER **/
@@ -426,6 +458,7 @@ button, input {
 
 /** WELCOME SECTION **/
 #welcome {
+    position: relative;
     ul.taglines {
         position: absolute;
         bottom: 100px;
@@ -452,14 +485,13 @@ button, input {
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
-            &:before {
-                content: '';
+            span.overlay {
                 position: absolute;
                 top: 0;
                 left: 0;
                 width: 100%;
                 height: 100%;
-                background-color: rgba($color: #193445, $alpha: 0.92);
+                background-color: #193445;
                 z-index: 1;
             }
             .center {
@@ -467,6 +499,7 @@ button, input {
                 z-index: 10;
                 &.logo {
                     text-align: center;
+                    opacity: 0;
                     img {
                         display: block;
                         margin: 0 auto 20px;
@@ -587,6 +620,8 @@ button, input {
     #welcome ul.taglines {
         left: 140px;
         right: 140px;
+        opacity: 0;
+        visibility: hidden;
     }
 
     #welcome .slider .slick-slide .center.circle .photo {
@@ -640,8 +675,8 @@ button, input {
     }
 
     #welcome .slider .slick-slide .center.circle .text {
-        top: 70%;
-        left: 20%;
+        top: 68%;
+        left: 18%;
     }
 }
 
@@ -667,11 +702,12 @@ button, input {
 
 /** meat-journey SECTION **/
 #meat-journey {
-    padding: 70px 0 400px;
+    padding: 70px 0 160px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     color: #fff;
+    overflow: hidden;
     h2 {
         font-size: 40px;
         line-height: 45px;
@@ -679,17 +715,29 @@ button, input {
     }
     .points {
         position: relative;
+        text-align: center;
         > div {
+            > * {
+                opacity: 0;
+                visibility: hidden;
+            }
             img {
                 display: block;
             }
-            span {
-                display: block;
+            .text {
                 font-family: $font_do;
                 font-size: 24px;
                 line-height: 29px;
                 font-weight: 500;
                 white-space: nowrap;
+                a {
+                    color: inherit;
+                    text-decoration: underline;
+                    opacity: 0;
+                }
+                span {
+                    display: block;
+                }
             }
         }
     }
@@ -708,7 +756,7 @@ button, input {
 
     #meat-journey .points > div {
         position: absolute;
-        span {
+        .text {
             position: absolute;
             bottom: 0;
             left: 50%;
@@ -717,7 +765,7 @@ button, input {
         }
         &.point-3,
         &.point-5 {
-            span {
+            .text {
                 top: 0;
                 bottom: auto;
             }
@@ -730,32 +778,33 @@ button, input {
         &.point-1 {
             top: 30px;
             left: -120px;
-            padding-bottom: 20px;
+            padding-bottom: 10px;
         }
         &.point-2 {
             top: -25px;
-            left: 70px;
-            padding-bottom: 30px;
+            left: 75px;
+            padding-bottom: 28px;
             padding-left: 18px;
         }
         &.point-3 {
             top: -65px;
             left: 250px;
-            padding-top: 35px;
+            padding-top: 32px;
         }
         &.point-4 {
-            top: -72px;
+            top: -65px;
             left: 415px;
+            padding-bottom: 18px;
         }
         &.point-5 {
-            top: -70px;
+            top: -62px;
             right: 155px;
-            padding-top: 45px;
+            padding-top: 42px;
         }
         &.point-6 {
-            top: -90px;
+            top: -94px;
             right: -120px;
-            padding-bottom: 20px;
+            padding-bottom: 16px;
         }
     }
 }
@@ -769,7 +818,7 @@ button, input {
         &.point-1 {
             top: 0;
             left: -65px;
-            padding-bottom: 10px;
+            padding-bottom: 8px;
             img {
                 width: 160px;
             }
@@ -777,13 +826,13 @@ button, input {
         &.point-2 {
             top: -30px;
             left: 125px;
-            padding-bottom: 25px;
-            padding-left: 15px;
+            padding-bottom: 22px;
+            padding-left: 20px;
         }
         &.point-3 {
             top: -50px;
             left: 280px;
-            padding-top: 28px;
+            padding-top: 26px;
             img {
                 width: 120px;
             }
@@ -791,6 +840,7 @@ button, input {
         &.point-4 {
             top: -72px;
             left: 415px;
+            padding-bottom: 15px;
             img {
                 width: 300px;
             }
@@ -806,7 +856,7 @@ button, input {
         &.point-6 {
             top: 25px;
             right: -10px;
-            padding-bottom: 20px;
+            padding-bottom: 18px;
             img {
                 width: 100px;
             }
@@ -843,6 +893,22 @@ button, input {
     #meat-journey .points > div img {
         margin: 0 auto;
     }
+
+    #meat-journey .points > div.point-1 .text {
+        margin-top: -20px;
+    }
+
+    #meat-journey .points > div.point-4 .text {
+        margin-top: -34px;
+    }
+
+    #meat-journey .points > div.point-5 .text {
+        margin-top: 10px;
+    }
+
+    #meat-journey .points > div.point-6 .text {
+        margin-top: -12px;
+    }
 }
 /** END meat-journey SECTION **/
 
@@ -858,7 +924,7 @@ button, input {
         position: relative;
         padding-top: 120px;
         padding-bottom: 60px;
-        img.bg {
+        .bg {
             position: absolute;
             top: -60px;
             left: -30px;
@@ -881,6 +947,8 @@ button, input {
             height: 215px;
             border-radius: 50%;
             overflow: hidden;
+	        transform: translatey(0px);
+	        animation: float 6s ease-in-out infinite;
             img {
                 width: 100%;
                 height: 100%;
@@ -905,6 +973,31 @@ button, input {
             font-weight: 500;
             margin-bottom: 0;
         }
+        &:nth-child(1) {
+            .icon {
+                animation: float 6s ease-in-out infinite;
+            }
+        }
+        &:nth-child(2) {
+            .icon {
+                animation: float1 6s ease-in-out infinite;
+            }
+        }
+        &:nth-child(3) {
+            .icon {
+                animation: float 6s ease-in-out infinite;
+            }
+        }
+        &:nth-child(4) {
+            .icon {
+                animation: float1 6s ease-in-out infinite;
+            }
+        }
+        &:nth-child(5) {
+            .icon {
+                animation: float 6s ease-in-out infinite;
+            }
+        }
     }
 }
 
@@ -927,7 +1020,7 @@ button, input {
 }
 
 @media (max-width: 1199px) {
-    #about .container img.bg {
+    #about .container .bg {
         left: 50%;
         transform: translateX(-50%);
         -webkit-transform: translateX(-50%);
@@ -1016,6 +1109,8 @@ button, input {
                 object-fit: cover;
                 border-radius: 50%;
                 margin: -75px auto 35px;
+                transition: transform .25s;
+                -webkit-transition: transform .25s;
             }
             p {
                 &:last-of-type {
@@ -1041,6 +1136,19 @@ button, input {
             button.close {
                 margin: 60px auto 0;
             }
+            .product-media {
+                margin-left: -10px;
+                margin-right: -10px;
+                > div {
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+            }
+        }
+        &:hover {
+            .intro img {
+                transform: scale(1.1);
+            }
         }
         &.active {
             .title {
@@ -1052,6 +1160,17 @@ button, input {
                 }
             }
         }
+    }
+}
+
+@media (min-width: 768px) {
+    #products .product-media .col-md-5 > img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
     }
 }
 
@@ -1074,6 +1193,8 @@ button, input {
         opacity: 0;
         visibility: hidden;
         z-index: -1;
+        transition: all .25s;
+        -webkit-transition: all .25s;
     }
 
     #products .item.active {
@@ -1087,7 +1208,7 @@ button, input {
 
 @media (min-width: 1200px) {
     #products {
-        padding: 110px 0 240px;
+        padding: 110px 0 210px;
     }
 
     #products .item .title > span {
@@ -1144,6 +1265,12 @@ button, input {
         }
     }
 }
+
+@media (max-width: 767px) {
+    #products .product-media .col-md-5 {
+        padding-top: 20px;
+    }
+}
 /** END products SECTION **/
 
 /** investor SECTION **/
@@ -1151,35 +1278,39 @@ button, input {
     position: relative;
     background-color: #193445;
     color: #fff;
-    overflow: hidden;
+    //overflow: hidden;
     h2 {
         font-size: 40px;
         line-height: 45px;
         color: #65B9A5;
         margin-bottom: 40px;
     }
-    &:before {
-        content: '';
+    .container {
+        position: relative;
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .row {
+        position: relative;
+        z-index: 10;
+    }
+    .circle {
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
         background-color: rgba($color: #1677C1, $alpha: 0.13);
+        opacity: 0;
         z-index: 1;
     }
-    .container {
-        position: relative;
-        padding-top: 80px;
-        padding-bottom: 80px;
-        z-index: 10;
+    .video {
+        margin-bottom: 20px;
     }
 }
 
 @media (min-width: 992px) {
-    #investor .container:before {
-        content: '';
-        position: absolute;
+    #investor .circle {
         top: -100px;
         left: -210px;
         width: 920px;
@@ -1191,11 +1322,6 @@ button, input {
 }
 
 @media (min-width: 1200px) {
-    #about h2 {
-        font-size: 60px;
-        line-height: 68px;
-    }
-
     #investor .container {
         padding-top: 160px;
         padding-bottom: 260px;
