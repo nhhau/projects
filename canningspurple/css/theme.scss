@@ -39,6 +39,11 @@ a {
     color: #5A2C8E;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 ul.menu,
 ul.menu ul,
 ul.logos,
@@ -112,7 +117,31 @@ button {
 /** END FORMS **/
 
 /** SLICK SLIDER **/
-
+.slick-slider {
+    ul.slick-dots {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+            button {
+                display: block;
+                width: 19px;
+                height: 19px;
+                border: 4px solid #fff;
+                border-radius: 50%;
+                padding: 0;
+                background-color: #fff;
+                text-indent: -90px;
+                overflow: hidden;
+            }
+            &.slick-active {
+                button {
+                    background-color: transparent;
+                }
+            }
+        }
+    }
+}
 /** END SLICK SLIDER **/
 
 /** HEADER **/
@@ -499,5 +528,111 @@ button {
 
 /** WELCOME SECTION **/
 #welcome {
+    background-color: #A5C6CD;
+    padding: 200px 0 120px;
+    .video-frame {
+        position: relative;
+        display: inline-block;
+        overflow: hidden;
+        z-index: 5;
+        img.shape {
+            display: block;
+            position: relative;
+            z-index: 10;
+        }
+        img.photo {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: 1;
+        }
+    }
+    .slider {
+        position: relative;
+        z-index: 10;
+        .slick-track {
+            display: flex;
+        }
+        .slick-slide {
+            display: flex;
+            flex-wrap: wrap;
+            flex-flow: column;
+            justify-content: center;
+            height: auto;
+            padding: 40px 40px 40px 120px;
+        }
+        ul.slick-dots {
+            position: absolute;
+            top: 50%;
+            left: 20px;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            > li {
+                display: block;
+                margin-bottom: 10px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+        }
+        .subheading {
+            font-size: 15px;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+        .heading {
+            font-size: 56px;
+            font-weight: 700;
+            line-height: 56px;
+            color: #5A2C8E;
+            margin-bottom: 0;
+        }
+    }
 }
 /** END WELCOME SECTION **/
+
+/** FEATURED LINKS SECTION **/
+#featured-links {
+    .container {
+        position: relative;
+    }
+    ul.nav-tabs {
+        position: absolute;
+        top: -45px;
+        border: 0;
+        padding-left: 150px;
+        overflow: hidden;
+        li {
+            margin-right: 20px;
+            a {
+                display: block;
+                min-width: 310px;
+                background-color: #FAFAFA;
+                border-radius: 8px 8px 0 0;
+                padding: 0 20px 0 25px;
+                font-family: 'Montserrat', sans-serif;
+                font-size: 21px;
+                color: #5A2C8E;
+                line-height: 45px;
+                white-space: nowrap;
+                box-shadow: 5px 5px 5px rgba($color: #000000, $alpha: 0);
+                transition: all .2s;
+                -webkit-transition: all .2s;
+                &:hover {
+                    line-height: 55px;
+                    box-shadow: 5px 5px 5px rgba($color: #000000, $alpha: 0.16);
+                }
+                &.active {
+                    background-color: #5A2C8E;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+/** END FEATURED LINKS SECTION **/

@@ -4,40 +4,22 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "3AC2BF53-2CF2-4DE1-A56A-23EDE88CEF6D"
+		"uuidString": "930AE1E6-D972-430B-A9BA-160C5487C1EE"
 		}
 	],
 "creatorBuild": "32186",
 "files": {
-	"/blog.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/blog.html",
-		"oF": 0
-		},
-	"/css/plugins.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 2,
-		"oAP": "/css/plugins.min.css",
-		"oF": 3,
-		"oS": 3
-		},
-	"/css/theme.min.css": {
+	"/style.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/theme.min-min.css",
+		"oAP": "/style-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"/css/theme.scss": {
+	"/style.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -45,283 +27,10 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/theme.min.css",
-		"oF": 3,
+		"oAP": "/style.css",
+		"oF": 0,
 		"oS": 3,
 		"sct": 0
-		},
-	"/fonts/sf-pro-text/SFProText-Bold.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/sf-pro-text/SFProText-Bold.woff",
-		"oF": 0
-		},
-	"/fonts/sf-pro-text/SFProText-Bold.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/sf-pro-text/SFProText-Bold.woff2",
-		"oF": 0
-		},
-	"/fonts/sf-pro-text/SFProText-BoldItalic.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/sf-pro-text/SFProText-BoldItalic.woff",
-		"oF": 0
-		},
-	"/fonts/sf-pro-text/SFProText-BoldItalic.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/sf-pro-text/SFProText-BoldItalic.woff2",
-		"oF": 0
-		},
-	"/fonts/sf-pro-text/SFProText-Light.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/sf-pro-text/SFProText-Light.woff",
-		"oF": 0
-		},
-	"/fonts/sf-pro-text/SFProText-Light.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/sf-pro-text/SFProText-Light.woff2",
-		"oF": 0
-		},
-	"/fonts/sf-pro-text/SFProText-LightItalic.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/sf-pro-text/SFProText-LightItalic.woff",
-		"oF": 0
-		},
-	"/fonts/sf-pro-text/SFProText-LightItalic.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/sf-pro-text/SFProText-LightItalic.woff2",
-		"oF": 0
-		},
-	"/fonts/sf-pro-text/SFProText-Medium.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/sf-pro-text/SFProText-Medium.woff",
-		"oF": 0
-		},
-	"/fonts/sf-pro-text/SFProText-Medium.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/sf-pro-text/SFProText-Medium.woff2",
-		"oF": 0
-		},
-	"/fonts/sf-pro-text/SFProText-MediumItalic.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/sf-pro-text/SFProText-MediumItalic.woff",
-		"oF": 0
-		},
-	"/fonts/sf-pro-text/SFProText-MediumItalic.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/sf-pro-text/SFProText-MediumItalic.woff2",
-		"oF": 0
-		},
-	"/fonts/sf-pro-text/SFProText-Regular.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/sf-pro-text/SFProText-Regular.woff",
-		"oF": 0
-		},
-	"/fonts/sf-pro-text/SFProText-Regular.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/sf-pro-text/SFProText-Regular.woff2",
-		"oF": 0
-		},
-	"/fonts/sf-pro-text/SFProText-RegularItalic.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/sf-pro-text/SFProText-RegularItalic.woff",
-		"oF": 0
-		},
-	"/fonts/sf-pro-text/SFProText-RegularItalic.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/sf-pro-text/SFProText-RegularItalic.woff2",
-		"oF": 0
-		},
-	"/fonts/sf-pro-text/SFProText-Semibold.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/sf-pro-text/SFProText-Semibold.woff",
-		"oF": 0
-		},
-	"/fonts/sf-pro-text/SFProText-Semibold.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/sf-pro-text/SFProText-Semibold.woff2",
-		"oF": 0
-		},
-	"/fonts/sf-pro-text/SFProText-SemiboldItalic.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/sf-pro-text/SFProText-SemiboldItalic.woff",
-		"oF": 0
-		},
-	"/fonts/sf-pro-text/SFProText-SemiboldItalic.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/fonts/sf-pro-text/SFProText-SemiboldItalic.woff2",
-		"oF": 0
-		},
-	"/images/ads-sidebar.jpg": {
-		"ft": 16384,
-		"iS": 170760,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/ads-sidebar.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/avatar.jpg": {
-		"ft": 16384,
-		"iS": 19406,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/avatar.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/icon-arrow-breadcrumb.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/icon-arrow-breadcrumb.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/icon-comment.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/icon-comment.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/post-photo-1.jpg": {
-		"ft": 16384,
-		"iS": 155602,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/post-photo-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/post-photo-2.jpg": {
-		"ft": 16384,
-		"iS": 70309,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/post-photo-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/post-photo-3.jpg": {
-		"ft": 16384,
-		"iS": 53054,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/post-photo-3.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/images/post-photo-4.jpg": {
-		"ft": 16384,
-		"iS": 43532,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/post-photo-4.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/index.html",
-		"oF": 0
-		},
-	"/js/jquery-3.5.1.min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 2,
-		"oAP": "/js/jquery-3.5.1.min.js",
-		"oF": 3,
-		"sC": 3,
-		"tS": 0
-		},
-	"/post.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/post.html",
-		"oF": 0
 		}
 	},
 "hooks": [
@@ -329,10 +38,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 623640922.57568097,
-	"displayValue": "emoi",
+	"creationDate": 624987146.28249705,
+	"displayValue": "temp",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets-silver",
+	"iconImageName": "brackets_gray",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {

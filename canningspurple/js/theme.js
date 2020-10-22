@@ -34,6 +34,13 @@
         megamenu();
 
         function slick_init() {
+            $('#welcome div.slider').slick({
+                dots: true,
+                arrows: false,
+                fade: true,
+                slidesToShow: 1,
+                slidesToScroll: 1
+            });
         }
 
         slick_init();
