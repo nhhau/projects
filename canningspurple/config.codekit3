@@ -82,6 +82,17 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/bg-architecture.png": {
+		"ft": 32768,
+		"iS": 365934,
+		"oA": 0,
+		"oAP": "/images/bg-architecture.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/icon-listening.svg": {
 		"ft": 2097152,
 		"miP": 0,

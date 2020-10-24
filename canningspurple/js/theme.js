@@ -41,6 +41,12 @@
                 slidesToShow: 1,
                 slidesToScroll: 1
             });
+
+            $('section.section-slider div.slider').slick({
+                dots: true,
+                arrows: true,
+                variableWidth: true
+            });
         }
 
         slick_init();
