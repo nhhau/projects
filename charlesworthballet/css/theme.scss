@@ -805,15 +805,7 @@ button {
 #welcome {
     position: relative;
     overflow: hidden;
-    .container {
-        position: relative;
-        min-height: 100%;
-        z-index: 10;
-    }
     .slideshow {
-        position: absolute;
-        top: 0;
-        left: 0;
         width: 100%;
         height: 100%;
         z-index: 5;
@@ -823,19 +815,22 @@ button {
             height: 100%;
         }
         .slick-slide {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-end;
+            min-height: 400px;
             background-repeat: no-repeat;
             background-size: cover;
             background-position: right center;
         }
-    }
-    .text {
-        width: 100%;
-        background-color: rgba($color: #069FAF, $alpha: 0.9);
-        padding: 40px 40px;
-        color: #fff;
-        h1 {
-            margin: 0;
+        .slide-text {
+            width: 100%;
+            background-color: rgba($color: #069FAF, $alpha: 0.9);
+            padding: 40px 40px;
             color: #fff;
+            .h1 {
+                color: inherit;
+            }
         }
     }
 }
@@ -845,44 +840,40 @@ button {
         width: calc(100% - 430px);
     }
 
-    #welcome .container {
-        padding-bottom: 84px;
+    #welcome .slideshow .slide-text {
+        height: 240px;
     }
 
-    #welcome .text {
-        width: auto;
-        height: 240px;
-        margin-right: -1000px;
-        padding-right: 1000px;
+    #welcome .slideshow .slick-slide {
+        padding-bottom: 84px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #welcome .slideshow .slide-text {
         padding-left: 80px;
     }
 }
 
 @media (max-width: 1199px) {
-    #welcome .text h1 br {
+    #welcome .slideshow .slide-text br {
         display: none;
     }
 }
 
 @media (max-width: 991px) {
-    #welcome .container {
-        max-width: 100%;
-        height: 400px;
-        padding: 0;
-    }
-
-    #welcome .text h1 {
+    #welcome .slideshow .slide-text .h1 {
         font-size: 26px;
         line-height: 28px;
     }
 }
 
 @media (max-width: 575px) {
-    #welcome .container {
-        height: 200px;
+    #welcome .slideshow .slick-slide {
+        min-height: 200px;
     }
 
-    #welcome .text {
+    #welcome .slideshow .slide-text {
         padding: 20px 20px;
     }
 }

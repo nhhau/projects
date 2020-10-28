@@ -19,6 +19,16 @@
 		"oF": 3,
 		"oS": 3
 		},
+	"/css/theme.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/theme-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/css/theme.min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -37,9 +47,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/theme.min.css",
+		"oAP": "/css/theme.css",
 		"oF": 3,
-		"oS": 3,
+		"oS": 2,
 		"sct": 0
 		},
 	"/images/bg-megamenu.png": {
