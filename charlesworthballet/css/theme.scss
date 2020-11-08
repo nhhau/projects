@@ -1,6 +1,6 @@
 /** GENERAL **/
 body {
-    font-family:"basic-sans";
+    font-family: "basic-sans";
     font-size: 16px;
     color: #183C47;
     font-weight: 300;
@@ -58,6 +58,11 @@ ul.socials {
 .text-color {
     color: #069FAF;
 }
+
+img.loader {
+    display: block;
+    margin: 0 auto;
+}
 /** END GENERAL **/
 
 /** BUTTON **/
@@ -73,10 +78,17 @@ button {
     font-size: 18px;
     font-weight: 700;
     outline: none !important;
+    box-shadow: none !important;
     transition: all .25s;
     -webkit-transition: all .25s;
+    &.btn-sm {
+        min-width: 80px;
+        font-size: 14px;
+        padding: 5px 15px;
+    }
     &.btn-primary {
         background-color: #069FAF;
+        border-color: transparent !important;
         color: #fff;
         &:hover,
         &:focus,
@@ -177,6 +189,28 @@ button {
     }
 }
 
+.select-field {
+    position: relative;
+    &:after {
+        content: "";
+        width: 0;
+        height: 0;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 6px solid #707070;
+        position: absolute;
+        top: 50%;
+        right: 15px;
+        margin-top: -3px;
+    }
+    select {
+        padding-right: 30px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+    }
+}
+
 .dashboard-content .acf-form .acf-button,
 div.gform_wrapper input[type="submit"],
 #loginform input[type="submit"] {
@@ -230,8 +264,6 @@ div.gform_wrapper {
         height: 120px !important;
         padding: 10px 10px !important;
         resize: vertical;
-    }
-    input[type="submit"] {
     }
     button.btn {
         span {
@@ -1360,46 +1392,6 @@ div.gform_wrapper {
 }
 /** END PAGE CONTENT **/
 
-/** PARENT DASHBOARD **/
-ul.dashboard-nav {
-    background-color: #ecebe2;
-    margin-bottom: 30px;
-    border: 0;
-    > li {
-        margin: 0;
-        > a.nav-link {
-            border: 0;
-            padding: 10px 20px;
-            border-radius: 0;
-            background-color: transparent;
-            font-size: 18px;
-            &.active {
-                background-color: #fff;
-                font-weight: 700;
-            }
-        }
-    }
-}
-
-.dashboard-content {
-    div.gform_wrapper {
-        margin-bottom: 20px;
-    }
-    .acf-form {
-        .acf-button {
-        }
-        .acf-fields > .acf-field {
-            padding: 0;
-        }
-        .acf-field-5f9fc98a1f518 {
-            .acf-label {
-                display: none;
-            }
-        }
-    }
-}
-/** END PARENT DASHBOARD **/
-
 /** MODAL **/
 .modal {
     .modal-content {
@@ -1421,3 +1413,50 @@ ul.dashboard-nav {
     }
 }
 /** END MODAL **/
+
+/** class-list **/
+.class-list {
+    ul.menu {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        border-bottom: 1px solid rgba($color: #ffffff, $alpha: 0.7);
+        &:last-child {
+            border-bottom: 0;
+        }
+        > li {
+            flex: 1;
+            padding: 8px 8px;
+            font-size: 14px;
+            font-weight: 400;
+            text-align: center;
+            &.remove {
+                flex: none;
+                width: 40px;
+            }
+            .btn-link {
+                font-size: inherit;
+            }
+            a.remove {
+                color: #183c47;
+            }
+        }
+        &.head {
+            > li {
+                color: #069faf;
+                font-weight: 700;
+            }
+        }
+        &.data {
+            &:hover {
+                background-color: rgba(255, 255, 255, 0.7);
+            }
+        }
+    }
+    &.fill {
+        background-color: #ecebe2;
+        padding: 20px 20px;
+        margin-bottom: 10px;
+    }
+}
+/** END class-list **/

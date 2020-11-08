@@ -9,6 +9,29 @@
 	],
 "creatorBuild": "32186",
 "files": {
+	"/css/dashboard.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/dashboard-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/css/dashboard.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/dashboard.css",
+		"oF": 0,
+		"oS": 2,
+		"sct": 0
+		},
 	"/css/plugins.min.css": {
 		"aP": 1,
 		"bl": 0,

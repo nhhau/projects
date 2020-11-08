@@ -1,0 +1,200 @@
+body.page-template-page_dashboard #page-title {
+    margin-bottom: 0;
+}
+
+/** class-status **/
+.class-status .open {
+    color: #92c86f;
+}
+
+.class-status .nearly-closed {
+    color: #ec9722;
+}
+
+.class-status .closed {
+    color: #e20d0d;
+}
+
+ul.class-status {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    > li {
+        margin-left: 15px;
+        font-size: 14px;
+    }
+}
+/** END class-status **/
+
+/** enrol-branch **/
+.enrol-branch {
+    margin-bottom: 40px;
+    p:last-child {
+        margin-bottom: 0;
+    }
+    .map-canvas {
+        background-color: #ECEBE2;
+        height: 197px;
+    }
+}
+/** END enrol-branch **/
+
+/** enrol-class **/
+.enrol-class {
+    background-color: #ECEBE2;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    .title {
+        margin-bottom: 20px;
+    }
+}
+/** END enrol-class **/
+
+/** dashboard-nav **/
+.dashboard-nav {
+    background-color: #ecebe2;
+    margin-bottom: 40px;
+    p {
+        border-right: 1px solid rgb(255 255 255);
+        padding-right: 20px;
+        font-weight: 400;
+    }
+    ul.nav {
+        border: 0;
+        > li {
+            margin: 0;
+            > a.nav-link {
+                background-color: transparent;
+                padding: 0 20px;
+                border: 0;
+                border-radius: 0;
+                font-weight: 700;
+                line-height: 50px;
+                white-space: nowrap;
+                &:hover {
+                    color: #183c47;
+                }
+                &.active {
+                    background-color: #fff;
+                    color: #183c47;
+                }
+            }
+        }
+    }
+}
+/** END dashboard-nav **/
+
+/** dashboard-content **/
+.dashboard-content {
+    div.gform_wrapper {
+        margin-bottom: 20px;
+    }
+    .acf-form {
+        .acf-button {
+        }
+        .acf-fields > .acf-field {
+            padding: 0;
+        }
+        .acf-field-5f9fc98a1f518 {
+            .acf-label {
+                display: none;
+            }
+        }
+        .acf-table {
+            > thead > tr > th{
+                width: auto !important;
+            }
+            th.acf-row-handle,
+            td.acf-row-handle {
+                &:first-child {
+                    display: none;
+                }
+                &.remove {
+                    width: 60px;
+                }
+            }
+            th[data-key="field_5fa647eb84f28"],
+            td[data-key="field_5fa647eb84f28"] {
+                display: none;
+            }
+        }
+    }
+}
+
+#enrol-filter {
+    border-bottom: 1px solid #ecebe2;
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+    .row {
+        margin-left: -10px;
+        margin-right: -10px;
+        .col-md-4 {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    }
+    .form-control {
+        font-size: 16px;
+    }
+}
+/** END dashboard-content **/
+
+/** confirm-class **/
+#confirm-class {
+    margin-bottom: 40px;
+    h3 {
+        margin-bottom: 20px;
+    }
+    .btn.back-enrol {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .class-list{
+        div.total {
+            padding-top: 20px;
+        }
+    }
+}
+
+#coupon-form {
+    input[type="text"] {
+        height: 35px;
+        padding: 0 10px;
+        font-size: 14px;
+    }
+    button[type="submit"] {
+        border: 0;
+        padding: 0 10px;
+        font-size: 14px;
+        line-height: 35px;
+    }
+    p.valid,
+    p.invalid {
+        flex: none;
+        width: 100%;
+        margin-bottom: 0;
+        font-size: 12px;
+        font-style: italic;
+    }
+}
+/** END confirm-class **/
+
+/** payment-options **/
+#payment-options {
+    h3 {
+        margin-bottom: 20px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    form {
+        margin-bottom: 10px;
+    }
+}
+
+#card-element {
+    padding: 10px 0 20px;
+}
+/** END payment-options **/
