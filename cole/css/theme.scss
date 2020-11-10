@@ -120,7 +120,7 @@ ul.secondary {
                     margin-left: 6px;
                     &.number {
                         position: absolute;
-                        top: 0px;
+                        top: 0;
                         left: 33px;
                         width: 20px;
                         height: 20px;
@@ -307,7 +307,7 @@ a.add_to_cart_button,
 .searchform {
     input[type="text"] {
         height: 50px;
-        padding: 0px 15px;
+        padding: 0 15px;
         border: 1px solid #ddd;
         border-radius: 8px;
         outline: none;
@@ -578,7 +578,7 @@ div.gform_wrapper {
                 position: absolute;
                 top: 50%;
                 left: 50%;
-                margin: -1px 0px 0px -10px;
+                margin: -1px 0 0 -10px;
             }
             &:after {
                 transform: rotate(90deg);
@@ -951,6 +951,12 @@ div.gform_wrapper {
     position: relative;
     border-radius: 10px;
     overflow: hidden;
+	.featured-image {
+		background-position: top center;
+		background-size: cover;
+		background-color: #FFF;
+		height: 300px;
+	}
     .meta {
         display: block;
         margin-bottom: 2px;
@@ -959,9 +965,9 @@ div.gform_wrapper {
         color: #AA0000;
     }
     .title {
-        font-size: 22px;
+        font-size: 18px;
         font-weight: 700;
-        line-height: 26px;
+        line-height: 22px;
         margin-bottom: 15px;
         a {
             color: inherit;
@@ -971,8 +977,8 @@ div.gform_wrapper {
         strong {
             display: inline-block;
             margin-right: 5px;
-            font-size: 34px;
-            line-height: 34px;
+            font-size: 28px;
+            line-height: 28px;
             color: #C1572B;
             del {
                 display: none;
@@ -1083,6 +1089,7 @@ div.gform_wrapper {
             bottom: 9px;
             left: 9px;
         }
+        a.button,
         a.add_to_cart_button {
             position: absolute;
             right: 9px;
@@ -1250,6 +1257,11 @@ div.gform_wrapper {
     .welcome_products {
         position: relative;
         padding: 20px 0 0;
+		.product-item.inline {
+			div.featured-image {
+				height: 90px;
+			}
+		}
     }
     ul.slider-nav {
         li {
@@ -1406,6 +1418,13 @@ div.gform_wrapper {
 
     #welcome ul.slick-dots li {
         margin: 0 3px;
+    }
+	.welcome_products {
+		.product-item.inline {
+			div.featured-image {
+				height: 110px !important;
+			}
+		}
     }
 }
 
@@ -1678,7 +1697,7 @@ div.gform_wrapper {
     position: relative;
     color: #fff;
     font-weight: 700;
-    padding: 35px 0px 10px;
+    padding: 35px 0 10px;
     background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(33,54,67,1) 100%);
     background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(33,54,67,1) 100%);
     background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(33,54,67,1) 100%);
@@ -1986,6 +2005,9 @@ body.page-template-page_contact .entry-content h3 {
                 border-bottom-width: 0;
             }
         }
+        ul {
+            padding: 0;
+        }
     }
     &.woof_container_0 {
         z-index: 20;
@@ -2011,35 +2033,36 @@ body.page-template-page_contact .entry-content h3 {
     &.woof_price_filter {
         background-color: #F8F8F8;
         input[type="text"] {
+            width: 64px !important;
             height: 36px;
             border: 1px solid #213643;
             box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12);
             background-color: transparent;
-            padding: 0px 15px;
+            padding: 0 10px;
         }
         .woof_price_filter_txt_container {
             position: relative;
             display: flex;
-            padding-left: 40px;
+            padding-left: 55px;
             &:before,
             &:after {
                 position: absolute;
                 top: 9px;
-                font-size: 14px;
+                font-size: 13px;
                 color: #000000;
             }
             &:before {
-                content: 'From';
+                content: 'From ($)';
                 left: 0;
             }
 
             &:after {
-                content: 'To';
-                left: 123px;
+                content: 'To ($)';
+                left: 124px;
             }
         }
         .woof_price_filter_txt_from {
-            margin-right: 30px;
+            margin-right: 40px;
         }
     }
     .woof_submit_search_form_container {
@@ -2096,7 +2119,7 @@ body.page-template-page_contact .entry-content h3 {
         padding: 20px 15px;
         border: 0;
         margin: 0;
-        box-shadow: 0px 3px 6px rgba(0,0,0,0.16);
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16);
         li {
             border: 0;
             margin: 0 10px;
@@ -2376,7 +2399,7 @@ div.single-product {
         position: relative;
         margin: 0 -15px;
         padding: 30px 15px;
-        box-shadow: 0px 3px 3px 0 rgba(0,0,0,0.04);
+        box-shadow: 0 3px 3px 0 rgba(0,0,0,0.04);
         h3 {
             margin-bottom: 20px;
         }
@@ -2599,7 +2622,7 @@ div.single-product {
     }
     &.cart {
         tbody {
-            box-shadow: 0px 3px 6px rgba(0,0,0,0.16);
+            box-shadow: 0 3px 6px rgba(0,0,0,0.16);
         }
     }
 }
@@ -2811,9 +2834,9 @@ div.single-product {
     right: 20px;
     background-color: #f8f8f8;
     max-width: 400px;
-    border: 0px;
+    border: 0;
     border-top: 6px solid #000;
-    border-radius: 0px;
+    border-radius: 0;
     font-size: 14px;
     color: #000;
     visibility: hidden;
@@ -2827,7 +2850,7 @@ div.single-product {
 }
 
 .alert.site-alert p {
-    margin-bottom: 0px;
+    margin-bottom: 0;
 }
 
 .alert.site-alert button.close {
