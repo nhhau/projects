@@ -2,7 +2,7 @@
 <svg width="686px" height="684px" viewBox="0 0 686 684" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>logo-shape-gray</title>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="logo-shape-gray" fill="#FAFAFA" fill-rule="nonzero">
+        <g id="logo-shape-gray" fill="#A5C6CD" fill-rule="nonzero">
             <path d="M686,0 L686,684 L0,684 L0,0 L686,0 Z M307.904428,7.91897612 L302.379,8.554 C117.885,31.113 -14.163,191.9 8.54,376.391 C31.243,560.882 194.9,659.022 379.394,636.464 L379.394,634.6 L381.694,636.181 L379.682,636.468 L383.993,664.199 C385.717,673.399 393.907,679.286 406.693,677.418 C579.981,645.228 699.1,478.983 677.256,301.53 C654.92556,118.88193 490.072898,-11.5199493 307.904428,7.91897612 Z" id="Combined-Shape"></path>
         </g>
     </g>

@@ -19,13 +19,13 @@
 		"oF": 3,
 		"oS": 3
 		},
-	"/css/theme.min.css": {
+	"/css/theme.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/theme.min-min.css",
+		"oAP": "/css/theme-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -37,10 +37,10 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/theme.min.css",
+		"oAP": "/css/theme.css",
 		"oF": 3,
-		"oS": 3,
-		"sct": 0
+		"oS": 0,
+		"sct": 1
 		},
 	"/images/arrow/right-blue-1.svg": {
 		"ft": 2097152,
@@ -77,6 +77,56 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/images/arrow/right-blue-4.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/arrow/right-green-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/arrow/right-green-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/arrow/right-light-blue-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/arrow/right-light-blue-1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/arrow/right-light-blue-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/arrow/right-light-blue-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/arrow/right-light-blue-3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/arrow/right-light-blue-3.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/arrow/right-light-blue-4.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/arrow/right-light-blue-4.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -205,6 +255,16 @@
 		"prP": 0
 		},
 	"/images/logo-shape-gray.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/logo-shape-gray.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/logo-shape-light-blue.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
