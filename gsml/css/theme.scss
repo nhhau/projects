@@ -470,6 +470,13 @@ div.gform_wrapper {
       padding: 8px 12px !important;
     }
   }
+	
+	ul.gfield_checkbox {
+		label {
+			position: relative;
+			top: 4px;
+		}
+	}
 
   ul.gform_fields > li {
     margin: 0 0 13px !important;
@@ -1005,7 +1012,8 @@ div.gform_wrapper {
 }
 
 body.page-template-page_home #site-header {
-  background-color: rgba(0, 0, 0, 0.11);
+  //background-color: rgba(0, 0, 0, 0.11);
+	background-color: rgba(0, 0, 0, 0.3);
 }
 
 .is-sticky #site-header, #site-header.open-menu {
@@ -1916,7 +1924,7 @@ section p:last-child {
         height: 44px;
         object-fit: cover;
         position: absolute;
-        right: -18px;
+        right: -50px;
         bottom: -10px;
       }
     }
@@ -2038,6 +2046,7 @@ body.page-template-page_projects .content-sidebar:after {
 #project-intro {
   padding: 75px 0;
   background-color: #fff;
+  display: none /* Hide this section for now */
 }
 
 ul {
@@ -2492,6 +2501,24 @@ body.single-post .content {
   padding: 25px 25px;
 }
 
+body.page-template-page_contact {
+	div.contact-details {
+		a {
+			color: #1D386D;
+		}
+	}
+}
+
+body.page-template-page_contact div.contact-details .socials li {
+	display: inline-block;
+	margin-right: 10px;
+
+	a {
+	  font-size: 24px;
+	  color: #1D386D;
+	}
+}
+
 @media (min-width: 768px) {
   body.page-template-page_contact .content-sidebar {
     &:after {
@@ -2513,6 +2540,9 @@ body.single-post .content {
   .contact-details {
     margin-bottom: 20px;
   }
+	.widget-menu ul.menu.menu--has-photo > li a > img {
+		right: -20px;
+	}
 }
 
 /** END PAGE CONTACT **/

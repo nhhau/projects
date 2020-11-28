@@ -19,30 +19,7 @@
 		"oF": 0,
 		"oS": 3
 		},
-	"/project-photo-pattern.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/project-photo-pattern.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/theme copy.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/theme copy.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 1
-		},
-	"/theme.scss": {
+	"/css/theme.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -51,8 +28,8 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "/css/theme.css",
-		"oF": 2,
-		"oS": 1,
+		"oF": 0,
+		"oS": 0,
 		"sct": 1
 		}
 	},

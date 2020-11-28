@@ -186,6 +186,16 @@
 		"oAP": "/fonts/CircularStd-MediumItalic.woff2",
 		"oF": 0
 		},
+	"/images/flag-en.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/flag-en.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/images/flag-usa.png": {
 		"ft": 32768,
 		"iS": 12208,
@@ -196,6 +206,16 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"/images/flag-vi.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/flag-vi.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/images/frame-highlight.svg": {
 		"ft": 2097152,

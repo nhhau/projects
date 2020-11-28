@@ -166,6 +166,17 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/logo.png": {
+		"ft": 32768,
+		"iS": 9578,
+		"oA": 0,
+		"oAP": "/images/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -269,7 +280,7 @@
 "projectAttributes": {
 	"creationDate": 623640922.57568097,
 	"displayValue": "charlesworthballet",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets-silver",
 	"iconImageWasSetByUser": 0
 	},

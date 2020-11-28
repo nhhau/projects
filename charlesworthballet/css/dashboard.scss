@@ -1,6 +1,8 @@
-body.page-template-page_dashboard #page-title {
+/** PAGE DASHBOARD **/
+body.page-dashboard #page-title {
     margin-bottom: 0;
 }
+/** END PAGE DASHBOARD **/
 
 /** class-status **/
 .class-status .open {
@@ -87,38 +89,14 @@ ul.class-status {
 
 /** dashboard-content **/
 .dashboard-content {
+    div.timetable {
+        margin-bottom: 20px;
+        h3 {
+            font-size: 20px;
+        }
+    }
     div.gform_wrapper {
         margin-bottom: 20px;
-    }
-    .acf-form {
-        .acf-button {
-        }
-        .acf-fields > .acf-field {
-            padding: 0;
-        }
-        .acf-field-5f9fc98a1f518 {
-            .acf-label {
-                display: none;
-            }
-        }
-        .acf-table {
-            > thead > tr > th{
-                width: auto !important;
-            }
-            th.acf-row-handle,
-            td.acf-row-handle {
-                &:first-child {
-                    display: none;
-                }
-                &.remove {
-                    width: 60px;
-                }
-            }
-            th[data-key="field_5fa647eb84f28"],
-            td[data-key="field_5fa647eb84f28"] {
-                display: none;
-            }
-        }
     }
 }
 
@@ -136,6 +114,12 @@ ul.class-status {
     }
     .form-control {
         font-size: 16px;
+    }
+}
+
+@media (min-width: 992px) {
+    .dashboard-content div.timetable ul.page-files>li {
+        width: 50%;
     }
 }
 /** END dashboard-content **/
@@ -179,6 +163,10 @@ ul.class-status {
         font-style: italic;
     }
 }
+
+#related-classes {
+    padding: 20px 0 0;
+}
 /** END confirm-class **/
 
 /** payment-options **/
@@ -186,11 +174,30 @@ ul.class-status {
     h3 {
         margin-bottom: 20px;
     }
-    h4 {
-        font-size: 18px;
-    }
-    form {
-        margin-bottom: 10px;
+    div.payment-gateway {
+        position: relative;
+        min-height: calc(100% - 30px);
+        border: 2px solid #eee;
+        padding: 30px 20px 20px;
+        margin-bottom: 30px;
+        h4 {
+            position: absolute;
+            top: -10px;
+            left: 10px;
+            background-color: #fff;
+            padding: 0 10px;
+            font-size: 18px;
+            transition: all .2s;
+            -webkit-transition: all .2s;
+        }
+        form:not(:last-child) {
+            margin-bottom: 10px;
+        }
+        &:hover {
+            h4 {
+                color: #069faf;
+            }
+        }
     }
 }
 

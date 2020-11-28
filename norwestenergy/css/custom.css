@@ -301,6 +301,8 @@ ul.menu ul {
 
 #site-menu ul.menu li a {
   display: inline-block; }
+  #site-menu ul.menu li a:hover {
+    text-decoration: none !important; }
 
 #site-menu ul.menu > li > a {
   color: #fff;
@@ -507,3 +509,8 @@ footer ul.menu div.megamenu div.container {
     display: block !important; } }
 
 /** END WELCOME SECTION **/
+/** EXTRA **/
+.subscribe-modal .gform_confirmation_message {
+  color: #333; }
+
+/** END EXTRA **/

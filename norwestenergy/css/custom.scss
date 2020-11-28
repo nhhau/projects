@@ -400,6 +400,9 @@ ul.menu ul {
   ul.menu {
     li a {
       display: inline-block;
+		&:hover {
+			text-decoration: none !important;
+		}
     }
     > li {
       > a {
@@ -709,3 +712,11 @@ footer {
   }
 }
 /** END WELCOME SECTION **/
+
+/** EXTRA **/
+.subscribe-modal {
+  .gform_confirmation_message {
+    color: #333;
+  }
+}
+/** END EXTRA **/

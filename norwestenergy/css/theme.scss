@@ -149,7 +149,7 @@ outline: none;
 }
 
 .container {
-max-width: 1200px;
+max-width: 1400px;
 margin: 0 auto;
 padding: 0 15px;
 }
@@ -1076,12 +1076,13 @@ justify-content: space-between;
 }
 
 section.main-content-wrapper section.main .container .wrapper .pdfs {
-width: 85%;
-margin-top: 20px;
+	width: 85%;
+	margin: 50px auto;
 }
 
 @media (max-width: 767px) {
 section.main-content-wrapper section.main .container .wrapper .pdfs {
+	margin: 20px auto;
     width: 100%;
 }
 }
@@ -1093,8 +1094,8 @@ display: flex;
 align-items: center;
 -ms-flex-pack: justify;
 justify-content: space-between;
-background: #014177;
-color: white;
+background: #eee;
+color: #333;
 margin-bottom: 12px;
 padding: 15px 25px;
 }
@@ -1749,7 +1750,7 @@ article.home section.about .wrapper:after {
 
 article.home section.about .wrapper .side {
 background: #094579;
-height: 385px;
+height: 430px;
 width: 30%;
 }
 
@@ -1904,12 +1905,12 @@ top: 0;
 left: 50%;
 transform: translateX(-50%);
 height: 180px;
-width: 57%;
+width: 48%;
 }
 
 @media (max-width: 767px) {
 article.home section.listings .asx .latest-presentations .box .background-image {
-    width: 80%;
+    width: 50%;
 }
 }
 
@@ -2034,8 +2035,8 @@ height: 100%;
 }
 
 article.home section.listings .projects .project .background-image {
-width: 30%;
-height: 185px;
+width: 35%;
+height: 200px;
 }
 
 @media (max-width: 767px) {
@@ -2058,7 +2059,7 @@ article.home section.listings .projects .project .content p {
 }
 
 article.home section.listings .projects .project .text {
-width: 70%;
+width: 65%;
 padding: 30px 30px;
 }
 
@@ -2481,4 +2482,22 @@ display: block;
 
 .tablepress tfoot th, .tablepress thead th {
 white-space: nowrap;
+}
+
+body.page-template-multimedia {
+	ul.news.post-list {
+		width: 70%;
+	}
+}
+
+@media (max-width: 767px) {
+	body.page-template-multimedia {
+	ul.news.post-list {
+			width: 100%;
+		}
+	}
+}
+
+table.tablepress {
+	margin: 20px 0;
 }
