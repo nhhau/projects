@@ -40,6 +40,12 @@ ul.class-status {
         height: 197px;
     }
 }
+
+@media (max-width: 767px) {
+    .enrol-branch .map-canvas {
+        margin-top: 20px;
+    }
+}
 /** END enrol-branch **/
 
 /** enrol-class **/
@@ -58,8 +64,6 @@ ul.class-status {
     background-color: #ecebe2;
     margin-bottom: 40px;
     p {
-        border-right: 1px solid rgb(255 255 255);
-        padding-right: 20px;
         font-weight: 400;
     }
     ul.nav {
@@ -83,6 +87,27 @@ ul.class-status {
                 }
             }
         }
+    }
+}
+
+@media (min-width: 768px) {
+    .dashboard-nav p {
+        padding-right: 20px;
+        border-right: 1px solid rgb(255 255 255);
+    }
+}
+
+@media (max-width: 767px) {
+    .dashboard-nav p {
+        padding: 10px 0;
+    }
+}
+
+@media (max-width: 575px) {
+    .dashboard-nav ul.nav > li > a.nav-link {
+        font-size: 14px;
+        line-height: 40px;
+        padding: 0 12px;
     }
 }
 /** END dashboard-nav **/
@@ -115,11 +140,20 @@ ul.class-status {
     .form-control {
         font-size: 16px;
     }
+    .class-description {
+        padding: 20px 0 0;
+    }
 }
 
 @media (min-width: 992px) {
     .dashboard-content div.timetable ul.page-files>li {
         width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    #enrol-filter div.row > div:not(:last-child) {
+        padding-bottom: 20px;
     }
 }
 /** END dashboard-content **/
@@ -131,9 +165,7 @@ ul.class-status {
         margin-bottom: 20px;
     }
     .btn.back-enrol {
-        width: 100%;
-        display: block;
-        margin-bottom: 20px;
+        min-width: 200px;
     }
     .class-list{
         div.total {
@@ -144,6 +176,7 @@ ul.class-status {
 
 #coupon-form {
     input[type="text"] {
+        width: 140px;
         height: 35px;
         padding: 0 10px;
         font-size: 14px;
@@ -167,12 +200,21 @@ ul.class-status {
 #related-classes {
     padding: 20px 0 0;
 }
+
+@media (max-width: 767px) {
+    #coupon-form {
+        margin-bottom: 20px;
+    }
+}
 /** END confirm-class **/
 
 /** payment-options **/
 #payment-options {
     h3 {
         margin-bottom: 20px;
+        + p {
+            margin-bottom: 50px;
+        }
     }
     div.payment-gateway {
         position: relative;

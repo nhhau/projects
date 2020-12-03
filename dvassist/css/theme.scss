@@ -771,7 +771,7 @@ div.gform_confirmation_wrapper {
                             content: '\f104';
                             font-size: 22px;
                             color: #fff;
-                            top: -2px;
+                            top: -1px;
                         }
                     }
                 }
@@ -3006,7 +3006,7 @@ body.tax-provider_categories #site-content {
 .loop-post {
     position: relative;
     background-color: #CCCAE8;
-    margin-bottom: 30px;
+    padding: 80px 22px 132px;
     &:before,
     &:after {
         content: '';
@@ -3041,24 +3041,48 @@ body.tax-provider_categories #site-content {
         position: relative;
         display: block;
         font-size: 18px;
-        font-weight: 700;
         z-index: 3;
         &.title {
-            min-height: 97px;
 			font-weight: 400;
-            padding: 10px 22px;
             color: #492E84;
         }
+        &.publisher {
+            color: #492e84;
+            font-weight: 700;
+        }
+        &.date {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: #492e84;
+            font-size: 16px;
+            padding: 5px 20px;
+            color: #feae44;
+            font-weight: 700;
+        }
         &.btn {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
             padding: 0 22px;
-            line-height: 52px;
             color: #fff;
+            font-weight: 700;
+            line-height: 52px;
             text-align: left;
         }
     }
 }
 
+.post-grid  > div {
+    padding-bottom: 30px;
+}
 
+@media (min-width: 768px) {
+    .post-grid .loop-post {
+        height: 100%;
+    }
+}
 
 @media (min-width: 1450px) {
     .post-grid {
@@ -3182,43 +3206,15 @@ body.tax-provider_categories #site-content {
 /** END donate-now **/
 
 /* BLOG */
-body.blog {
-	.post {
-		//margin-bottom: 20px;
-		.loop-post  {
-			//height: 100%;
-			a {
-				span {
-					&.title  {
-						font-size: 16px;
-						//min-height: auto;
-						min-height: 135px;
-						padding: 10px 20px 50px;
-					}
-					&.date {
-						color: #333333 !important;
-						font-size: 12px;
-						padding: 50px 20px 0;
-					}
-				}
-				&:hover {
-					span {
-						&.date {
-							color: #333333;
-						}
-					}
-				}
-			}
-		}
-	}
-}
-
 body.single-post {
+    #breadcrumb {
+        margin-bottom: 30px;
+    }
 	.widget-related-posts, .widget_media_image {
 		display: none;
 	}
 	h1.entry-title {
-		padding-top: 30px;
+		padding-top: 10px;
 	}
 }
 
@@ -3348,7 +3344,9 @@ body.page-id-6558 ul.links-block li a strong span {
             }
         }
         .card-body {
-            padding: 10px 20px 20px;
+			background: #EEE;
+			color: #292929;
+            padding: 20px;
             p:last-child {
                 margin-bottom: 0;
             }
@@ -3385,6 +3383,9 @@ body.page-id-6558 ul.links-block li a strong span {
 /** UPDATE HOME **/
 #home-cta {
     min-height: 100%;
+	background-image: url('https://dvassist.org.au/wp-content/themes/dvassist/assets/images/logo-icon-white.svg');
+	background-position: top right;
+	background-repeat: no-repeat;
     background-color: #CCCAE8;
     padding: 40px 40px;
     font-size: 18px;

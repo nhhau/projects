@@ -552,6 +552,11 @@ div.gform_wrapper.gf-normal_wrapper {
                 height: 41px;
                 border: 1px solid #707070;
             }
+            input[type="file"] {
+                display: block;
+                width: 100%;
+                max-width: 100%;
+            }
             textarea {
                 height: 120px;
                 resize: vertical;
@@ -1839,26 +1844,28 @@ body.single-people {
     ul.menu {
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
         border-bottom: 1px solid rgba($color: #ffffff, $alpha: 0.7);
         &:last-child {
             border-bottom: 0;
         }
         > li {
-            flex: 1;
             padding: 8px 8px;
             font-size: 14px;
             font-weight: 400;
-            text-align: center;
-            &.remove {
-                flex: none;
-                width: 40px;
-            }
             .btn-link {
                 font-size: inherit;
             }
             a.remove {
                 color: #183c47;
+            }
+            &.remove {
+                flex: none;
+                width: 40px;
+            }
+            &.action {
+                .title {
+                    display: none;
+                }
             }
         }
         &.head {
@@ -1868,6 +1875,12 @@ body.single-people {
             }
         }
         &.data {
+            .title {
+                color: #069faf;
+                font-weight: 700;
+                margin: 0;
+                padding: 0;
+            }
             &:hover {
                 background-color: rgba(255, 255, 255, 0.7);
             }
@@ -1879,10 +1892,46 @@ body.single-people {
         margin-bottom: 10px;
     }
 }
+
+@media (min-width: 768px) {
+    .class-list ul.menu {
+        align-items: center;
+    }
+
+    .class-list ul.menu > li {
+        flex: 1;
+        text-align: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .class-list ul.menu > li {
+        width: 50%;
+        &.class-status,
+        &.action {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .class-list.fill {
+        padding: 10px 10px;
+    }
+}
 /** END class-list **/
 
 /** EXTRA **/
 div.acf-ui-datepicker {
     background-color: #fff;
+}
+
+div.highlight-text {
+    background-color: #ecebe2;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+    p:last-child {
+        margin-bottom: 0;
+    }
 }
 /** END EXTRA **/
