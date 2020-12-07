@@ -377,13 +377,13 @@ input:focus, textarea:focus { outline: 0; }
 
 .investor-sidebar .investor-menu { list-style: none; }
 
-.investor-sidebar .investor-menu .investor-item { text-decoration: none; }
+.investor-sidebar .investor-menu li { margin-bottom: 2px; }
 
-.investor-sidebar .investor-menu .investor-item li { padding: 7px 132px 7px 20px; background: #acbad8; color: #102d69 !important; font-weight: 700; margin-bottom: 2px; }
+.investor-sidebar .investor-menu li a { display: block; padding: 7px 132px 7px 20px; background: #acbad8; color: #102d69 !important; font-weight: 700; text-decoration: none; }
 
 .market-cap, .share-issue { border-bottom: 2px solid #102d69 !important; padding: 0 !important; margin: 0 15px !important; }
 
-@media screen and (max-width: 1000px) { .investor-sidebar .investor-menu .investor-item li { padding: 7px 20px 7px 20px !important; } .alternative-column-1000 { flex-direction: column !important; } .alternative-column-1000 .col-auto { order: 1; } .alternative-column-1000 .col-auto .investor-sidebar .investor-menu { padding: 2rem; margin: 0; } .alternative-column-1000 .col { order: 2; } }
+@media screen and (max-width: 1000px) { .investor-sidebar .investor-menu li a { padding: 7px 20px 7px 20px !important; } .alternative-column-1000 { flex-direction: column !important; } .alternative-column-1000 .col-auto { order: 1; } .alternative-column-1000 .col-auto .investor-sidebar .investor-menu { padding: 2rem; margin: 0; } .alternative-column-1000 .col { order: 2; } }
 
 @media screen and (max-width: 800px) { .section-3, .section-4, .section-5, .section-6, .section-7, .section-8 { padding: 3rem !important; } }
 

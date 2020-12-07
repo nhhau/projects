@@ -1,0 +1,337 @@
+.header.fixed{
+	z-index:999;
+}
+.header_right a.link-shop{
+    width: 165px;
+    border: 0px;
+    background: #8806CE;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 25px;
+	color:#fff;
+}
+.header_right a.link-shop:hover{
+    background:#00bf6f;
+}
+.hero_grad{
+	background: linear-gradient(to right, rgba(29,37,45,0) 0%, rgba(29,37,45,0) 1%, #1D252D 30%, #000000 100%);
+}
+.btn.cl-blue:hover{
+	background: #0066FF;
+  border-color: #0066FF;
+}
+.btn.cl-yellow:hover{
+	background: #EEC643;
+  border-color: #EEC643;
+}
+.mission{
+	padding: 120px 0 430px;
+}
+.mission .mission-content-left h4{
+	  font-size: 20px;
+    color: #00bf6f;
+    font-weight: 700;
+}
+.mission .mission-content-left h2{
+font-size: 30px;
+	font-weight:700;
+	margin-bottom: 20px;
+}
+.mission .mission-content-left p{
+	font-size:16px;
+}
+.mission .mission-content-right{
+	text-align: right;
+}
+.mission .mission-content-right #countb{
+	font-size: 180px;
+	font-weight: 900;
+	line-height: 1;
+	display: flex;
+	justify-content: flex-end;
+	padding-top:50px;
+}
+.mission .mission-content-right #countb span{
+	color:#D2D3D5;
+}
+.mission .mission-content-right #countb span.count{
+	color:#1D252D;
+}
+.mission .mission-content-right p{
+	font-size: 26px;
+  font-weight: 400;
+}
+.mission .mission-content-right p a{
+	  color: #00bf6f;
+    font-weight: 700;
+}
+.mission .vispat{
+	    position: absolute;
+    top: -120px;
+    right: 15px;
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+}
+.mission-content-left .sleft_social{
+	margin-top:30px;
+}
+.mission-content-left .sleft_social a{
+	color:#1D252D;
+}
+.sleft.custom:before{
+	      background: linear-gradient(90deg, #820ECA 0%, #0BB176 70%);
+	z-index:9;
+}
+.sleft .sleft_text{
+	max-width:100%;
+	position:relative;
+	z-index:99;
+}
+.sleft.custom .link a{
+	width: 250px;
+    display: inline-block;
+    text-align: center;
+    height: 62px;
+    line-height: 62px;
+    color: #8806CE;
+    background: #fff;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.sleft.custom .link a:hover{
+	color:#fff;
+	background: #00bf6f;
+}
+.wwd.custom h4{
+	color: #00bf6f;
+	font-weight:700;
+}
+.wwd.custom .cl_wrap{
+	margin-top:120px;
+}
+.learning-item img{
+	width:60px;
+	height:60px;
+	margin-bottom:20px;
+}
+.learning-item p{
+	font-size:20px;
+	font-weight:400;
+}
+.learning-item a{
+	font-weight: 600;
+  color: #fff;
+	position:relative;
+}
+.learning-item a:hover{
+	color: #00bf6f;
+}
+.learning-item a:after{
+	    content: "";
+    background-repeat: no-repeat;
+    background: url(http://metastage.com.au/visibleteam/wp-content/uploads/2020/09/arrow-v_jade.svg) no-repeat;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0px;
+    right: -45px;
+}
+.wwd.custom.strategy .learning-item a:after{
+	background: url(http://metastage.com.au/visibleteam/wp-content/uploads/2020/09/arrow-blue.svg) no-repeat;
+}
+
+.wwd.custom .cl_row .col-lg-5:nth-child(3n+2){
+	transform: none;
+}
+.wwd.custom{
+	padding-bottom:150px;
+}
+.wwd.custom.strategy .cl_wrap{
+	margin-top:0;
+	margin-left:110px;
+}
+.wwd.custom.strategy {
+	background:#F4F4F5;
+	padding-bottom:50px;
+}
+.wwd.custom.strategy .cl_container:before{
+	background:#0066ff;
+	left:15%;
+}
+.wwd.custom.strategy h4{
+	color:#0066ff;
+}
+.wwd.custom.strategy h2{
+	color:#000;
+	font-weight:700;
+}
+.wwd.custom.strategy .learning-item{
+	color:#000;
+}
+.wwd.custom.strategy .learning-item a{
+	color:#000;
+	font-size:16px;
+}
+.wwd.custom.strategy .cl_row .col-md-q2:not(.col-lg-5):nth-child(2n){
+	transform:none;
+}
+.wwd_title{
+	max-width:800px;
+}
+
+.learning-item h3{
+	font-weight:700;
+	font-size: 25px;
+}
+.wwd.agency .cl_container:before{
+	background: #EEC643;
+}
+.wwd.agency h4{
+	color:#EEC643;
+	font-weight:700;
+}
+.btn-black.bt-ct:hover{
+	color:#fff;
+	background:#00BF6F;
+}
+.sleft.sl-custom{
+	background: -webkit-linear-gradient(top, #1d252d 50%,#f4f4f5 50%,#f4f4f5 50%);
+}
+.bl.bl-custom{
+	margin-top:0;
+	background: -webkit-linear-gradient(top, #f4f4f5 40%,#fff 30%,#fff 30%);
+}
+.bl h2{
+	font-weight:600;
+	color:#1D252D;
+}
+.cat-custom{
+	  font-weight: 700;
+    color: #777;
+}
+.cat-custom span{
+	    position: relative;
+    padding-right: 15px;
+}
+.cat-custom span:before{
+	    content: "";
+    width: 3px;
+    height: 20px;
+    background: #00bf6f;
+    position: absolute;
+    right: 2px;
+    top: 0px;
+}
+.cat-custom label{
+	font-weight: 700;
+}
+.cat-custom label a{
+	 color: #0066ff;
+}
+.mission.custom{
+	padding-bottom:0;
+}
+.abt_s1{
+	padding-bottom:150px;
+}
+.sleft.green:before{
+	    background: linear-gradient(90deg, #820ECA 0%, #0BB176 70%);
+}
+.content-p p{
+	margin-bottom:25px;
+}
+.sleft_action .btn.item-1{
+	background: #fff;
+    color: #8806ce;
+}
+.sleft_action .btn.item-1:hover{
+	background:#00bf6f;
+	color:#fff;
+}
+.abt_s4 .container:after{
+	display:none;
+}
+.abt_s4cvr{
+	width: 70vw;;
+}
+@media (max-width:1200px){
+	.header_right{
+		position:absolute;
+		right:0;
+	}
+	.sleft:before {
+    width: 87.85vw;
+	}
+	.wwd.custom.strategy .cl_container:before{
+		left:2%;
+	}
+	.wwd.custom.strategy .cl_wrap{
+		margin-left:0;
+	}
+	.wwd.custom.strategy{
+		padding-bottom:0;
+	}
+}
+@media (max-width:1199px){
+	.mission .mission-content-right #countb{
+		font-size:150px;
+	}
+}
+@media(max-width:991px){
+	.btn{
+		line-height:45px;
+		min-width: 180px;
+	}
+	.mission .mission-content-right #countb{
+		font-size:120px;
+	}
+	.sleft:before{
+		width:100%;
+	}
+	.header_right{
+		margin-right:90px;
+	}
+}
+@media (max-width: 767px){
+	.mission{
+		padding: 50px 0;
+	}
+	.mission .vispat{
+		top: -50px;
+    height: 40px;
+	}
+	.mission .mission-content-right #countb{
+		font-size:150px;
+		justify-content:flex-start;
+	}
+	.mission .mission-content-right{
+		text-align:left;
+	}
+	.mission .mission-content-right p{
+		font-size:20px;
+	}
+	.sleft:before{
+		width:100%;
+		border-radius:0px;
+	}
+	.wwd.custom.learning{
+		padding-top:0;
+		padding-bottom:50px;
+	}
+	.wwd.custom.strategy .wwd_bg.lazyload.lazyloaded{
+		background:none !important;
+	}
+}
+@media(max-width:480px){
+	.learning-item{
+		margin-bottom:30px;
+	}
+	.learning-item img{
+		margin-bottom:5px;
+	}
+	.mission .mission-content-right #countb{
+		font-size:100px;
+	}
+}

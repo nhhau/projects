@@ -403,6 +403,7 @@ div.gform_wrapper {
         border: 1px solid #707070;
         background-color: #fff;
         padding: 0 10px !important;
+        margin: 0 !important;
         font-size: 18px !important;
         font-weight: 300;
         outline: none;
@@ -459,6 +460,10 @@ div.gform_wrapper {
         span.ginput_right {
             padding: 0 10px !important;
             margin: 0 !important;
+        }
+        span.ginput_full {
+            width: 100%;
+            padding: 0 10px !important;
         }
     }
     table.gfield_list {
@@ -631,6 +636,14 @@ div.gform_wrapper.gf-normal_wrapper {
     }
     div.acf-field[data-name="child_id"] {
         display: none;
+    }
+}
+
+#gform_wrapper_6 {
+    li#field_6_6 {
+        span.address_city {
+
+        }
     }
 }
 

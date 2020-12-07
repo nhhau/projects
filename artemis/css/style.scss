@@ -1392,15 +1392,15 @@ input:focus, textarea:focus {
 .investor-sidebar .investor-menu {
   list-style: none;
 
-  .investor-item {
-    text-decoration: none;
-
-    li {
+  li {
+    margin-bottom: 2px;
+    a {
+      display: block;
       padding: 7px 132px 7px 20px;
       background: #acbad8;
       color: #102d69 !important;
       font-weight: 700;
-      margin-bottom: 2px;
+      text-decoration: none;
     }
   }
 }
@@ -1412,7 +1412,7 @@ input:focus, textarea:focus {
 }
 
 @media screen and (max-width: 1000px) {
-  .investor-sidebar .investor-menu .investor-item li {
+  .investor-sidebar .investor-menu li a {
     padding: 7px 20px 7px 20px !important;
   }
 
