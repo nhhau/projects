@@ -1786,10 +1786,8 @@ div.ginput_container_name span {margin-right: 0 !important; padding-right: 0 !im
 
 /*Form Style*/
 
-input:not([type="submit"]),
-
+input:not([type="checkbox"]):not([type="radio"]):not([type="submit"]),
 textarea {
-
     float: left;
 
     width: 100%;
@@ -2156,7 +2154,7 @@ input[type="submit"] {
 
 .main-header-section {
 
-    padding: 37px 0 92px;
+    padding: 20px 0 92px;
 
     z-index: 1111;
 
@@ -2604,8 +2602,6 @@ input[type="submit"] {
 
                 margin-top: 42px;
 
-                overflow: hidden;
-
                 &:nth-child(2) {
 
                     margin-top: 28px;
@@ -2780,21 +2776,14 @@ input[type="submit"] {
 
 
     &:after {
-
         content: '';
-
         position: absolute;
-
-        top: -44px;
-        
+        top: 50%;
         right: -48px;
-        
         width: 2px;
-        
-        height: 91px;
-
+        height: 65px;
         background-color: #61636B;
-
+        margin-top: -32.5px;
     }
 
 
@@ -2857,7 +2846,7 @@ input[type="submit"] {
 
     float: left;
 
-    width: 258px;
+    width: 250px;
 
     height: auto;
 
@@ -2885,7 +2874,7 @@ input[type="submit"] {
 
     float: left;
 
-    width: calc(100% - 258px);
+    width: calc(100% - 250px);
 
     @include flexbox;
 
@@ -2921,39 +2910,10 @@ input[type="submit"] {
 
             &:nth-child(4) {
 
-                a {
-
-                    padding-right: 30px;
-
-
-
-                    &:after {
-
-                        right: 0;
-
-
-
-                        @include mdMinMax {
-
-                            right: 8px;
-
-                        }
-
-
-
-                        @include smMax {
-
-                            right: 8px;
-
-                        }
-
-                    }
-
-                }
-
                 .sub-menu{
 
-                    left: -190px;
+                    left: auto;
+                    right: 0;
 
                     @include mdMinMax{left: 0;}
 
@@ -7397,9 +7357,7 @@ input[type="submit"] {
 
     .main-header-section {
 
-        padding: 37px 0 50px;
-
-        z-index: 11;
+        padding: 20px 0 50px;
 
     }
 
@@ -7731,206 +7689,14 @@ input[type="submit"] {
 
 
     .big-thumb-slider {
-
         @extend %fw;
-
         background-color: pcolor(fff);
-
-        padding-bottom: 12px;
-
-
-
-        figure {
-
-            @extend %fw;
-
-            outline: none;
-
-            @include flexbox;
-
-            @include justify-content(center);
-
-            @include flex-flow();
-
-        }
-
-        .slick-prev {
-
-            left: 20px;
-
-            @include smMax{
-
-              left: 10px;
-
-            }
-
-        }
-
-
-
-        .slick-next {
-
-            right: 20px;
-
-            @include smMax{
-
-              right: 5px;
-
-            }
-
-        }
-
-
-
-        .slick-prev,
-
-        .slick-next {
-            top: auto;
-            bottom: -84px;
-            z-index: 999;
-
-            @include proMax{
-
-                top: 114%;
-
-            }
-
-            @include mdMinMax{
-
-                top: 117%;
-
-            }
-
-        }
-
-
-
-        .slick-prev:before,
-        .slick-next:before {
-            width: 15px;
-            height: 27px;
-            opacity: 1;
-        }
     }
-
-
 
     .small-thumb-slider-wrap {
-
         @extend %fw;
-
         background-color: pcolor(e2);
-
-        padding: 13px 50px;
-
-
-
-        @include smMax {
-
-            padding: 13px 25px;
-
-        }
-
-
-
-        figure {
-
-            @extend %fw;
-
-            outline: none;
-
-            margin: 0 7px;
-
-            cursor: pointer;
-
-
-
-            img {
-
-                width: 126px !important;
-
-                height: 100px !important;
-
-
-
-                @include proMax {
-
-                    height: 65px !important;
-
-                }
-
-
-
-                @include mdMaxPro {
-
-                    height: 50px !important;
-
-                }
-
-
-
-                @include deskmini {
-
-                    height: 55px !important;
-
-                }
-
-
-
-                @include mdMinMax {
-
-                    height: 92px !important
-
-                }
-
-
-
-                @include smMax {
-
-                    height: 45px !important
-
-                }
-
-                @include smMdMax {
-
-                    height: 80px !important
-
-                }
-
-            }
-
-        }
-
-
-
-        .slick-track {
-
-            left: 0;
-
-            margin-left: 0 !important;
-
-        }
-
-    }
-
-
-
-    .slick-prev::before,
-    .slick-next::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 11px;
-        height: 22px;
-        background-image: url('../img/chevron-right.svg');
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-    }
-
-    .slick-prev::before {
-        transform: rotate(180deg);
+        padding: 15px 50px;
     }
 
 }
@@ -8273,9 +8039,7 @@ input[type="submit"] {
 
     .main-header-section {
 
-        padding: 37px 0 50px;
-
-        z-index: 11;
+        padding: 20px 0 50px;
 
     }
 
@@ -9182,7 +8946,7 @@ input[type="submit"] {
 
     .main-header-section {
 
-        padding: 37px 0 50px;
+        padding: 20px 0 50px;
 
     }
 
@@ -10816,7 +10580,7 @@ input[type="submit"] {
 
     .main-header-section {
 
-        padding: 37px 0 50px;
+        padding: 20px 0 50px;
 
 
 
@@ -12485,6 +12249,19 @@ input[type="submit"] {
 
 /** FORMS **/
 div.gform_wrapper {
+    form {
+        input[type="text"],
+        input[type="email"] {
+            display: block !important;
+            float: none !important;
+            margin: 0 !important;
+        }
+    }
+    ul.gform_fields  {
+        > li {
+            float: none;
+        }
+    }
     .gform_footer {
         padding: 30px 0 0 !important;
         margin: 0 !important;
@@ -12501,7 +12278,25 @@ div.gform_wrapper {
         }
     }
 }
+
+div.gform_wrapper ul.gform_fields li#field_2_5 {
+    padding: 5px 0 10px !important;
+}
 /** END FORMS **/
+
+/** HEADER **/
+@media (min-width: 992px) {
+    header.main-header-section {
+        padding: 20px 0 37px !important;
+        .account-balance {
+            padding: 0;
+        }
+        .nav-wrap {
+            padding-top: 45px;
+        }
+    }
+}
+/** END HEADER **/
 
 /** WELCOME SECTION **/
 .hero-wrap {
@@ -12653,12 +12448,12 @@ div.block-list {
     }
 
     div.block-list .block-list__items > li span.date {
-        width: 220px;
+        width: 240px;
         padding-right: 20px;
     }
 
     div.block-list .block-list__items > li span.title {
-        width: calc(100% - 270px);
+        width: calc(100% - 260px);
     }
 }
 
@@ -12786,3 +12581,139 @@ div.block-list {
     }
 }
 /** END member-grid **/
+
+/** default-page-content **/
+sup, sub {
+    vertical-align: baseline;
+    position: relative;
+    top: -0.4em;
+}
+
+sub { 
+    top: 0.4em;
+}
+
+.default-page-content {
+    font-size: 20px;
+    h2, h3, h4 {
+        float: none;
+        margin: 0 0 20px;
+        color: #EB6012;
+    }
+    p {
+        float: none;
+        margin: 0 0 20px;
+        font-size: 20px;
+        line-height: 130%;
+    }
+    ul:not([class]) {
+        float: none;
+        margin: 0 0 20px;
+        li {
+            font-size: 20px;
+            line-height: 130%;
+            margin: 0 0 5px;
+            padding-left: 25px;
+            &:before {
+                top: 11px;
+            }
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+.sub-page-text-item h3 {
+    margin-bottom: 30px;
+}
+
+.sub-page-text-item p {
+    margin: 0 0 20px;
+    font-size: 20px;
+    line-height: 130%;
+    letter-spacing: 0;
+}
+
+.sub-page-text-item p:last-child {
+    margin-bottom: 0;
+}
+
+.sub-page-text-item a {
+    color: #EB6012;
+}
+/** END default-page-content **/
+
+/** PROJECT TEMPLATE **/
+div.location-slider-wrap {
+    .slick-slide {
+        display: block;
+        height: auto;
+        img {
+            width: auto;
+            max-width: 100%;
+            height: auto;
+        }
+    }
+
+    button.slick-arrow {
+        width: 15px;
+        height: 27px;
+        margin-top: -13.5px;
+        text-indent: -999px;
+        transform: none;
+        background-image: url('../img/chevron-right.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        overflow: hidden;
+        &.slick-disabled {
+            opacity: 0;
+        }
+    }
+
+    button.slick-arrow.slick-prev {
+        left: -30px;
+        transform: rotate(180deg);
+    }
+
+    button.slick-arrow.slick-next {
+        right: -30px;
+    }
+
+    .big-thumb-slider {
+
+    }
+
+    .small-thumb-slider {
+        .slick-slide {
+            margin: 0 7px;
+            border: 1px solid transparent;
+            cursor: pointer;
+            transition: all .25s;
+            -webkit-transition: all .25s;
+            img {
+                width: auto;
+                height: 100px;
+                object-fit: cover;
+            }
+            &.slick-current {
+                border-color: #EB6012;
+            }
+            &:not(.slick-current):hover {
+                opacity: 0.7;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    div.location-slider-wrap .small-thumb-slider .slick-slide {
+        margin: 0 5px;
+    }
+
+    div.location-slider-wrap .small-thumb-slider .slick-slide img {
+        height: 80px;
+    }
+}
+/** END PROJECT TEMPLATE **/

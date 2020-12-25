@@ -1002,6 +1002,9 @@ div.gform_confirmation_wrapper {
             font-weight: 300;
             p {
                 margin-bottom: 5px;
+                &:last-child {
+                    margin-bottom: 0;
+                }
             }
             .phone {
                 font-size: 20px;
@@ -1364,6 +1367,7 @@ p.disclaimer2 {
                 //border-radius: 50%;
             }
 			ul {
+				margin: 0;
 				li {
 					&:before {
 						background-color: #492E84;
@@ -2487,6 +2491,9 @@ body.page-template-page_find-service #site-content {
                 background-color: #A7A4DF;
             }
         }
+        .form-group {
+            margin-bottom: 0;
+        }
     }
 
     .chosen-container-single a.chosen-single {
@@ -2515,7 +2522,6 @@ body.page-template-page_find-service #site-content {
 
     #fs-header form .form-group {
         padding: 0 20px;
-        margin-bottom: 0;
     }
 
     #fs-header .chosen-container-single {
@@ -2535,7 +2541,7 @@ body.page-template-page_find-service #site-content {
         margin: 0 auto;
     }
 
-    #fs-header form .form-group {
+    #fs-header form .form-group:not(:last-child) {
         margin-bottom: 20px;
     }
 
@@ -3258,6 +3264,7 @@ body.page-id-6558 ul.links-block li a strong span {
 .print-me {
     a.print-me-trigger {
         font-size: 14px;
+		margin: 20px 0 15px;
         padding: 10px 20px;
         i {
             margin-right: 7px;
@@ -3471,3 +3478,49 @@ body.page-id-6558 ul.links-block li a strong span {
     }
 }
 /** END UPDATE HOME **/
+
+/** HOME HERO **/
+#hero {
+    > div.container {
+        padding-top: 0;
+    }
+
+    #fs-header {
+        padding: 45px 0;
+    }
+
+    #fs-header form {
+        display: block;
+    }
+
+    #fs-header form .btn {
+        width: 100%;
+    }
+
+    #fs-header form .form-group:not(:last-child) {
+        margin-bottom: 20px;
+    }
+
+    #fs-header .container {
+        max-width: 600px;
+    }
+
+    #fs-header .chosen-container-single {
+        width: 100% !important;
+    }
+}
+
+@media (min-width: 992px) {
+}
+
+@media (min-width: 1200px) {
+    #hero {
+    }
+}
+
+@media (max-width: 991px) {
+    #hero .content {
+        margin-bottom: 0;
+    }
+}
+/** END HOME HERO **/

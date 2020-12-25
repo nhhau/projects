@@ -1873,6 +1873,30 @@ ul.block-files {
 section.latest-announcements {
   background-color: #fff;
 }
+
+section.hero div.hero-image {
+  height: auto;
+  min-height: 600px;
+}
+
+@media (max-width: 991px) {
+  section.hero div.hero-image {
+    max-height: 800px;
+  }
+}
+
+@media (max-width: 767px) {
+  section.hero div.hero-image {
+    max-height: 600px;
+  }
+}
+
+@media (max-width: 575px) {
+  section.hero div.hero-image {
+    min-height: 400px;
+    max-height: 400px;
+  }
+}
 /** END HOME SECTION **/
 
 /** DEFAULT TEMPLATE **/
@@ -1901,14 +1925,72 @@ section.latest-announcements {
   .content {
     padding: 0 30px;
   }
+  a:not([class]) {
+    color: #102d69;
+  }
   h2.first-heading {
     margin-bottom: 50px;
   }
 }
 
 .entry-content {
+  h2, h3 {
+    margin-bottom: 20px;
+  }
+  p {
+    margin-bottom: 20px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  a:not([class]) {
+    color: #102d69;
+  }
+  ol:not([class]),
+  ul:not([class]) {
+    clear: both;
+  }
+  ul:not([class]) {
+    margin: 0 0 20px;
+    padding: 0;
+    list-style: none;
+    li {
+      position: relative;
+      padding: 0 0 0 20px;
+      &:before {
+        content: '';
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background-color: #102d69;
+        position: absolute;
+        top: 8px;
+        left: 0;
+      }
+    }
+  }
   .aligncenter, div.aligncenter {
     margin-bottom: 20px;
+  }
+  .wp-caption {
+    background-color: transparent;
+    padding: 0;
+    border: 0;
+    .wp-caption-text {
+      padding-top: 5px;
+    }
+    &.alignnone {
+      margin: 0 0 20px;
+    }
+    &.alignleft {
+      margin: 0 30px 20px 0;
+    }
+    &.alignright {
+      margin: 0 0 20px 30px;
+    }
+    &.aligncenter {
+      margin: 0 auto 20px;
+    }
   }
 }
 
