@@ -109,6 +109,26 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/button-arrow-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/button-arrow-white.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/calendar-orange.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/calendar-orange.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/images/clock-orange.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -124,6 +144,26 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/images/dollar-orange.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/download-blue.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/download-blue.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/download-orange.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/download-orange.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -204,6 +244,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/images/line-3-orange.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/line-3-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/line-3-white.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -464,6 +514,22 @@
 		"oF": 1,
 		"sC": 3,
 		"tS": 0
+		},
+	"/news.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/news.html",
+		"oF": 0
+		},
+	"/projects.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/projects.html",
+		"oF": 0
 		}
 	},
 "hooks": [
