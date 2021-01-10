@@ -26,7 +26,7 @@ a, a:hover, a:focus {
   text-decoration: none;
   outline: none; }
 
-ul.menu, ul.menu ul {
+ul.menu, ul.menu ul, ul.socials {
   margin: 0;
   padding: 0;
   list-style: none; }
@@ -58,8 +58,13 @@ footer {
     footer a.logo {
       display: inline-block;
       width: 240px; }
-  footer p:last-of-type, footer p:last-child {
+  footer p:last-child {
     margin-bottom: 0; }
+  footer ul.socials {
+    display: flex;
+    flex-wrap: wrap; }
+    footer ul.socials li {
+      margin: 0 15px 0 0; }
 
 @media (min-width: 991px) {
   footer {
@@ -80,8 +85,10 @@ footer {
     text-align: center; }
     footer a.logo {
       margin-bottom: 20px; }
-    footer p {
-      margin-bottom: 0; } }
+    footer ul.socials {
+      justify-content: center; }
+      footer ul.socials li {
+        margin: 0 8px; } }
 
 /** END FOOTER **/
 /** VIDEO BACKGROUND **/

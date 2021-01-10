@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="363px" height="315px" viewBox="0 0 363 315" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Combined Shape</title>
+    <defs>
+        <path d="M363,-74 L363,241 L0,241 L0,-74 L363,-74 Z M270.325505,-70.7193571 L91.8537524,-70.7195 L2.618,83.8416429 L91.8535,238.402063 L270.325252,238.402206 L359.561005,83.8410628 L270.325505,-70.7193571 Z" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mask-Group-3" transform="translate(0.000000, 74.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Combined-Shape" fill="#FFFFFF" xlink:href="#path-1"></use>
+        </g>
+    </g>
+</svg>

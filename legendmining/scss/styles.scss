@@ -8874,7 +8874,7 @@ input[type="submit"] {
 
             margin-top: 17px;
 
-            font-size: fz(fz22);
+            font-size: fz(fz20);
 
             font-family: $secondary-font;
 
@@ -12639,6 +12639,7 @@ sub {
     margin-bottom: 0;
 }
 
+.location-contents a:not([class]),
 .sub-page-text-item a {
     color: #EB6012;
 }

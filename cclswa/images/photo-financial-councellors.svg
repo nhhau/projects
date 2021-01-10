@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="37.974" height="38.017" viewBox="0 0 37.974 38.017">
+  <g id="Group_51" data-name="Group 51" transform="translate(-226.25 -138.25)">
+    <path id="Rectangle-Copy-10" d="M238.172,150.894v3.172l3.37-3.172h8.524a.793.793,0,0,0,.793-.793V139.793a.793.793,0,0,0-.793-.793H235.793a.793.793,0,0,0-.793.793V150.1a.793.793,0,0,0,.793.793Z" transform="translate(-1.657)" fill="none" stroke="#477d83" stroke-linejoin="round" stroke-width="1.5"/>
+    <line id="Line_21" data-name="Line 21" y2="4" transform="translate(233 172)" fill="none" stroke="#477d83" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_76" data-name="Path 76" d="M227,182.687V172.379c0-2.379.793-2.379,3.172-2.379.793,0,7.136,6.343,7.136,6.343h2.379a2.1,2.1,0,0,1,2.379,2.379v.793" transform="translate(0 -6.42)" fill="none" stroke="#477d83" stroke-linejoin="round" stroke-width="1.5"/>
+    <line id="Line_22" data-name="Line 22" x1="24" transform="translate(233 174)" fill="none" stroke="#477d83" stroke-linejoin="round" stroke-width="1.5"/>
+    <line id="Line_23" data-name="Line 23" x1="4" y1="4" transform="translate(232 170)" fill="none" stroke="#477d83" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_77" data-name="Path 77" d="M229.379,159a2.379,2.379,0,0,1,2.379,2.379v.793a2.379,2.379,0,0,1-4.757,0v-.793A2.379,2.379,0,0,1,229.379,159Z" transform="translate(0 -4.142)" fill="none" stroke="#477d83" stroke-linejoin="round" stroke-width="1.5"/>
+    <line id="Line_24" data-name="Line 24" y2="4" transform="translate(257 172)" fill="none" stroke="#477d83" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_78" data-name="Path 78" d="M269.065,182.687V172.379c0-2.379-.793-2.379-3.172-2.379-.793,0-7.136,6.343-7.136,6.343h-2.379A2.1,2.1,0,0,0,254,178.722v.793" transform="translate(-5.591 -6.42)" fill="none" stroke="#477d83" stroke-linejoin="round" stroke-width="1.5"/>
+    <line id="Line_25" data-name="Line 25" y1="4" x2="4" transform="translate(255 170)" fill="none" stroke="#477d83" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Path_79" data-name="Path 79" d="M269.379,159A2.379,2.379,0,0,0,267,161.379v.793a2.379,2.379,0,1,0,4.757,0v-.793A2.379,2.379,0,0,0,269.379,159Z" transform="translate(-8.284 -4.142)" fill="none" stroke="#477d83" stroke-linejoin="round" stroke-width="1.5"/>
+    <path id="Rectangle-Copy-10-2" data-name="Rectangle-Copy-10" d="M252.929,144h4.757a.793.793,0,0,1,.793.793V155.1a.793.793,0,0,1-.793.793h-3.172v3.172l-3.37-3.172H245" transform="translate(-3.728 -1.035)" fill="none" stroke="#477d83" stroke-linejoin="round" stroke-width="1.5"/>
+  </g>
+</svg>

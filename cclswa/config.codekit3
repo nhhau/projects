@@ -42,48 +42,108 @@
 		"oS": 0,
 		"sct": 1
 		},
-	"/fonts/black-diamond-regular-webfont.woff": {
+	"/fonts/kiro/01cc70e7-9331-43f9-862b-39b25ec6d9e9.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/fonts/black-diamond-regular-webfont.woff",
+		"oAP": "/fonts/kiro/01cc70e7-9331-43f9-862b-39b25ec6d9e9.woff2",
 		"oF": 0
 		},
-	"/fonts/black-diamond-regular-webfont.woff2": {
+	"/fonts/kiro/2368073e-a912-40ea-a09a-142795f0daf5.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/fonts/black-diamond-regular-webfont.woff2",
+		"oAP": "/fonts/kiro/2368073e-a912-40ea-a09a-142795f0daf5.woff2",
 		"oF": 0
 		},
-	"/images/arrow-down-orange.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/arrow-down-orange.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
+	"/fonts/kiro/2c76b416-de69-49df-a969-481d498a2715.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/kiro/2c76b416-de69-49df-a969-481d498a2715.woff",
+		"oF": 0
 		},
-	"/images/arrow-right-orange.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/arrow-right-orange.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
+	"/fonts/kiro/62211924-7d97-40e7-9d9e-9df634cb49ef.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/kiro/62211924-7d97-40e7-9d9e-9df634cb49ef.woff2",
+		"oF": 0
 		},
-	"/images/bg-statis.jpg": {
+	"/fonts/kiro/69cc6900-0155-4d86-90d5-10f54e4d1491.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/kiro/69cc6900-0155-4d86-90d5-10f54e4d1491.woff",
+		"oF": 0
+		},
+	"/fonts/kiro/6beacdec-27ae-4d49-a0e0-5bf049679bf0.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/kiro/6beacdec-27ae-4d49-a0e0-5bf049679bf0.woff2",
+		"oF": 0
+		},
+	"/fonts/kiro/7fd70971-eeb3-4276-81cc-4d92c54f78c3.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/kiro/7fd70971-eeb3-4276-81cc-4d92c54f78c3.woff",
+		"oF": 0
+		},
+	"/fonts/kiro/80e6ffb3-cac0-424c-8554-1e29349e4edc.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/kiro/80e6ffb3-cac0-424c-8554-1e29349e4edc.woff2",
+		"oF": 0
+		},
+	"/fonts/kiro/94078f3c-b176-463f-ab21-14f5a6cddaad.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/kiro/94078f3c-b176-463f-ab21-14f5a6cddaad.woff",
+		"oF": 0
+		},
+	"/fonts/kiro/94d75b67-2365-4321-a6f6-b43caf8699e3.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/kiro/94d75b67-2365-4321-a6f6-b43caf8699e3.woff2",
+		"oF": 0
+		},
+	"/fonts/kiro/fa108262-f9d8-4250-a26a-5fd9bf116021.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/kiro/fa108262-f9d8-4250-a26a-5fd9bf116021.woff",
+		"oF": 0
+		},
+	"/fonts/kiro/fc0293b1-5db1-48a9-8697-3fcedd7f2f5c.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/fonts/kiro/fc0293b1-5db1-48a9-8697-3fcedd7f2f5c.woff",
+		"oF": 0
+		},
+	"/images/bg-welcome.jpg": {
 		"ft": 16384,
-		"iS": 323370,
+		"iS": 264563,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/bg-statis.jpg",
+		"oAP": "/images/bg-welcome.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -91,317 +151,111 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/images/button-arrow-blue.svg": {
+	"/images/icon/chevron-down-gray.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/images/button-arrow-blue.svg",
+		"oAP": "/images/icon/chevron-down-gray.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/images/button-arrow-orange.svg": {
+	"/images/icon/chevron-down-white.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/images/button-arrow-orange.svg",
+		"oAP": "/images/icon/chevron-down-white.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/images/button-arrow-white.svg": {
+	"/images/icon/facebook-white.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/images/button-arrow-white.svg",
+		"oAP": "/images/icon/facebook-white.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/images/calendar-orange.svg": {
+	"/images/icon/hexagon.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/images/calendar-orange.svg",
+		"oAP": "/images/icon/hexagon.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/images/clock-orange.svg": {
+	"/images/icon/linkedin-white.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/images/clock-orange.svg",
+		"oAP": "/images/icon/linkedin-white.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/images/dollar-orange.svg": {
+	"/images/icon/mail-blue.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/images/dollar-orange.svg",
+		"oAP": "/images/icon/mail-blue.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/images/download-blue.svg": {
+	"/images/icon/phone-blue.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/images/download-blue.svg",
+		"oAP": "/images/icon/phone-blue.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/images/download-orange.svg": {
+	"/images/icon/phone-white.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/images/download-orange.svg",
+		"oAP": "/images/icon/phone-white.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/images/facebook.svg": {
+	"/images/icon/search-blue.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/images/facebook.svg",
+		"oAP": "/images/icon/search-blue.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/images/home-blue.svg": {
+	"/images/icon/search-white.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/images/home-blue.svg",
+		"oAP": "/images/icon/search-white.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/images/instagram.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/instagram.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/line-1.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/line-1.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/line-2-blue.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/line-2-blue.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/line-2-orange.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/line-2-orange.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/line-3-blue.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/line-3-blue.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/line-3-orange.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/line-3-orange.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/line-3-white.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/line-3-white.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/line-4-white.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/line-4-white.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/line-5-orange.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/line-5-orange.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/line-6-blue.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/line-6-blue.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/linkedin.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/linkedin.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/lock-orange.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/lock-orange.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/logo-text.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/logo-text.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/photo-1.jpg": {
-		"ft": 16384,
-		"iS": 223230,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/photo-1.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/images/photo-2.jpg": {
-		"ft": 16384,
-		"iS": 273044,
-		"jF": 0,
-		"oA": 0,
-		"oAP": "/images/photo-2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/images/search-orange.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/search-orange.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/settings-orange.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/settings-orange.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/shape-1-orange.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/shape-1-orange.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/shape-1-white.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/images/shape-1-white.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 52780316221407,
-		"prP": 0
-		},
-	"/images/statis-inner-bg.png": {
+	"/images/logo-partner.png": {
 		"ft": 32768,
-		"iS": 44766,
+		"iS": 50254,
 		"oA": 0,
-		"oAP": "/images/statis-inner-bg.png",
+		"oAP": "/images/logo-partner.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -410,52 +264,224 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/images/sun-orange.svg": {
+	"/images/logo-userway.png": {
+		"ft": 32768,
+		"iS": 2715,
+		"oA": 0,
+		"oAP": "/images/logo-userway.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/logo.png": {
+		"ft": 32768,
+		"iS": 52524,
+		"oA": 0,
+		"oAP": "/images/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/pattern-welcome.png": {
+		"ft": 32768,
+		"iS": 40674,
+		"oA": 0,
+		"oAP": "/images/pattern-welcome.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/pattern.png": {
+		"ft": 32768,
+		"iS": 45969,
+		"oA": 0,
+		"oAP": "/images/pattern.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/photo-australian-consumer-law.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/images/sun-orange.svg",
+		"oAP": "/images/photo-australian-consumer-law.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/images/twitter.svg": {
+	"/images/photo-consumer-leases.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/images/twitter.svg",
+		"oAP": "/images/photo-consumer-leases.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/images/welcome-item-1.svg": {
+	"/images/photo-credit-cards.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/images/welcome-item-1.svg",
+		"oAP": "/images/photo-credit-cards.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/images/welcome-item-2.svg": {
+	"/images/photo-credit-files.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/images/welcome-item-2.svg",
+		"oAP": "/images/photo-credit-files.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/images/welcome-photo.jpg": {
+	"/images/photo-debt-collectors.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/photo-debt-collectors.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/photo-financial-councellors.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/photo-financial-councellors.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/photo-hardship-variation.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/photo-hardship-variation.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/photo-home-loans.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/photo-home-loans.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/photo-internet-banking.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/photo-internet-banking.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/photo-motor-vehicles.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/photo-motor-vehicles.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/photo-payday-loans.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/photo-payday-loans.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/photo-repossessions.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/photo-repossessions.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/photo-service-1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/photo-service-1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/photo-service-2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/photo-service-2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/photo-service-3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/photo-service-3.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/photo-service-4.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/photo-service-4.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/photo-testimonial.jpg": {
 		"ft": 16384,
-		"iS": 607273,
+		"iS": 94563,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/welcome-photo.jpg",
+		"oAP": "/images/photo-testimonial.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -463,11 +489,21 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/images/youtube.svg": {
+	"/images/shape-hexagon-gray.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "/images/youtube.svg",
+		"oAP": "/images/shape-hexagon-gray.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/images/shape-hexagon-white.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/images/shape-hexagon-white.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -524,38 +560,6 @@
 		"oF": 1,
 		"sC": 3,
 		"tS": 0
-		},
-	"/news.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/news.html",
-		"oF": 0
-		},
-	"/post-type.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/post-type.php",
-		"oF": 0
-		},
-	"/projects.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/projects.html",
-		"oF": 0
-		},
-	"/shortcodes.php": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/shortcodes.php",
-		"oF": 0
 		}
 	},
 "hooks": [
@@ -564,8 +568,8 @@
 	},
 "projectAttributes": {
 	"creationDate": 629871040.72536898,
-	"displayValue": "hedland",
-	"displayValueWasSetByUser": 0,
+	"displayValue": "cclswa",
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_magenta",
 	"iconImageWasSetByUser": 0
 	},

@@ -36,7 +36,7 @@ a, a:hover, a:focus {
     outline: none;
 }
 
-ul.menu, ul.menu ul {
+ul.menu, ul.menu ul, ul.socials {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -76,9 +76,15 @@ footer {
         }
     }
     p {
-        &:last-of-type,
         &:last-child {
             margin-bottom: 0;
+        }
+    }
+    ul.socials {
+        display: flex;
+        flex-wrap: wrap;
+        li {
+            margin: 0 15px 0 0;
         }
     }
 }
@@ -108,8 +114,11 @@ footer {
         a.logo {
             margin-bottom: 20px;
         }
-        p {
-            margin-bottom: 0;
+        ul.socials {
+            justify-content: center;
+            li {
+                margin: 0 8px;
+            }
         }
     }
 }
