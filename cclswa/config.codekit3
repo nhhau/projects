@@ -251,6 +251,19 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/images/logo-footer.png": {
+		"ft": 32768,
+		"iS": 52745,
+		"oA": 0,
+		"oAP": "/images/logo-footer.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/logo-partner.png": {
 		"ft": 32768,
 		"iS": 50254,
@@ -290,14 +303,27 @@
 		"q": 100,
 		"rq": 75
 		},
-	"/images/pattern-welcome.png": {
+	"/images/pattern-welcome-gray.png": {
+		"ft": 32768,
+		"iS": 45880,
+		"oA": 0,
+		"oAP": "/images/pattern-welcome-gray.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/pattern-welcome-white.png": {
 		"ft": 32768,
 		"iS": 40674,
 		"oA": 0,
-		"oAP": "/images/pattern-welcome.png",
+		"oAP": "/images/pattern-welcome-white.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"ou": "lpckwebp-none",
 		"q": 100,
@@ -560,6 +586,14 @@
 		"oF": 1,
 		"sC": 3,
 		"tS": 0
+		},
+	"/page.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/page.html",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -568,7 +602,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 629871040.72536898,
-	"displayValue": "cclswa",
+	"displayValue": "Cclswa",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_magenta",
 	"iconImageWasSetByUser": 0

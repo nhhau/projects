@@ -18,6 +18,27 @@
 
         site_init();
 
+        function sidebar_init() {
+            var set_width = function() {
+                var window_width = $(window).width(),
+                    container_width = $('.content-sidebar > div.container').outerWidth(),
+                    sidebar_width = $('.content-sidebar > div.sidebar').outerWidth(),
+                    margin = sidebar_width - ((window_width - container_width) / 2) + 60;
+
+                $('.content-sidebar > div.container').css({
+                    paddingRight: margin + 'px'
+                });
+            }
+
+            set_width();
+
+            $(window).resize( function() {
+                set_width();
+            });
+        }
+
+        sidebar_init();
+
         function slick_slider() {
             $('#welcome .slideshow').slick({
                 autoplay: true,

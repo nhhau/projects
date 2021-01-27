@@ -1001,33 +1001,60 @@ div.gform_wrapper {
 /** compare-box **/
 .compare-box {
     position: relative;
-    &:before {
-        content: '';
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 50%;
-        width: 10px;
-        margin-left: -5px;
-        background-image: url(../images/line-2-orange.svg);
-        background-repeat: no-repeat;
-        background-position: top center;
-        background-size: cover;
-        z-index: 3;
-    }
     div.row {
         margin: 0;
         > div {
             color: #fff;
         }
-        > div:nth-child(1) {
+        > div:first-child {
             border-radius: 15px 0 0 15px;
-            background-color: $color_orange;
         }
-        > div:nth-child(2) {
+        > div:last-child {
             border-radius: 0 15px 15px 0;
+        }
+        > div:nth-child(even) {
             background-color: $color_blue;
         }
+        > div:nth-child(odd) {
+            background-color: $color_orange;
+        }
+        > div:nth-child(2),
+        > div:nth-child(3) {
+            &:before {
+                content: '';
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                width: 10px;
+                margin-left: -5px;
+                background-image: url(../images/line-2-orange.svg);
+                background-repeat: no-repeat;
+                background-position: top center;
+                background-size: cover;
+                z-index: 3;
+            }
+        }
+        > div:nth-child(3):before {
+            transform: rotate(180deg);
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    #resources div.compare-box div.row > div {
+        width: 50%;
+    }
+    
+    #resources div.compare-box div.row > div:nth-child(2) {
+        border-radius: 0 15px 15px 0;
+    }
+
+    #resources div.compare-box div.row > div:nth-child(3) {
+        width: 100%;
+        margin-top: 20px;
+        border-radius: 15px;
     }
 }
 /** END compare-box **/
@@ -1041,7 +1068,7 @@ ul.files {
             background-color: #fff;
             padding: 12px 42px 12px 20px;
             border-radius: 8px;
-            font-size: 18px;
+            font-size: 17px;
             font-weight: 700;
             transition: all .25s;
             -webkit-transition: all .25s;
