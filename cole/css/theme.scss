@@ -83,7 +83,7 @@ ul.menu ul {
 
 ul.secondary {
     li {
-        margin-left: 32px;
+        margin-left: 25px;
         &:first-child {
             margin-left: 0;
         }
@@ -219,7 +219,7 @@ ul.secondary {
     }
 
     ul.secondary li a {
-        font-size: 14px;
+        font-size: 12px;
         line-height: 16px;
     }
 
@@ -747,7 +747,7 @@ div.gform_wrapper {
             }
         }
     }
-    .col-lg-6.order-lg-first {
+    .col-lg-4 {
         padding-top: 21px;
         padding-bottom: 21px;
     }

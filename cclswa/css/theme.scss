@@ -434,6 +434,12 @@ div.gform_wrapper {
     .topbar {
         background-color: rgba($color: #007AC9, $alpha: 0.75);
         color: #fff;
+		span.sitename {
+			display: inline-block;
+			padding-top: 22px;
+			padding-left: 45px;
+			font-size: 18px;
+		}
         ul.menu {
             li {
                 color: #fff;
@@ -469,6 +475,11 @@ div.gform_wrapper {
                         width: 70px;
                         justify-content: center;
                     }
+                }
+                &.sitename {
+                    padding-top: 22px;
+                    padding-left: 45px;
+                    font-size: 18px;
                 }
             }
         }
@@ -859,7 +870,7 @@ div.gform_wrapper {
     }
     .intro {
         background-color: #2D7F84;
-        padding: 65px 0;
+        padding: 30px 0;
         font-size: 18px;
         color: #fff;
         .container {
@@ -1256,6 +1267,35 @@ ul.feature-list {
             font-size: 18px;
             color: #fff;
         }
+        button.close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 20px;
+            height: 20px;
+            padding: 0;
+            background: transparent;
+            text-shadow: none;
+            outline: none;
+            opacity: 1;
+            z-index: 10;
+            &:before,
+            &:after {
+                content: '';
+                width: 100%;
+                height: 2px;
+                position: absolute;
+                top: 50%;
+                left: 0;
+                background-color: #fff;
+            }
+            &:before {
+                transform: rotate(45deg);
+            }
+            &:after {
+                transform: rotate(-45deg);
+            }
+        }
     }
 }
 
@@ -1272,7 +1312,7 @@ ul.feature-list {
         padding: 0 8px;
     }
 
-    ul.feature-list > li:hover {
+    ul.feature-list > li.active {
         .content {
             opacity: 1;
             visibility: visible;
@@ -1331,10 +1371,6 @@ ul.feature-list {
         display: none;
     }
 
-    ul.feature-list .content.show {
-        display: block;
-    }
-
     ul.feature-list .content .text {
         padding: 20px;
     }
@@ -1342,6 +1378,12 @@ ul.feature-list {
     ul.feature-list .content .photo {
         height: auto;
         min-height: 200px;
+    }
+
+    ul.feature-list > li.active {
+        .content {
+            display: block;
+        }
     }
 }
 /** END feature-list **/
@@ -1776,8 +1818,55 @@ ul.feature-list {
         }
         .container {
             position: relative;
-            padding-top: 80px;
+            padding-top: 140px;
             z-index: 10;
+        }
+    }
+    button.toggle-video {
+        position: absolute;
+        right: 30px;
+        bottom: 30px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        background: transparent;
+        padding: 0;
+        outline: none;
+        z-index: 20;
+        &:not(.paused) {
+            &:before,
+            &:after {
+                content: '';
+                width: 4px;
+                height: 14px;
+                position: absolute;
+                background-color: #fff;
+                position: absolute;
+                top: 50%;
+                margin-top: -7px;
+                border-radius: 20px;
+            }
+            &:before {
+                left: 12px;
+            }
+            &:after {
+                right: 12px;
+            }
+        }
+        &.paused {
+            &:before {
+                content: '';
+                width: 0;
+                height: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                border-top: 8px solid transparent;
+                border-bottom: 8px solid transparent;
+                border-left: 10px solid #fff;
+                margin: -8px 0 0 -4px;
+            }
         }
     }
 }

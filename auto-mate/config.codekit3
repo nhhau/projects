@@ -4,22 +4,22 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "C7608185-0EB0-46A5-A5B8-16C64B17A7A9"
+		"uuidString": "3AC2BF53-2CF2-4DE1-A56A-23EDE88CEF6D"
 		}
 	],
 "creatorBuild": "33081",
 "files": {
-	"/css/style.css": {
+	"/css/theme.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/style-min.css",
+		"oAP": "/css/theme-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"/css/style.scss": {
+	"/css/theme.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -27,8 +27,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/style.css",
-		"oF": 0,
+		"oAP": "/css/theme.css",
+		"oF": 3,
 		"oS": 3,
 		"sct": 1
 		}
@@ -38,10 +38,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 626857978.44673502,
-	"displayValue": "artemis",
+	"creationDate": 623640922.57568097,
+	"displayValue": "auto-mate",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets-rose",
+	"iconImageName": "brackets-silver",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {

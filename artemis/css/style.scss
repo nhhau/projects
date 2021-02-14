@@ -2259,3 +2259,26 @@ body.search {
   }
 }
 /** END SEARCH **/
+
+/** EXTRA **/
+ul.file-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  > li {
+    > a {
+      display: block;
+      padding: 12px 24px;
+      text-decoration: none;
+      span.asx-date {
+        color: #404040;
+      }
+    }
+    &:nth-child(odd) {
+      > a {
+        background-color: #f5f5f5;
+      }
+    }
+  }
+}
+/** END EXTRA **/

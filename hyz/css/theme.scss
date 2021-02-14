@@ -3011,7 +3011,7 @@ div.fl-bg-video iframe {
 
 /** me-header **/
 body.page-template-page_media #page-title .background .shape {
-    border-bottom-color: #2B2B2B;
+    border-bottom-color: transparent;
 }
 
 #me-header {
@@ -3021,7 +3021,10 @@ body.page-template-page_media #page-title .background .shape {
     z-index: 100;
     .container {
         position: relative;
-        padding-top: 80px;
+        padding-top: 60px;
+        &.has-links {
+            min-height: 150px;
+        }
     }
     ul.menu {
         li {
@@ -3212,7 +3215,6 @@ body.page-template-page_media #page-title .background .shape {
     }
 }
 /** END fancy line **/
-
 
 /** EXTRA **/
 body.page-id-231 #page-title .background .shape {
@@ -3562,6 +3564,56 @@ body.error404 {
 }
 /** END FAQ TEMPLATE **/
 
+/** PAGE INTRO **/
+#page-intro {
+    background-color: #000;
+    padding: 20px 0 40px;
+    color: #fff;
+    .container {
+        max-width: 860px;
+    }
+    ul.menu {
+        margin: 0 -10px;
+        li {
+            width: 100%;
+            padding: 10px;
+            a {
+                display: block;
+                &:hover {
+                    background-color: #2b2b2b;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    #page-intro ul.menu li {
+        width: 50%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #page-intro {
+        padding-top: 60px;
+    }
+}
+
+@media (max-width: 575px) {
+    #page-intro ul.menu {
+        margin: 0 -5px;
+    }
+
+    #page-intro ul.menu li {
+        padding: 5px;
+    }
+
+    #page-intro ul.menu li a {
+        font-size: 14px;
+    }
+}
+/** END PAGE INTRO **/
+
 /* MEDIA PAGE */
 p.post-date {
 	margin-bottom: 20px !important;
@@ -3579,3 +3631,5 @@ div.post-date {
 	font-weight: 500;
 	text-transform: uppercase;
 }
+
+body.page-id-229 

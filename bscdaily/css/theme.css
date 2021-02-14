@@ -1,0 +1,328 @@
+/** FILTER PROJECTS **/
+#filter-projects {
+  margin-bottom: 20px;
+}
+#filter-projects ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+#filter-projects ul li {
+  color: #fcb11e;
+  margin: 0 9px 9px 0;
+  border: 1px solid #fcb11e;
+  border-radius: 50px;
+  padding: 7px 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+}
+#filter-projects ul li:hover, #filter-projects ul li.active {
+  background-color: #fcb11e;
+  color: #fff;
+}
+#filter-projects form {
+  position: relative;
+  width: 100%;
+}
+#filter-projects form input[type=text] {
+  border-radius: 8px;
+}
+#filter-projects form button {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  font-size: 16px;
+  color: #fcb11e;
+  outline: none;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+}
+
+@media (min-width: 768px) {
+  #filter-projects form {
+    width: 180px;
+  }
+}
+@media (max-width: 767px) {
+  #filter-projects ul li {
+    margin-bottom: 10px;
+  }
+}
+/** END FILTER PROJECTS **/
+/** LIST PROJECTS **/
+#list-projects.loading {
+  opacity: 0.7;
+  cursor: wait;
+}
+
+.project-item {
+  margin-bottom: 20px;
+}
+.project-item div.inner {
+  position: relative;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.08);
+  padding: 10px 10px 10px 107px;
+}
+.project-item img {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+}
+.project-item p {
+  margin: 0 0 10px;
+}
+.project-item p:last-child {
+  margin-bottom: 0;
+}
+.project-item p.title {
+  font-size: 16px;
+  font-weight: 700;
+}
+.project-item ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.project-item ul li {
+  margin-right: 10px;
+}
+.project-item ul:not(:last-child) {
+  margin-bottom: 10px;
+}
+.project-item ul.socials li a {
+  display: inline-block;
+  background-color: #f6f6f6;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  line-height: 26px;
+  text-align: center;
+}
+.project-item ul.meta li {
+  font-size: 12px;
+}
+
+@media (min-width: 576px) {
+  #list-projects {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  .project-item {
+    width: 50%;
+    padding: 0 10px;
+  }
+}
+@media (min-width: 992px) {
+  .project-item {
+    width: 33.33%;
+  }
+}
+@media (max-width: 575px) {
+  .project-item img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .project-item div.inner {
+    padding-left: 90px;
+  }
+}
+/** END LIST PROJECTS **/
+/** PROJECT CONTENT **/
+body.elementor-page-152 .jeg_content,
+body.single-project .jeg_content {
+  padding-top: 50px;
+  background-color: #F6F6F6;
+}
+
+#project-header,
+#project-content .block {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.08);
+  padding: 20px 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#project-header {
+  padding-bottom: 0;
+}
+#project-header .brand {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 10px;
+}
+#project-header .brand img {
+  display: inline-block;
+  width: 40px;
+  height: auto;
+  margin-right: 15px;
+}
+#project-header .brand p {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 700;
+}
+#project-header ul.socials {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 10px;
+}
+#project-header ul.socials li {
+  margin-right: 15px;
+}
+#project-header ul.tab-nav li a {
+  display: block;
+  padding: 10px 0;
+  border-bottom: 2px solid transparent;
+  font-size: 16px;
+  font-weight: 700;
+}
+#project-header ul.tab-nav li a.active {
+  border-bottom-color: #fcb11e;
+}
+
+#project-content .tab-content {
+  display: none;
+}
+#project-content .tab-content.active {
+  display: block;
+}
+#project-content .block .heading {
+  position: relative;
+  margin: 0 0 20px;
+  font-weight: 700;
+}
+#project-content .block .heading:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background-color: #fcb11e;
+}
+#project-content .block .heading span {
+  position: relative;
+  background-color: #fff;
+  padding-right: 20px;
+}
+#project-content .block.research-block h3 {
+  font-weight: 700;
+  margin: 0 0 5px;
+}
+#project-content .block.research-block p.category {
+  position: relative;
+  margin: 0 0 15px;
+  font-size: 12px;
+  font-weight: 700;
+}
+#project-content .block.research-block p.category:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background-color: #F6F6F6;
+}
+#project-content .block.research-block p.category span {
+  position: relative;
+  background-color: #F6F6F6;
+  padding: 5px 15px;
+  border-radius: 6px;
+}
+#project-content .block.research-block ul.meta {
+  margin: 0 0 20px;
+}
+#project-content .block.research-block ul.meta li {
+  font-size: 12px;
+}
+#project-content .block.research-block button.more {
+  border: 0;
+  width: 100%;
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  cursor: pointer;
+}
+#project-content .block.research-block .inner:not(.show) {
+  position: relative;
+  height: 320px;
+  overflow: hidden;
+}
+#project-content .block.research-block .inner:not(.show):after {
+  content: "";
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 95%);
+  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 0%, white 95%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 95%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#00ffffff", endColorstr="#ffffff",GradientType=0 );
+}
+#project-content .sidebar ul.menu li {
+  padding: 6px 0;
+  border-bottom: 1px solid #F6F6F6;
+}
+#project-content .sidebar ul.menu li:last-child {
+  border-bottom: 0;
+}
+
+@media (min-width: 576px) {
+  #project-header ul.tab-nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+  }
+
+  #project-header ul.tab-nav li {
+    flex: 1;
+  }
+
+  #project-header ul.tab-nav li a {
+    text-align: center;
+  }
+}
+@media (min-width: 992px) {
+  #project-content .sidebar-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #project-content .sidebar-content .sidebar {
+    width: 33.33%;
+    padding-right: 20px;
+  }
+  #project-content .sidebar-content .content {
+    width: 66.66%;
+  }
+}
+@media (max-width: 767px) {
+  #project-header ul.tab-nav li a {
+    font-size: 14px;
+  }
+}
+/** END PROJECT CONTENT **/
+/** COINGECKO WIDGET **/
+div.cg-container {
+  border-color: transparent !important;
+}
+
+/** END COINGECKO WIDGET **/

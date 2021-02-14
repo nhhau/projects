@@ -75,6 +75,22 @@
 		"oS": 2,
 		"sct": 0
 		},
+	"/enrolment-approved.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/enrolment-approved.php",
+		"oF": 0
+		},
+	"/enrolment-confirmation.php": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/enrolment-confirmation.php",
+		"oF": 0
+		},
 	"/images/bg-megamenu.png": {
 		"ft": 32768,
 		"iS": 67303,

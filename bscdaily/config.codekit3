@@ -9,17 +9,17 @@
 	],
 "creatorBuild": "33081",
 "files": {
-	"/css/style.css": {
+	"/css/theme.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/style-min.css",
+		"oAP": "/css/theme-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"/css/style.scss": {
+	"/css/theme.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -27,10 +27,10 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/style.css",
+		"oAP": "/css/theme.css",
 		"oF": 0,
-		"oS": 3,
-		"sct": 1
+		"oS": 0,
+		"sct": 0
 		}
 	},
 "hooks": [
@@ -39,8 +39,8 @@
 	},
 "projectAttributes": {
 	"creationDate": 626857978.44673502,
-	"displayValue": "artemis",
-	"displayValueWasSetByUser": 0,
+	"displayValue": "bscdaily",
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets-rose",
 	"iconImageWasSetByUser": 0
 	},

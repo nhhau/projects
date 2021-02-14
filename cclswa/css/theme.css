@@ -352,6 +352,11 @@ div.gform_wrapper {
   #site-header .topbar {
     background-color: rgba(0, 122, 201, 0.75);
     color: #fff; }
+    #site-header .topbar span.sitename {
+      display: inline-block;
+      padding-top: 22px;
+      padding-left: 45px;
+      font-size: 18px; }
     #site-header .topbar ul.menu li {
       color: #fff; }
       #site-header .topbar ul.menu li a {
@@ -378,6 +383,10 @@ div.gform_wrapper {
         #site-header .topbar ul.menu li.social a {
           width: 70px;
           justify-content: center; }
+      #site-header .topbar ul.menu li.sitename {
+        padding-top: 22px;
+        padding-left: 45px;
+        font-size: 18px; }
     #site-header .topbar .search {
       margin-right: 30px; }
       #site-header .topbar .search form {
@@ -652,7 +661,7 @@ div.gform_wrapper {
     background-position: top left; }
   #site-footer .intro {
     background-color: #2D7F84;
-    padding: 65px 0;
+    padding: 30px 0;
     font-size: 18px;
     color: #fff; }
     #site-footer .intro .container {
@@ -943,6 +952,30 @@ ul.feature-list {
       padding: 40px 40px;
       font-size: 18px;
       color: #fff; }
+    ul.feature-list .content button.close {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      width: 20px;
+      height: 20px;
+      padding: 0;
+      background: transparent;
+      text-shadow: none;
+      outline: none;
+      opacity: 1;
+      z-index: 10; }
+      ul.feature-list .content button.close:before, ul.feature-list .content button.close:after {
+        content: '';
+        width: 100%;
+        height: 2px;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        background-color: #fff; }
+      ul.feature-list .content button.close:before {
+        transform: rotate(45deg); }
+      ul.feature-list .content button.close:after {
+        transform: rotate(-45deg); }
 
 @media (min-width: 768px) {
   ul.feature-list {
@@ -953,10 +986,10 @@ ul.feature-list {
   ul.feature-list > li {
     width: 50%;
     padding: 0 8px; }
-  ul.feature-list > li:hover .content {
+  ul.feature-list > li.active .content {
     opacity: 1;
     visibility: visible; }
-    ul.feature-list > li:hover .content:before {
+    ul.feature-list > li.active .content:before {
       width: 100%;
       height: 100%; }
   ul.feature-list .content {
@@ -995,13 +1028,13 @@ ul.feature-list {
   ul.feature-list .content {
     background-color: #73347F;
     display: none; }
-  ul.feature-list .content.show {
-    display: block; }
   ul.feature-list .content .text {
     padding: 20px; }
   ul.feature-list .content .photo {
     height: auto;
-    min-height: 200px; } }
+    min-height: 200px; }
+  ul.feature-list > li.active .content {
+    display: block; } }
 
 /** END feature-list **/
 /** slick-slider **/
@@ -1333,8 +1366,45 @@ ul.feature-list {
       z-index: 5; }
     #welcome .heading .container {
       position: relative;
-      padding-top: 80px;
+      padding-top: 140px;
       z-index: 10; }
+  #welcome button.toggle-video {
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background: transparent;
+    padding: 0;
+    outline: none;
+    z-index: 20; }
+    #welcome button.toggle-video:not(.paused):before, #welcome button.toggle-video:not(.paused):after {
+      content: '';
+      width: 4px;
+      height: 14px;
+      position: absolute;
+      background-color: #fff;
+      position: absolute;
+      top: 50%;
+      margin-top: -7px;
+      border-radius: 20px; }
+    #welcome button.toggle-video:not(.paused):before {
+      left: 12px; }
+    #welcome button.toggle-video:not(.paused):after {
+      right: 12px; }
+    #welcome button.toggle-video.paused:before {
+      content: '';
+      width: 0;
+      height: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      border-top: 8px solid transparent;
+      border-bottom: 8px solid transparent;
+      border-left: 10px solid #fff;
+      margin: -8px 0 0 -4px; }
 
 @media (max-width: 767px) {
   #welcome:before {

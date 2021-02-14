@@ -474,7 +474,7 @@ nav.pagination {
 /** END pagination **/
 /** WELCOME SECTION **/
 #welcome {
-  height: 550px; }
+  height: 450px; }
   #welcome .slideshow,
   #welcome .slideshow .slick-list,
   #welcome .slideshow .slick-track,

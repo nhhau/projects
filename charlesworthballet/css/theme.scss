@@ -2030,6 +2030,9 @@ body.single-people {
             .btn-link {
                 font-size: inherit;
             }
+            .btn.disabled {
+                pointer-events: none;
+            }
             a.remove {
                 color: #183c47;
             }
