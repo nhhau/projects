@@ -1060,6 +1060,10 @@ div.gform_wrapper.gf-normal_wrapper {
         background-color: #183C47;
         padding: 40px 0 80px;
         color: #fff;
+        a {
+            transition: all .25s;
+            -webkit-transition: all .25s;
+        }
         .contact {
             margin-bottom: 25px;
             ul.menu {
@@ -1069,6 +1073,12 @@ div.gform_wrapper.gf-normal_wrapper {
                     strong {
                         color: #069FAF;
                     }
+                    a {
+                        color: #fff;
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
                 }
             }
             ul.socials {
@@ -1076,7 +1086,12 @@ div.gform_wrapper.gf-normal_wrapper {
                     display: inline-block;
                     margin-right: 10px;
                     a {
+                        display: inline-block;
                         font-size: 32px;
+                        color: #069faf;
+                        &:hover {
+                            transform: scale(1.1);
+                        }
                     }
                 }
             }
@@ -1085,8 +1100,6 @@ div.gform_wrapper.gf-normal_wrapper {
             li {
                 a {
                     color: #fff;
-                    transition: opacity .25s;
-                    -webkit-transition: opacity .25s;
                     &:hover {
                         opacity: 0.7;
                     }
