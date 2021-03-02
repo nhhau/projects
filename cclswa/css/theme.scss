@@ -438,7 +438,7 @@ div.gform_wrapper {
 			display: inline-block;
 			padding-top: 22px;
 			padding-left: 45px;
-			font-size: 18px;
+			font-size: 22px;
 		}
         ul.menu {
             li {
@@ -479,7 +479,7 @@ div.gform_wrapper {
                 &.sitename {
                     padding-top: 22px;
                     padding-left: 45px;
-                    font-size: 18px;
+                    font-size: 22px;
                 }
             }
         }
@@ -1014,6 +1014,7 @@ div.gform_wrapper {
     text-align: center;
     z-index: 100;
     .inner {
+        position: relative;
         height: 100%;
         background-color: #F7F7F7;
         padding: 40px 20px 90px;
@@ -1070,7 +1071,16 @@ div.gform_wrapper {
             -webkit-transition: all .2s ease;
         }
     }
-    a.more {
+    a.link {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        outline: none;
+        z-index: 10;
+    }
+    span.more {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -1091,16 +1101,8 @@ div.gform_wrapper {
                 stroke: #003F72;
             }
         }
-        &:hover {
-            background-color: #193F6E;
-            svg path {
-                stroke: #ffffff;
-            }
-        }
     }
     &:hover {
-        .inner {
-        }
         .title:before {
             height: 3px;
             left: -30px;
@@ -1120,45 +1122,49 @@ div.gform_wrapper {
                 visibility: visible;
             }
         }
-    }
-    &.color-1 {
+        span.more {
+            background-color: #193F6E;
+            svg path {
+                stroke: #ffffff;
+            }
+        }
     }
     &.color-2 {
         .title:before,
-        a.more:hover {
+        &:hover span.more {
             background-color: #84479A;
         }
-        a.more {
+        span.more {
             border-color: #84479A;
         }
         &:hover .title span,
-        a.more svg path {
+        span.more svg path {
             color: #84479A;
         }
     }
     &.color-3 {
         .title:before,
-        a.more:hover {
+        &:hover span.more {
             background-color: #3B9FA5;
         }
-        a.more {
+        span.more {
             border-color: #3B9FA5;
         }
         &:hover .title span,
-        a.more svg path {
+        span.more svg path {
             color: #3B9FA5;
         }
     }
     &.color-4 {
         .title:before,
-        a.more:hover {
+        &:hover span.more {
             background-color: #007AC9;
         }
-        a.more {
+        span.more {
             border-color: #007AC9;
         }
         &:hover .title span,
-        a.more svg path {
+        span.more svg path {
             color: #007AC9;
         }
     }
@@ -1229,6 +1235,7 @@ ul.feature-list {
         border-radius: 5px;
         font-size: 18px;
         line-height: 20px;
+        cursor: pointer;
         img {
             position: absolute;
             top: 50%;

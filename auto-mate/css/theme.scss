@@ -43,7 +43,7 @@ body {
 }
 
 i, em {
-    font-family:"Univers LT W01_55 Obliq1475962";
+    //font-family:"Univers LT W01_55 Obliq1475962";
 }
 
 b, strong {
@@ -230,6 +230,8 @@ div.gform_wrapper {
         img.logo-main {
             width: auto;
             height: 100px;
+            transition: all .25s;
+            -webkit-transition: all .25s;
         }
     }
     .responsive-menu-toggle {
@@ -256,6 +258,23 @@ div.gform_wrapper {
             }
         }
     }
+}
+
+.is-sticky #site-header {
+    background-color: #000000;
+    .inner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #logo img.logo-main {
+        height: 70px;
+    }
+}
+
+.is-sticky #site-menu ul.menu > li:nth-last-child(1) > a,
+.is-sticky #site-menu ul.menu > li:nth-last-child(2) > a,
+.is-sticky #site-menu ul.menu > li:nth-last-child(3) > a {
+    color: #fff;
 }
 
 @media (min-width: 992px) {
@@ -1110,7 +1129,7 @@ body.single-post {
 }
 
 .bg-gray {
-	background: #AAAAAA;
+	background: #EFEFEF;
     color: #fff;
 }
 
@@ -1120,7 +1139,7 @@ body.single-post {
 }
 
 .bg-gray p {
-	color: #fff;
+	color: #000;
 }
 
 .bg-black {
@@ -1168,3 +1187,20 @@ body.single-post {
     }
 }
 /** END EXTRA **/
+
+.bg-darker-gray {
+	background-color: #AAA;
+}
+
+div#Content h3 {
+	font-size: 26px;
+    line-height: 120%;
+}
+
+div.board-of-directors {
+	padding: 150px 0;
+	h4 {
+		color: #FC8108;
+		margin-top: 30px;
+	}
+}
