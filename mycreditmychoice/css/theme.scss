@@ -3372,9 +3372,6 @@ Home Page
             min-height: 220px;
         }
 
-
-
-
         p {
             font-size: 1.1979166666666667vw;
             line-height: 1.5625vw;
@@ -3397,10 +3394,7 @@ Home Page
                 line-height: 22px;
                 min-height: 110px;
                 padding: 30px 5px 5px;
-
-
             }
-
 
             &::before,
             &::after {
@@ -3479,34 +3473,20 @@ Home Page
             }
         }
 
-        &:nth-child(5n+5) {
-            margin-right: 0;
-        }
-        &:nth-child(7){
-            @include mdMinMax(){
-                background-color: #ffffff !important;
-
-            }
-        }
-        &:nth-child(8){
-            @include mdMinMax(){
-                background-color: #F7F7F7 !important;
-            }
-
-        }
-        &:nth-child(6) {
+        &.highlight {
             width: 60%;
+            position: relative;
+        }
+
+        &.expression-item-6 {
             padding: 4.9% 10px 10px 3.1898%;
             background-color: $mine-shaft;
             color: $white;
-            position: relative;
-
             @include mdMax(){
                 padding: 2.5% 2.9% 10px 3.1898%;
             }
             @include mdMinMax(){
                 padding: 0% 2% 10px 2%;
-                width: 66.666666%;
                 @include flexbox(center, center);
                 order: 7;
             }
@@ -3516,43 +3496,6 @@ Home Page
                 padding: 4.9% 0 10px 3.1898%;
 
             }
-
-
-
-            &.bg-yellow {
-                background-color: #FFD912;
-                color: #353535;
-                padding: 4.6% 5% 10px 4.9%;
-
-                @include mdMax(){
-                    padding: 4.6% 5% 10px 4.9%;
-                }
-
-                @include mdMinMax(){
-                    padding: 0.6% 5% 10px 4.9%;
-
-                }
-
-                @include smMax(){
-                    padding: 9.9% 24px 25px 6%;
-                    align-items: unset;
-
-
-                }
-
-                .lead{
-                    @include mdMax(){
-                        font-size: 20px;
-                        line-height: 30px;
-                    }
-                    @include smMax(){
-                        padding: 0;
-
-                    }
-
-                }
-            }
-
             &::before {
                 content: '';
                 position: absolute;
@@ -3570,7 +3513,124 @@ Home Page
             }
         }
 
-        &:nth-child(odd) {
+        &.expression-item-15,
+        &.expression-item-20 {
+            background-color: $claret-aprox !important;
+            padding: 84px 7% 26px 5.5%;
+
+            @include mdMax(){
+                background-color: #77152B;
+                padding: 40px 7% 18px 4.5%;
+                position: relative;
+            }
+            @include mdMinMax(){
+                background-color: #77152B;
+                padding: 17px 7% 18px 4.5%;
+                position: relative;
+            }
+            @include smMax(){
+                width: 100%;
+                background-color: #77152B !important;
+                padding: 30px 4% 26px 4.5%;
+                position: relative;
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                right: -10000px;
+                left: 100%;
+                background-color: $claret-aprox;
+                height: 100%;
+                @include mdMinMax(){
+                    display: none;
+                }
+            }
+
+            p {
+                font-size: $fz-45;
+                line-height: $lh-60;
+                color: $white;
+
+                @include mdMax(){
+                    font-size: $fz-20;
+                    line-height: $lh-30;
+                }
+                @include mdMinMax(){
+                    font-size: $fz-18;
+                    line-height: $lh-26;
+                }
+                @include smMax(){
+                    font-size: 22px;
+                    line-height: 28px;
+                    color: #ffffff;
+                    padding: 0 0 15px 0;
+                }
+
+                &::after,
+                &::before {
+                    display: none;
+                }
+
+                @include lgMdFull() {
+                    font-size: 42px;
+                }
+
+                @include deskMin() {
+                    font-size: 30px;
+                    line-height: 40px;
+                }
+            }
+
+            a {
+                color: $candlelight;
+            }
+
+            @include lgMdFull() {
+                padding-top: 25px;
+            }
+
+            @include deskMin() {
+                padding-top: 50px;
+            }
+        }
+
+        &.bg-yellow {
+            background-color: #FFD912;
+            color: #353535;
+            padding: 4.6% 5% 10px 4.9%;
+
+            @include mdMax(){
+                padding: 4.6% 5% 10px 4.9%;
+            }
+
+            @include mdMinMax(){
+                padding: 0.6% 5% 10px 4.9%;
+
+            }
+
+            @include smMax(){
+                padding: 9.9% 24px 25px 6%;
+                align-items: unset;
+
+
+            }
+
+            .lead {
+                @include mdMax(){
+                    font-size: 20px;
+                    line-height: 30px;
+                }
+                @include smMax(){
+                    padding: 0;
+
+                }
+
+            }
+        }
+
+        &.odd {
             background-color: $alabaster;
         }
 
@@ -3804,135 +3864,11 @@ Home Page
 
 }
 
-.expression-item-wrap:nth-child(even) {
+.expression-item-wrap {
     .expression-item {
-        &:nth-child(6) {
-            width: 20%;
-            background-color: transparent;
-            color: $black;
-            @include mdMinMax(){
-                width: 33.333%;
-                padding: 0 30px;
-
-            }
-            @include smMax(){
-                width: 50%;
-                padding: 5px;
-
-            }
-
-            &::before {
-                display: none;
-            }
-        }
-
-        &:nth-child(8) {
-            width: 60%;
-            background-color: $claret-aprox !important;
-            padding: 84px 7% 26px 5.5%;
-            position: relative;
-
-            @include mdMax(){
-                width: 60%;
-                background-color: #77152B;
-                padding: 40px 7% 18px 4.5%;
-                position: relative;
-            }
-            @include mdMinMax(){
-                width: 66.666%;
-                background-color: #77152B;
-                padding: 17px 7% 18px 4.5%;
-                position: relative;
-            }
-            @include smMax(){
-                width: 100%;
-                background-color: #77152B !important;
-                padding: 30px 4% 26px 4.5%;
-                position: relative;
-            }
-
-            &::after {
-                content: '';
-                position: absolute;
-                top: 0;
-                right: -10000px;
-                left: 100%;
-                background-color: $claret-aprox;
-                height: 100%;
-                @include mdMinMax(){
-                    display: none;
-                }
-            }
-
-            p {
-                font-size: $fz-45;
-                line-height: $lh-60;
-                color: $white;
-
-                @include mdMax(){
-                    font-size: $fz-20;
-                    line-height: $lh-30;
-                }
-                @include mdMinMax(){
-                    font-size: $fz-18;
-                    line-height: $lh-26;
-                }
-                @include smMax(){
-                    font-size: 22px;
-                    line-height: 28px;
-                    color: #ffffff;
-                    padding: 0 0 15px 0;
-                }
-
-                &::after,
-                &::before {
-                    display: none;
-                }
-
-                @include lgMdFull() {
-                    font-size: 42px;
-                }
-
-                @include deskMin() {
-                    font-size: 30px;
-                    line-height: 40px;
-                }
-            }
-
-            a {
-                color: $candlelight;
-            }
-
-            @include lgMdFull() {
-                padding-top: 25px;
-            }
-
-            @include deskMin() {
-                padding-top: 50px;
-            }
-        }
+        
     }
 }
-
-.expression-large-item-wrap {
-    float: left;
-    width: 100%;
-    padding-right: 62px;
-    @include flexbox(unset, center);
-
-    .expression-item {
-        float: left;
-        width: 14.20882669537137%;
-        margin-right: 6.243272335845004%;
-        margin-top: 100px;
-
-    }
-}
-
-// .expression-main-item-wrap:nth-child(even){
-
-// }
-
 
 .cashies-customer-wrap {
     float: left;
@@ -6590,3 +6526,154 @@ section.loan-descrip-wrap {
     }
 }
 /** END FEEDBACK SECTION **/
+
+/** real impact grid **/
+.ri-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ri-item {
+    width: 100%;
+    p {
+        &.ri-item__text {
+            position: relative;
+            margin-bottom: 40px;
+            font-family: "UbuntuB", sans-serif;
+            &:before,
+            &:after {
+                position: absolute;
+                content: "“";
+                top: -30px;
+                left: -30px;
+                color: #FFD912;
+                font-size: 45px;
+                line-height: 75px;
+                font-family: "RockSalt", sans-serif;
+            }
+        }
+        &.ri-item__name {
+            font-family: "RockSalt", sans-serif;
+            color: #921934;
+        }
+    }
+    a.ri-item__link {
+        font-family: "RockSalt", sans-serif;
+        color: #921934;
+    }
+    &__inner {
+        padding: 60px 40px;
+    }
+    &--gray {
+        background-color: #F7F7F7;
+    }
+    &--highlight {
+        color: #fff;
+        h3 {
+            margin: 0;
+            font-size: 30px;
+            line-height: 42px;
+            color: #fff;
+            text-align: center;
+            span {
+                display: inline-block;
+                font-family: "RockSalt", sans-serif;
+                font-size: 48px;
+                color: #FFD912;
+            }
+        }
+        p.ri-item__text:before,
+        p.ri-item__text:after {
+            display: none;
+        }
+    }
+    &--6 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        background-color: #353535;
+    }
+    &--15 {
+        background-color: #77152B;
+        p.ri-item__text {
+            color: #fff;
+        }
+        a.ri-item__link {
+            color: #FFD912;
+        }
+    }
+    &--20 {
+        background-color: #FFD912;
+        p.ri-item__text {
+            color: #353535;
+        }
+    }
+    &--mobile {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+    .ri-item {
+        width: 33.333%;
+    }
+
+    .ri-item__inner {
+        padding: 80px 60px;
+    }
+
+    .ri-item--highlight {
+        width: 66.666%;
+    }
+
+    .ri-item--highlight .ri-item__inner {
+        padding: 100px 80px;
+    }
+
+    .ri-item--highlight p.ri-item__text {
+        font-size: 45px;
+        line-height: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .ri-item {
+        width: 20%;
+    }
+
+    .ri-item a.ri-item__link {
+        font-size: 30px;
+    }
+
+    .ri-item--odd {
+        background-color: #F7F7F7;
+    }
+
+    .ri-item--highlight {
+        width: 60%;
+    }
+
+    .ri-item--highlight h3 {
+        font-size: 65px;
+        line-height: 80px;
+    }
+
+    .ri-item--highlight h3 span {
+        font-size: 75px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .ri-item--desktop {
+        display: none;
+    }
+
+    .ri-item--mobile {
+        display: flex;
+    }
+}
+/** END real impact grid **/

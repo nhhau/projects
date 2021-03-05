@@ -410,6 +410,26 @@ div.gform_wrapper {
         }
     }
 }
+
+#gform_wrapper_2 {
+	li#field_2_4 {
+		margin-bottom: 0 !important;
+	}
+	li#field_2_5 {
+		margin-top: 16px !important;
+	}
+	li#field_2_9 {
+		padding: 10px 30px !important;
+    	background: #f3caca !important;
+		a {
+			color: #2D7F84;
+			text-transform: uppercase;
+			font-weight: bold;
+			text-decoration: underline;
+		}
+	}
+}
+
 /** END FORM **/
 
 /** HEADER **/
@@ -477,7 +497,7 @@ div.gform_wrapper {
                     }
                 }
                 &.sitename {
-                    padding-top: 22px;
+                    padding-top: 18px;
                     padding-left: 45px;
                     font-size: 22px;
                 }
@@ -1236,6 +1256,10 @@ ul.feature-list {
         font-size: 18px;
         line-height: 20px;
         cursor: pointer;
+		transition: 0.2s;
+		&:hover {
+			background-color: #afd4d6;
+		}
         img {
             position: absolute;
             top: 50%;
@@ -2208,3 +2232,58 @@ body.page-template-page_contact {
 @media (min-width: 1200px) {
 }
 /** END CONTACT TEMPLATE **/
+
+/** accordion-block **/
+.accordion-block {
+    margin-bottom: 30px;
+    .card {
+        border: 0;
+        border-radius: 0;
+        margin: 0 0 20px;
+        .card-header {
+            border: 0;
+            padding: 0;
+            margin: 0;
+            background-color: transparent;
+            button {
+                width: 100%;
+                position: relative;
+                padding: 10px 20px 10px 40px;
+                background-color: #F7F7F7;
+                border: 0;
+                border-radius: 0;
+                outline: none !important;
+                box-shadow: none;
+                font-size: 18px;
+                text-align: left;
+                &:before,
+                &:after {
+                    content: '';
+                    width: 14px;
+                    height: 2px;
+                    position: absolute;
+                    top: 50%;
+                    left: 15px;
+                    background-color: #003F72;
+                    margin-top: -1px;
+                    transition: all .25s;
+                    -webkit-transition: all .25s;
+                }
+                &:after {
+                    transform: rotate(90deg);
+                }
+                &:not(.collapsed):after {
+                    opacity: 0;
+                    transform: rotate(0);
+                }
+            }
+        }
+        .card-body {
+            padding: 15px 0 0;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+/** END accordion-block **/
