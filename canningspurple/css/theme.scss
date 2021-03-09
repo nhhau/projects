@@ -2984,8 +2984,17 @@ div.breadcrumb {
 /** Single Case Study Template **/
 #cs-header {
     position: relative;
-    overflow: hidden;
     z-index: 150;
+    div.cs-header__inner {
+        position: relative;
+        overflow: hidden;
+        z-index: 5;
+        div.container {
+            position: relative;
+            padding-top: 200px;
+            z-index: 10;
+        }
+    }
     div.bg-photo,
     div.fl-bg-video {
         position: absolute;
@@ -2998,11 +3007,6 @@ div.breadcrumb {
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-    }
-    div.container {
-        position: relative;
-        padding-top: 200px;
-        z-index: 10;
     }
     div.text {
         position: relative;
@@ -3044,6 +3048,9 @@ div.breadcrumb {
             color: #FAFAFA;
         }
     }
+    #wpp-form {
+        min-height: auto;
+    }
     &.has-related {
         div.breadcrumb {
             bottom: 200px;
@@ -3074,6 +3081,47 @@ div.breadcrumb {
         }
     }
 }
+
+@media (min-width: 992px) {
+    #cs-header .cs-header__form {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+    }
+
+    #cs-header #wpp-form {
+        width: 300px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #cs-header #wpp-form {
+        width: 400px;
+    }
+}
+
+@media (max-width: 991px) {
+    #cs-header div.text {
+        padding-bottom: 200px;
+    }
+
+    #cs-header .cs-header__form .container {
+        max-width: 100%;
+        padding: 0;
+    }
+
+    #cs-header #wpp-form {
+        border-radius: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    #cs-header div.text {
+        padding-bottom: 100px;
+    }
+}
 /** END Single Case Study Template **/
 
 /** #cs-keys **/
@@ -3099,6 +3147,12 @@ div.breadcrumb {
             font-size: 15px;
             color: #A5C6CD;
             text-transform: uppercase;
+        }
+        a {
+            color: inherit;
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
     div.keys {
@@ -3215,6 +3269,11 @@ div.breadcrumb {
 }
 
 @media (max-width: 575px) {
+    #cs-keys div.quote {
+        padding: 40px 20px;
+        font-size: 18px;
+    }
+
     #cs-keys div.keys h3 {
         font-size: 21px;
     }
@@ -3549,6 +3608,10 @@ body.single-expertise #expertise {
 
 #exp-content + #experts div.text {
     padding-top: 40px;
+}
+
+#expertise + #related-articles {
+    padding-top: 60px;
 }
 
 #related-articles {

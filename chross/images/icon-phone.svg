@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>icon-phone</title>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="icon-phone" fill="#405855" fill-rule="nonzero">
-            <path d="M16.293,13.293 L13,16.586 L6.414,10 L9.707,6.707 C10.098,6.316 10.098,5.683 9.707,5.293 L4.707,0.293 C4.316,-0.098 3.683,-0.098 3.293,0.293 L0,3.586 C0,14.653 8.345,23 19.414,23 L22.707,19.707 C23.098,19.316 23.098,18.683 22.707,18.293 L17.707,13.293 C17.317,12.903 16.683,12.903 16.293,13.293 Z" id="Path"></path>
-        </g>
-    </g>
-</svg>
