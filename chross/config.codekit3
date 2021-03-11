@@ -7,16 +7,8 @@
       "uuidString" : "2C672797-E0AD-48E5-ABF2-9E9FD8458674"
     }
   ],
-  "creatorBuild" : "34018",
+  "creatorBuild" : "34081",
   "files" : {
-    "\/big_buck_bunny.mp4" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/big_buck_bunny.mp4",
-      "oF" : 0
-    },
     "\/css\/plugins.min.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -226,7 +218,7 @@
     },
     "\/images\/photo-chris-oscar.jpg" : {
       "ft" : 16384,
-      "iS" : 238022,
+      "iS" : 226100,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/images\/photo-chris-oscar.jpg",
@@ -342,6 +334,16 @@
       "oF" : 3,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/svg\/arrow-right-white.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/arrow-right-white.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/svg\/facebook--white.svg" : {
       "ft" : 2097152,
@@ -2497,21 +2499,21 @@
 
       ],
       "contentEntries" : [
-        "!(node_modules)\/**\/*.html",
-        "!(node_modules)\/**\/*.htm",
-        "!(node_modules)\/**\/*.shtml",
-        "!(node_modules)\/**\/*.xhtml",
-        "!(node_modules)\/**\/*.php",
-        "!(node_modules)\/**\/*.js",
-        "!(node_modules)\/**\/*.ts",
-        "!(node_modules)\/**\/*.coffee",
-        "!(node_modules)\/**\/*.erb",
-        "!(node_modules)\/**\/*.pug",
-        "!(node_modules)\/**\/*.jade",
-        "!(node_modules)\/**\/*.slim",
-        "!(node_modules)\/**\/*.haml",
-        "!(node_modules)\/**\/*.md",
-        "!(node_modules)\/**\/*.kit"
+        "**\/*.html",
+        "**\/*.htm",
+        "**\/*.shtml",
+        "**\/*.xhtml",
+        "**\/*.php",
+        "**\/*.js",
+        "**\/*.ts",
+        "**\/*.coffee",
+        "**\/*.erb",
+        "**\/*.pug",
+        "**\/*.jade",
+        "**\/*.slim",
+        "**\/*.haml",
+        "**\/*.md",
+        "**\/*.kit"
       ],
       "removeFontFace" : 0,
       "removeKeyframes" : 0,
