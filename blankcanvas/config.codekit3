@@ -4,11 +4,31 @@
     {
       "name" : "Process All Remaining Files and Folders",
       "stepType" : 1,
-      "uuidString" : "604F152D-1C9C-4182-92C6-C30816A01F0A"
+      "uuidString" : "2C672797-E0AD-48E5-ABF2-9E9FD8458674"
     }
   ],
   "creatorBuild" : "34081",
   "files" : {
+    "\/contact.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/contact.html",
+      "oF" : 0
+    },
+    "\/css\/plugins.min.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 2,
+      "oAP" : "\/css\/plugins.min.css",
+      "oF" : 3,
+      "pg" : 0
+    },
     "\/css\/theme.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -30,10 +50,339 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/css\/theme.css",
-      "oF" : 0,
-      "oS" : 2,
+      "oF" : 1,
+      "oS" : 0,
       "pg" : 0,
-      "sct" : 0
+      "sct" : 1
+    },
+    "\/fonts\/0acba88f-0de4-4d43-81fd-920d7427f665.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/0acba88f-0de4-4d43-81fd-920d7427f665.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/0db19ee1-b74a-4eb6-b48f-60c7047ea44b.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/0db19ee1-b74a-4eb6-b48f-60c7047ea44b.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/4bd56f95-e7ab-4a32-91fd-b8704cbd38bc.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/4bd56f95-e7ab-4a32-91fd-b8704cbd38bc.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/4fe1c328-1f21-434a-8f0d-5e0cf6c70dfb.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/4fe1c328-1f21-434a-8f0d-5e0cf6c70dfb.woff",
+      "oF" : 0
+    },
+    "\/fonts\/7b415a05-784a-4a4c-8c94-67e9288312f5.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/7b415a05-784a-4a4c-8c94-67e9288312f5.woff",
+      "oF" : 0
+    },
+    "\/fonts\/7e42a406-9133-48c0-a705-4264ac520b43.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/7e42a406-9133-48c0-a705-4264ac520b43.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/08b57253-2e0d-4c12-9c57-107f6c67bc49.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/08b57253-2e0d-4c12-9c57-107f6c67bc49.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/08edde9d-c27b-4731-a27f-d6cd9b01cd06.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/08edde9d-c27b-4731-a27f-d6cd9b01cd06.woff",
+      "oF" : 0
+    },
+    "\/fonts\/9c98d320-d511-4d3d-9ba3-6516302dba95.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/9c98d320-d511-4d3d-9ba3-6516302dba95.woff",
+      "oF" : 0
+    },
+    "\/fonts\/13ab58b4-b5ba-4c95-afde-ab2608fbbbd9.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/13ab58b4-b5ba-4c95-afde-ab2608fbbbd9.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/136eb3cf-249c-40a3-bb62-49c1ad9ae6d8.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/136eb3cf-249c-40a3-bb62-49c1ad9ae6d8.woff",
+      "oF" : 0
+    },
+    "\/fonts\/713c9c40-9cbd-4276-819e-d0efaf5d3923.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/713c9c40-9cbd-4276-819e-d0efaf5d3923.woff",
+      "oF" : 0
+    },
+    "\/fonts\/800da3b0-675f-465f-892d-d76cecbdd5b1.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/800da3b0-675f-465f-892d-d76cecbdd5b1.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/5018b5b5-c821-4653-bc74-d0b11d735f1a.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/5018b5b5-c821-4653-bc74-d0b11d735f1a.woff",
+      "oF" : 0
+    },
+    "\/fonts\/837750e9-3227-455d-a04e-dc76764aefcf.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/837750e9-3227-455d-a04e-dc76764aefcf.woff",
+      "oF" : 0
+    },
+    "\/fonts\/b76ff444-27dd-4494-b96e-2f5157f347d5.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/b76ff444-27dd-4494-b96e-2f5157f347d5.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/d42dd843-62b0-4623-8855-d5882512c3c9.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/d42dd843-62b0-4623-8855-d5882512c3c9.woff",
+      "oF" : 0
+    },
+    "\/fonts\/d9896899-f08c-4750-a874-a9e10d83c2cb.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/d9896899-f08c-4750-a874-a9e10d83c2cb.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/e2d37f34-6bca-473c-b64d-93811f4dc046.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/e2d37f34-6bca-473c-b64d-93811f4dc046.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/eadbb595-a394-48fc-834f-8bf5da15cddf.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/eadbb595-a394-48fc-834f-8bf5da15cddf.woff",
+      "oF" : 0
+    },
+    "\/images\/logo-black.png" : {
+      "ft" : 32768,
+      "iS" : 17669,
+      "oA" : 0,
+      "oAP" : "\/images\/logo-black.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/phone-frame.png" : {
+      "ft" : 32768,
+      "iS" : 9342,
+      "oA" : 0,
+      "oAP" : "\/images\/phone-frame.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/photo-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 277882,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/photo-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/photo-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 211464,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/photo-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/photo-3.jpg" : {
+      "ft" : 16384,
+      "iS" : 181810,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/photo-3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/photo-slide-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 211820,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/photo-slide-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/index.html",
+      "oF" : 0
+    },
+    "\/js\/jquery-3.6.0.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 2,
+      "oAP" : "\/js\/jquery-3.6.0.min-min.js",
+      "oF" : 1,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/plugins.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 2,
+      "oAP" : "\/js\/plugins.min.js",
+      "oF" : 3,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/theme.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 2,
+      "oAP" : "\/js\/theme.js",
+      "oF" : 3,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/svg\/facebook.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/facebook.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/instagram.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/instagram.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/linkedin.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/linkedin.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/polygon-red.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/polygon-red.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/polygon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/polygon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     }
   },
   "hooks" : [
@@ -43,10 +392,10 @@
 
   },
   "projectAttributes" : {
-    "creationDate" : 635849914.42620397,
-    "displayValue" : "mycreditmychoice",
-    "displayValueWasSetByUser" : 0,
-    "iconImageName" : "brackets-verd",
+    "creationDate" : 629871040.72536898,
+    "displayValue" : "blankcanvas",
+    "displayValueWasSetByUser" : 1,
+    "iconImageName" : "brackets_magenta",
     "iconImageWasSetByUser" : 0
   },
   "projectSettings" : {
@@ -964,7 +1313,7 @@
       },
       "no-magic-numbers" : {
         "active" : 0,
-        "optionString" : "{'ignore': [], 'ignoreArrayIndexes': true, 'ignoreDefaultValues': false, 'enforceConst': false, 'detectObjects': false}"
+        "optionString" : "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
       },
       "no-misleading-character-class" : {
         "active" : 0
@@ -1156,7 +1505,7 @@
       },
       "no-underscore-dangle" : {
         "active" : 0,
-        "optionString" : "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'allowAfterThisConstructor': false, 'enforceInMethodNames': false, 'allowFunctionParams': true}"
+        "optionString" : "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'allowAfterThisConstructor': false, 'enforceInMethodNames': false}"
       },
       "no-unexpected-multiline" : {
         "active" : 1
@@ -1188,7 +1537,7 @@
       },
       "no-unused-expressions" : {
         "active" : 0,
-        "optionString" : "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false, 'enforceForJSX': false}"
+        "optionString" : "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
       },
       "no-unused-labels" : {
         "active" : 1
@@ -1376,7 +1725,7 @@
       },
       "sort-imports" : {
         "active" : 0,
-        "optionString" : "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single'], 'allowSeparatedGroups': false}"
+        "optionString" : "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
       },
       "sort-keys" : {
         "active" : 0,
@@ -1824,7 +2173,7 @@
       "autoOutputPathReplace1" : "",
       "autoOutputPathReplace2" : "",
       "autoOutputPathStyle" : 0,
-      "minifierStyle" : 0,
+      "minifierStyle" : 1,
       "outputStyle" : 0,
       "sourceMapStyle" : 0,
       "syntaxCheckerStyle" : 1,
@@ -1902,7 +2251,7 @@
       "autoOutputPathReplace1" : "",
       "autoOutputPathReplace2" : "",
       "autoOutputPathStyle" : 0,
-      "orderOutput" : 1,
+      "orderOutput" : 0,
       "outputStyle" : 1
     },
     "languageDefaultsKIT" : {
@@ -1931,7 +2280,7 @@
       "rewriteURLStyle" : 0,
       "shouldRunAutoprefixer" : 0,
       "shouldRunBless" : 0,
-      "sourceMapStyle" : 0,
+      "sourceMapStyle" : 1,
       "strictImports" : 0,
       "strictUnits" : 0
     },
@@ -1987,7 +2336,7 @@
       "autoOutputPathStyle" : 0,
       "compileDebug" : 1,
       "htmlMinifierStyle" : 0,
-      "outputStyle" : 1,
+      "outputStyle" : 0,
       "shouldRunCacheBuster" : 0
     },
     "languageDefaultsSASS" : {

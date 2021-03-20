@@ -5587,20 +5587,20 @@ Home Page
     h1 {
         float: left;
         width: 100%;
-        font-size: $fz-75;
-        line-height: $lh-75;
+        font-size: 50px;
+        line-height: 55px;
         max-width: 650px;
         color: $white;
         margin-top: 7px;
 
         @include lgFull(){
-            font-size: 68px;
-            line-height: 75px;
+            font-size: 50px;
+            line-height: 55px;
         }
 
         @include mdMaxPro(){
-            font-size: 58px;
-            line-height: 66px;
+            font-size: 50px;
+            line-height: 55px;
         }
         @include smMax {
             font-size: $fz-40;
@@ -6354,7 +6354,7 @@ section.loan-descrip-wrap {
  .hero-row:nth-child(3) .hero-col:nth-child(2) .hero-title-wrap{height:180px;}
 .hero-feature-thumb-wrap figure img, .hero-row .hero-col figure img{height:180px; object-fit: cover;
     @include smMax(){
-        height:auto;
+        height: 150px;
     }
     
 }
