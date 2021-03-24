@@ -61,7 +61,7 @@ h1, .h1 {
 
 h2, .h2 {
 	font-size: 36px;
-	line-height: 44px;
+	line-height: 40px;
 }
 
 p {
@@ -112,8 +112,8 @@ ul.menu ul {
 
 @media (max-width: 575px) {
 	h1, .h1 {
-		font-size: 48px;
-		line-height: 52px;
+		font-size: 36px;
+		line-height: 40px;
 	}
 
 	.container {
@@ -288,6 +288,21 @@ div.gform_wrapper {
 			background: transparent !important;
 		}
 	}
+	ul.gfield_checkbox {
+		margin: 0;
+		> li {
+			&:last-child {
+				margin-bottom: 0;
+			}
+		}
+		input {
+			margin: 0 6px 0 0 !important;
+		}
+		label {
+			font-size: 16px;
+			margin: 0;
+		}
+	}
 	.ginput_container,
 	.gform_footer {
 		margin: 0 !important;
@@ -375,11 +390,26 @@ div.gform_wrapper {
 	background-size: cover;
 	color: #fff;
 	.container {
+		position: relative;
+		&:before {
+			content: '';
+			position: absolute;
+			bottom: 100px;
+			left: 15px;
+			width: 230px;
+			height: 231px;
+			background-image: url(../images/bg-dots.png);
+			background-repeat: no-repeat;
+			background-size: contain;
+			z-index: 1;
+		}
 	}
 	.welcome {
 		&__text {
-			max-width: 800px;
+			position: relative;
+			max-width: 750px;
 			padding-top: 90px;
+			z-index: 10;
 			h1 {
 				margin-bottom: 60px;
 				span {
@@ -392,7 +422,7 @@ div.gform_wrapper {
 				}
 			}
 			.text {
-				max-width: 600px;
+				max-width: 590px;
 				margin-bottom: 60px;
 			}
 		}
@@ -406,7 +436,17 @@ div.gform_wrapper {
 	#welcome {
 		display: flex;
 		align-items: center;
-		height: 100vh;
+		min-height: 100vh;
+	}
+
+	#welcome .container:before {
+		left: 70px;
+	}
+}
+
+@media (min-width: 1480px) {
+	#welcome .container:before {
+		left: 140px;
 	}
 }
 

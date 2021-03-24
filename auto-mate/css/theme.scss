@@ -976,7 +976,7 @@ div.gform_wrapper {
         z-index: 10;
         h1 {
             position: relative;
-            font-size: 58px;
+            font-size: 40px;
             line-height: 1.1;
             color: #fff;
             margin: 0;
@@ -1016,6 +1016,12 @@ div.gform_wrapper {
         background-size: contain;
         z-index: 1;
     }
+	
+	#page-title .inner {
+		h1 {
+			max-width: 60%;
+		}
+	}
 }
 
 @media (max-width: 575px) {
@@ -1108,6 +1114,46 @@ body.single-post {
     }
 }
 /** END magnificPopup **/
+
+/** Side menu **/
+#Side_slide {
+    ul.menu {
+        li {
+            border: 0 !important;
+            a {
+                display: block;
+                margin: 0 !important;
+                padding: 10px 20px !important;
+            }
+        }
+    }
+    ul.sub-menu {
+        display: block !important;
+        background-color: #FC8108 !important;
+        li {
+            a {
+                position: relative;
+                padding-right: 30px !important;
+                &:after {
+                    content: '';
+                    position: absolute;
+                    top: 50%;
+                    right: 20px;
+                    margin-top: -4px;
+                    width: 0;
+                    height: 0;
+                    border-top: 4px solid transparent;
+                    border-bottom: 4px solid transparent;
+                    border-left: 8px solid #FFFFFF;
+                }
+            }
+        }
+    }
+    ul.social {
+        text-align: left;
+    }
+}
+/** END Side menu **/
 
 /** EXTRA **/
 .wpb_wrapper > div {

@@ -7,7 +7,7 @@
       "uuidString" : "2C672797-E0AD-48E5-ABF2-9E9FD8458674"
     }
   ],
-  "creatorBuild" : "34081",
+  "creatorBuild" : "34127",
   "files" : {
     "\/css\/plugins.min.css" : {
       "aP" : 1,
@@ -218,7 +218,7 @@
     },
     "\/images\/photo-chris-oscar.jpg" : {
       "ft" : 16384,
-      "iS" : 226100,
+      "iS" : 238022,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/images\/photo-chris-oscar.jpg",
@@ -2520,6 +2520,9 @@
       "removeVariables" : 0,
       "safelistEntries" : [
 
+      ],
+      "skippedEntries" : [
+        "node_modules\/**"
       ]
     },
     "rollupContext" : "",
@@ -2554,6 +2557,7 @@
     "tsNoImplicitThis" : 0,
     "tsNoImplicitUseStrict" : 0,
     "tsNoLib" : 0,
+    "tsNoPropertyAccessFromIndexSignature" : 0,
     "tsNoResolve" : 0,
     "tsNoStrictGenericChecks" : 0,
     "tsNoUncheckedIndexAccess" : 0,

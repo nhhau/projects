@@ -875,7 +875,7 @@ body,html{height: 100%;}
                     width: 100%;
                     position: absolute;
                     right: 0;
-                    top: 88px;
+                    top: 89px;
                     visibility: hidden;
                     opacity: 0;
                     @include transition(.4s, ease-in-out);
@@ -1892,6 +1892,11 @@ body,html{height: 100%;}
                     float: left;
                     width: 100%;
                     margin-top: 21px;
+					address, div {
+						span {
+							padding-right: 5px;
+						}
+					}
                     address, .office-hours, .our-tel, .our-mail{
                         display: block;
                         font-family: $sofia-pro-semibold;
@@ -3377,7 +3382,7 @@ input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button
             float: left;
             width: calc(100% - 414px);
             @extend %bg-style;
-            min-height: 420px;
+            min-height: 500px;
             background-position: top center;
             z-index: 1;
 
@@ -3697,7 +3702,7 @@ input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button
 
                             }
                             h3{
-                                font-size: 36px;
+                                font-size: 26px;
                                 @include smMax{
                                     font-size: 26px;
                                 }
@@ -3718,7 +3723,7 @@ input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button
                         &:nth-child(7){
                             margin-top: 70px;
                             h3{
-                                font-size: 36px;
+                                font-size: 26px;
                             }
                             .staff-item-wrap{
                                 margin-top: 14px;
@@ -3803,7 +3808,7 @@ input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button
                             color: $blue;
 
                             @include smMax{
-                                font-size: 32px;
+                                font-size: 26px;
                                 line-height: 32px;
                             }
 
@@ -3920,15 +3925,18 @@ input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button
                                         }
                                     }
                                     dfn{
-                                        font-size: 18px;
+                                        font-size: 16px;
                                         line-height: 28px;
                                         font-family: $sofia-pro-regular;
                                         font-style: normal;
-                                        color: $blue;
+                                        color: $black;
                                         @include mdMaxPro{
                                             font-size: 16px;
                                             line-height: 22px;
                                         }
+										p {
+											color: $black;
+										}
                                     }
 
                                 }
@@ -4174,8 +4182,8 @@ li{
     }
 }
 .our-staff .overall-content-wrap .overall-content-inner .right-content .right-content-inner h2{@extend %h3; color: #074794;
-    font-size: 42px!important;
-    line-height: 42px!important;
+    font-size: 32px!important;
+    line-height: 32px!important;
     font-weight: normal;
     font-family: "PlantagenetCherokeeRegular";
     color: #074794;
@@ -4197,7 +4205,7 @@ li{
 
 
 /*Table Style */
-.page-template-default table{float: left; width: 100%; max-width: 820px; margin-top: 50px; border: 0;}
+.page-template-default table{width: 100%;margin-top: 50px; border: 0;}
 .page-template-default thead, .page-template-default tbody, .page-template-default tr{float: left; width: 100%; background-color: #074794;}
 .page-template-default tbody, .page-template-default tr{background-color: transparent;}
 .page-template-default tr{background-color: transparent; border-bottom: 1px solid #074794;}
@@ -4388,3 +4396,141 @@ ul.event-list > li span.date {
     }
 }
 /** END EVENT LIST **/
+
+/** gallery-grid **/
+.gallery-grid {
+}
+
+.gallery-item {
+    position: relative;
+    margin-bottom: 80px;
+    .gallery-item {
+        &__slide {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        &__title {
+            position: absolute;
+            right: 0;
+            bottom: -40px;
+            left: 0;
+            width: 70%;
+            margin: 0 auto;
+            background-color: rgba(255, 206, 0, 0.9);
+            padding: 20px 20px 0;
+            color: #fff;
+            text-align: center;
+            transition: background-color .25s;
+            -webkit-transition: background-color .25s;
+            span {
+                display: inline-block;
+                &.title {
+                    display: block;
+                    margin-bottom: 10px;
+                    font-family: "PlantagenetCherokeeRegular";
+                    color: #1B3655;
+                    font-size: 22px;
+                    line-height: 24px;
+                }
+                &.more {
+                    position: relative;
+                    padding-right: 30px;
+                    background-color: #FFCE00;
+                    font-family: "SofiaProRegular";
+                    color: #324662;
+                    line-height: 40px;
+                    &:after {
+                        content: '';
+                        position: absolute;
+                        top: 50%;
+                        right: 0;
+                        width: 20px;
+                        height: 14px;
+                        background-image: url(../svgs/arrow-right.svg);
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center center;
+                        transform: translateY(-50%);
+                    }
+                }
+            }
+        }
+    }
+    &:hover {
+        .gallery-item__title {
+            background-color: #FFCE00;
+        }
+    }
+}
+
+.photo-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+    .photo-item {
+        width: 50%;
+        padding: 0 10px 20px;
+    }
+}
+
+body.page-template-page_gallery .welcome-inner-content > h1,
+body.single-gallery .welcome-inner-content > h1 {
+    margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+    .gallery-grid {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+
+    .gallery-item {
+        width: 50%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .photo-grid .photo-item {
+        width: 33.333%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .gallery-item .gallery-item__title span.title {
+        min-height: 72px;
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .photo-grid {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+
+    .photo-grid .photo-item {
+        padding: 0 20px 40px;
+    }
+}
+/** END gallery-grid **/
+
+/* OVER RIDES */
+div.welcome-inner-content h3 {
+	color: #000 !important;
+	font-size: 26px !important;
+	margin-bottom: 10px;
+}
+
+#our-feature div.our-feature-inner div.feature-item ul li {
+	color: #ffffff;
+}
+
+#our-feature div.our-feature-inner div.feature-item ul li:hover {
+	border-bottom: 1px solid rgba(237, 237, 237, 0.3);
+	background-color: inherit;
+}

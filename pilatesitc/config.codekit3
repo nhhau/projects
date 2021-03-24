@@ -7,7 +7,7 @@
       "uuidString" : "2C672797-E0AD-48E5-ABF2-9E9FD8458674"
     }
   ],
-  "creatorBuild" : "34081",
+  "creatorBuild" : "34127",
   "files" : {
     "\/blog.html" : {
       "cB" : 0,
@@ -196,31 +196,31 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/svg\/Logo-horizontal-white.svg" : {
+    "\/svg\/logo-horizontal-white.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/svg\/Logo-horizontal-white.svg",
+      "oAP" : "\/svg\/logo-horizontal-white.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/svg\/Logo-stacked-moss.svg" : {
+    "\/svg\/logo-stacked-moss.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/svg\/Logo-stacked-moss.svg",
+      "oAP" : "\/svg\/logo-stacked-moss.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/svg\/Logo-stacked-white.svg" : {
+    "\/svg\/logo-stacked-white.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/svg\/Logo-stacked-white.svg",
+      "oAP" : "\/svg\/logo-stacked-white.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -2291,6 +2291,9 @@
       "removeVariables" : 0,
       "safelistEntries" : [
 
+      ],
+      "skippedEntries" : [
+        "node_modules\/**"
       ]
     },
     "rollupContext" : "",
@@ -2325,6 +2328,7 @@
     "tsNoImplicitThis" : 0,
     "tsNoImplicitUseStrict" : 0,
     "tsNoLib" : 0,
+    "tsNoPropertyAccessFromIndexSignature" : 0,
     "tsNoResolve" : 0,
     "tsNoStrictGenericChecks" : 0,
     "tsNoUncheckedIndexAccess" : 0,
