@@ -1,0 +1,25 @@
+/** GENERAL **/
+@font-face{
+	font-family:"Futura LT W01 Medium";
+	src:url("../fonts/96ee71e8-aad9-4053-8e86-df6a4667cf9b.woff2") format("woff2"),url("../fonts/983ab0ae-d7ab-4532-a915-3eab4466bda2.woff") format("woff");
+}
+@font-face{
+	font-family:"Futura LT W01 Medium Oblique";
+	src:url("../fonts/fc14ea87-faac-4fe9-8714-8b8fcab18407.woff2") format("woff2"),url("../fonts/4a8ee8fb-ae0a-4620-8d37-77d03f380ad4.woff") format("woff");
+}
+@font-face{
+	font-family:"Georgia W01 Regular";
+	src:url("../fonts/3056c93b-ddd6-4a07-b6ac-0b3947b2ee38.woff2") format("woff2"),url("../fonts/39a18a82-9fba-4a18-9b26-872bc05243b8.woff") format("woff");
+}
+@font-face{
+	font-family:"Georgia W01 Italic";
+	src:url("../fonts/2af7771f-8ddd-4afe-9a23-1307629889dc.woff2") format("woff2"),url("../fonts/c93679cc-a6a0-44eb-8596-adb4d5cb22de.woff") format("woff");
+}
+
+body {
+	font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+	color: #4a4a4a;
+    font-size: 1rem;
+	line-height: 1.65;
+}
+/** END GENERAL **/
