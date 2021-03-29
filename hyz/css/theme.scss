@@ -1,4 +1,16 @@
 /** GENERAL **/
+@keyframes blink {
+    0% {background: #fff}
+    50% {background: #aaa}
+    100% {background: #fff}
+}
+
+@-webkit-keyframes blink {
+    0% {background: #fff}
+    50% {background: #aaa}
+    100% {background: #fff}
+}
+
 body {
     font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
@@ -142,7 +154,6 @@ div.gform_wrapper {
             max-width: 100% !important;
             height: 42px;
             font-size: 16px !important;
-            color: #fff;
             padding: 0 15px !important;
             background-color: transparent;
             border: 1px solid #aaa;
@@ -197,6 +208,18 @@ div.gform_wrapper {
         font-weight: 400;
         color: #aaa;
     }
+}
+
+body.home section#contact {
+	div.gform_wrapper {
+		form {
+			input[type="text"],
+        	input[type="email"],
+        	textarea {
+				color: #FFF;
+			}
+		}	
+	}
 }
 
 @media (min-width: 768px) {
@@ -1773,6 +1796,12 @@ div.fl-bg-video iframe {
     p strong {
         color: #1B9BC5;
     }
+    form {
+        input,
+        textarea {
+            color: #fff;
+        }
+    }
     .contact {
         max-width: 450px;
         > p {
@@ -2602,13 +2631,13 @@ div.fl-bg-video iframe {
     }
 
     .block-timelines .col-md-6:not(.offset-md-6) .title:before {
-        right: -45px;
+        right: -10px;
         left: 0;
     }
 
     .block-timelines .col-md-6.offset-md-6 .title:before {
         right: 0;
-        left: -45px;
+        left: -10px;
     }
 }
 
@@ -3551,6 +3580,57 @@ body.error404 {
     }
 }
 
+.faq-search {
+    margin-bottom: 60px;
+    form {
+        position: relative;
+        border-bottom: 4px solid #1b9bc5;
+        padding-left: 48px;
+        &:before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            width: 28px;
+            height: 28px;
+            margin-top: -14px;
+            background-image: url(../images/icon-search.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+        span.cursor {
+            position: absolute;
+            top: 50%;
+            left: 50px;
+            width: 2px;
+            height: 20px;
+            margin-top: -10px;
+            background-color: #aaa;
+            animation: blink .8s infinite;
+        }
+        span.value {
+            position: absolute;
+            opacity: 0;
+            visibility: hidden;
+            font-size: 18px;
+            font-weight: 700;
+            z-index: -1;
+        }
+        input[type="search"] {
+            display: block;
+            width: 100%;
+            height: 50px;
+            border: 0;
+            background-color: transparent;
+            caret-color: #aaa;
+            font-size: 18px;
+            font-weight: 700;
+            outline: none;
+        }
+    }
+}
+
 @media (max-width: 1199px) {
     #me-header.faq-header {
         margin-bottom: 80px;
@@ -3631,5 +3711,3 @@ div.post-date {
 	font-weight: 500;
 	text-transform: uppercase;
 }
-
-body.page-id-229 

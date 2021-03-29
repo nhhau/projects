@@ -47,28 +47,208 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/images\/bg-dots.png" : {
-      "ft" : 32768,
-      "iS" : 8881,
+    "\/fonts\/fontawesome-webfont.eot" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/bg-dots.png",
+      "oAP" : "\/fonts\/fontawesome-webfont.eot",
+      "oF" : 0
+    },
+    "\/fonts\/fontawesome-webfont.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/fonts\/fontawesome-webfont.svg",
       "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/fonts\/fontawesome-webfont.ttf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/fontawesome-webfont.ttf",
+      "oF" : 0
+    },
+    "\/fonts\/fontawesome-webfont.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/fontawesome-webfont.woff",
+      "oF" : 0
+    },
+    "\/fonts\/fontawesome-webfont.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/fontawesome-webfont.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/FontAwesome.otf" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/FontAwesome.otf",
+      "oF" : 0
+    },
+    "\/images\/bg-grey.png" : {
+      "ft" : 32768,
+      "iS" : 2156,
+      "oA" : 0,
+      "oAP" : "\/images\/bg-grey.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
-    "\/images\/photo-welcome.jpg" : {
-      "ft" : 16384,
-      "iS" : 198307,
-      "jF" : 0,
+    "\/images\/bg-white.png" : {
+      "ft" : 32768,
+      "iS" : 2528,
       "oA" : 0,
-      "oAP" : "\/images\/photo-welcome.jpg",
+      "oAP" : "\/images\/bg-white.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/bumpa-black.png" : {
+      "ft" : 32768,
+      "iS" : 4200,
+      "oA" : 0,
+      "oAP" : "\/images\/bumpa-black.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/bumpa-grey.png" : {
+      "ft" : 32768,
+      "iS" : 4751,
+      "oA" : 0,
+      "oAP" : "\/images\/bumpa-grey.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/cglf-black.png" : {
+      "ft" : 32768,
+      "iS" : 4134,
+      "oA" : 0,
+      "oAP" : "\/images\/cglf-black.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/cglf-grey.png" : {
+      "ft" : 32768,
+      "iS" : 5104,
+      "oA" : 0,
+      "oAP" : "\/images\/cglf-grey.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/header3.jpg" : {
+      "ft" : 16384,
+      "iS" : 69153,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/header3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/ll-grey.png" : {
+      "ft" : 32768,
+      "iS" : 6086,
+      "oA" : 0,
+      "oAP" : "\/images\/ll-grey.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/ll-white.png" : {
+      "ft" : 32768,
+      "iS" : 5137,
+      "oA" : 0,
+      "oAP" : "\/images\/ll-white.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/Phakchok-Rinpoche_170713_102457.jpg" : {
+      "ft" : 16384,
+      "iS" : 30235,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/Phakchok-Rinpoche_170713_102457.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/samye-grey.png" : {
+      "ft" : 32768,
+      "iS" : 5980,
+      "oA" : 0,
+      "oAP" : "\/images\/samye-grey.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/samye-white.png" : {
+      "ft" : 32768,
+      "iS" : 3948,
+      "oA" : 0,
+      "oAP" : "\/images\/samye-white.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -114,55 +294,13 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/svg\/arrow-down-teal.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/svg\/arrow-down-teal.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/svg\/arrow-down-white.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/svg\/arrow-down-white.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/svg\/icon-mail-teal.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/svg\/icon-mail-teal.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/svg\/icon-mail-white.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/svg\/icon-mail-white.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
-    "\/svg\/logo.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/svg\/logo.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
+    "\/page.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/page.html",
+      "oF" : 0
     }
   },
   "hooks" : [
@@ -173,7 +311,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 629871040.72536898,
-    "displayValue" : "argenica",
+    "displayValue" : "phakchokrinpoche",
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets_magenta",
     "iconImageWasSetByUser" : 0

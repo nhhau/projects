@@ -711,7 +711,7 @@ body,html{height: 100%;}
     .header-inner {
         float: left;
         width: 100%;
-        padding: 20px 140px 11px;
+        padding: 20px 140px 0;
         margin: 0 auto;
         position: relative;
         &:before{content: ''; position: absolute; top: -42px; left: -66px; width: 368px; height: 400px; background-image: url('../svgs/leaf_header_top_left.svg'); @extend %bg-style;
@@ -817,49 +817,58 @@ body,html{height: 100%;}
 
             > li{
                 display: inline-block;
-                margin: 0 -2px;
-                width: 20.3%;
-                > a{
-                    min-height: 90px;
+                width: 20%;
+                > a {
+                    min-height: 100px;
                     display: block;
                     color: #ffffff;
-                    padding: 20px 0 0;
+                    padding: 45px 0 0;
                     position: relative;
-                    -webkit-transition: all .3s ease-in;
-                    -moz-transition: all .3s ease-in;
-                    transition: all .3s ease-in;
+                    transition: all .25s;
                     font-family: $sofia-pro-regular;
                     font-size: fz(fz18);
                     line-height: 18px;
                     text-align: center;
-                    @include flex-box; @include justify-content(center); @include flex-flow;
-                    @include align-items(center);
                     &:before {
                         content: '+';
                         position: absolute;
                         left: 50%;
-                        top: 6px;
+                        top: 13px;
                         transform: translateX(-50%);
                         width: 20px;
                         height: 20px;
-                        font-size: fz(fz18);
+                        font-family: 'SofiaProBold';
+                        font-size: fz(fz20);
                         line-height: 18px;
                         color: $yellow;
-                        display: -webkit-flex;
-                        display: -moz-flex;
-                        display: -ms-flex;
-                        display: -o-flex;
                         display: flex;
                         align-items: center;
                         justify-content: center;
                     }
-                     &:after{content:''; position: absolute; right:auto; left: 4px; top:50%; transform: translateY(-50%); width:1px; height: 80%; background-color: #073670;}
+                    &:after{
+                        content:''; 
+                        position: absolute; 
+                        right:auto; 
+                        left: 0; 
+                        top: 50%; 
+                        width: 1px; 
+                        height: 80%; 
+                        background-color: #073670;
+                        transform: translateY(-50%);
+                        -webkit-transform: translateY(-50%);
+                        transition: opacity .25s;
+                    }
                     @include lgmd{font-size: fz(fz16); transition: 0.3s ease-in-out;}
                 }
                
-                &:hover > a{background-color: $yellow; color: #324662;
-                    &:before{content: '-'; color: #324662;}
-                    &:after{opacity: 0;}
+                &:hover > a {
+                    background-color: $yellow; color: #324662;
+                    &:before{
+                        content: '-'; color: #324662;
+                    }
+                    &:after{
+                        opacity: 0;
+                    }
                 }
                 &:hover .mega-menu-wrap{
                     visibility: visible;
@@ -906,12 +915,32 @@ body,html{height: 100%;}
                                     @include mdMaxPro {width: 41.883721%;}
                                     @include mdMinMax {}
 
-                                    a{display: block; font-size: fz(fz16); line-height: 16px; padding: 16px 12px 18px 0; text-align: left; color: #3E3E3E; font-family: $sofia-pro-regular; @extend %pseudo;
-                                        &:after{width: 10px; height: 10px; left: auto; right: 0; border: 1px solid $yellow;
+                                    a{
+                                        display: block; 
+                                        font-size: fz(fz16); 
+                                        line-height: 16px; 
+                                        padding: 16px 12px 18px 0; 
+                                        text-align: left; 
+                                        color: #3E3E3E; 
+                                        font-family: $sofia-pro-regular; 
+                                        @extend %pseudo;
+                                        &:after{
+                                            width: 10px; 
+                                            height: 10px; 
+                                            left: auto; 
+                                            right: 0; 
+                                            border: 1px solid $yellow;
                                             border-top-width: 0;
                                             border-left-width: 0;
-                                            top: 50%; @include transform(translateY(-50%) rotate(-45deg));}
-                                        &:before{display: none;}
+                                            top: 50%; 
+                                            @include transform(translateY(-50%) rotate(-45deg));
+                                        }
+                                        &:before{
+                                            display: none;
+                                        }
+                                        &:hover {
+                                            color: #FFCE00;
+                                        }
                                     }
                                 }
                             }
@@ -1004,7 +1033,7 @@ body,html{height: 100%;}
 
         .search-form{
             position: absolute;
-            top: 122px;
+            top: 120px;
             right: 0;
             width: 280px;
             padding: 15px;
@@ -2319,6 +2348,21 @@ body,html{height: 100%;}
         figure {
             float: left;
             width: 186px;
+            height: 186px;
+            border-radius: 50%;
+            overflow: hidden;
+            img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+            @include smMax {
+                float: none;
+                width: 150px;
+                height: 150px;
+                margin-bottom: 30px;
+            }
         }
 
         .principal-info {
@@ -2326,7 +2370,6 @@ body,html{height: 100%;}
             width: 300px;
             margin-top: 47px;
             margin-left: 2.3%;
-
             span {
                 display: block;
                 font-size: fz(fz20);
@@ -2334,15 +2377,17 @@ body,html{height: 100%;}
                 font-family: $sofia-pro-regular;
                 color: $blue;
             }
-
             dfn {
-
                 display: block;
                 font-size: fz(fz20);
                 line-height: 30px;
                 font-family: $sofia-pro-regular;
                 color: $black;
                 font-style: normal;
+            }
+            @include smMax {
+                float: none;
+                margin: 0;
             }
         }
     }
@@ -3197,7 +3242,9 @@ input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button
             }
         }
 
-
+        @media (max-width: 767px) {
+            padding-bottom: 20px;
+        }
     }
 
     .our-feature-wrap{
@@ -3377,12 +3424,17 @@ input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button
                 z-index: 1;
                 position: relative;
             }
+            @include smMax {
+                p {
+                    max-width: 100%;
+                }
+            }
         }
         .hero-thumb{
             float: left;
             width: calc(100% - 414px);
             @extend %bg-style;
-            min-height: 500px;
+            min-height: 400px;
             background-position: top center;
             z-index: 1;
 
@@ -3405,9 +3457,11 @@ input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button
             @include smMax   {
                 width: 100%;
                 margin-top: 40px;
-                min-height: 400px;
+                min-height: 300px;
             }
-
+            @media (max-width: 575px) {
+                min-height: 200px;
+            }
         }
 
     }
@@ -3480,8 +3534,6 @@ input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button
                             padding-bottom: 300px;
                         }
 
-
-
                         h5{
                             color: $yellow;
                             @extend %h5;
@@ -3523,6 +3575,9 @@ input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button
                                         background-color: $white;
                                         bottom: 0;
                                         top: auto;
+                                    }
+                                    &:hover {
+                                        color: #FFCE00;
                                     }
                                 }
                                 a.sidebar-active{
@@ -4152,18 +4207,28 @@ input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button
 	animation: ani-mouse 2.5s linear infinite;
 }
 
-.page-template-default .right-content .welcome-inner-content ul, .page-template-default .right-content .welcome-inner-content ol{float: left; width: 100%; padding: 15px 0; list-style: normal!important; padding-left: 20px;
-li{
-    float: left; width: 100%; list-style: disc;
-    &:first-child{margin-top: 0;}
+.page-template-default .right-content .welcome-inner-content ul, 
+.page-template-default .right-content .welcome-inner-content ol {
+    width: 100%; 
+    padding: 15px 0; 
+    padding-left: 20px;
+    li{
+        width: 100%; 
+        list-style: disc;
+        &:first-child{
+            margin-top: 0;
+        }
+    }
 }
+.page-template-default .right-content .welcome-inner-content ol {
+    li{
+        list-style: unset!important;
+    }
 }
-.page-template-default .right-content .welcome-inner-content ol{
-    li{list-style: unset!important;}
+.page-template-default .right-content .welcome-inner-content h3{
+    width: 100%; 
+    margin-top: 50px;
 }
-.page-template-default .right-content .welcome-inner-content h3{float:left; width: 100%; margin-top: 50px;}
-
-
 
 /*Heading design*/
 
@@ -4205,24 +4270,56 @@ li{
 
 
 /*Table Style */
-.page-template-default table{width: 100%;margin-top: 50px; border: 0;}
-.page-template-default thead, .page-template-default tbody, .page-template-default tr{float: left; width: 100%; background-color: #074794;}
-.page-template-default tbody, .page-template-default tr{background-color: transparent;}
-.page-template-default tr{background-color: transparent; border-bottom: 1px solid #074794;}
+.page-template-default table{
+    width: 100%;
+    margin: 50px 0;
+    border: 0;
+}
+.page-template-default thead, .page-template-default tbody, .page-template-default tr{
+    width: 100%; 
+    background-color: #074794;
+}
+.page-template-default tbody, .page-template-default tr{
+    background-color: transparent;
+}
+.page-template-default tr{
+    background-color: transparent; 
+    border-bottom: 1px solid #074794;
+}
 .page-template-default table {
   border-collapse: collapse;
   width: 100%;
 }
-.page-template-default table th{float: left; width: 33%; font-size: 24px; line-height: 31px; font-family: 'PlantagenetCherokeeRegular',sans-serif; color: #FFFFFF; font-weight: normal;
-     @include mdMax{font-size: 18px; line-height: 24px;}
+.page-template-default table th{
+    font-size: 22px; 
+    line-height: 31px; 
+    font-family: 'PlantagenetCherokeeRegular',sans-serif; 
+    color: #FFFFFF; 
+    font-weight: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    @include mdMax{
+        font-size: 18px; line-height: 24px;
+    }
 }
 .page-template-default table td, .page-template-default table th {
   padding: 17px 23px;
   text-align: left;
-  @include mdMax{ padding: 14px 8px;}
+  @include mdMax{ padding: 15px 15px; }
 }
-.page-template-default table td{float: left; width: 33%; font-size: 18px; line-height: 24px; color: #000000; font-family: 'SofiaProLight',sans-serif;
-     @include mdMax{font-size: 14px; line-height: 16px;}
+.page-template-default table td{
+    font-size: 18px; 
+    line-height: 24px; 
+    color: #000000; 
+    font-family: 'SofiaProLight',sans-serif;
+    @include mdMax{font-size: 14px; line-height: 16px;}
+}
+
+.table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 }
 /*Table Style */
 
@@ -4405,6 +4502,9 @@ ul.event-list > li span.date {
     position: relative;
     margin-bottom: 80px;
     .gallery-item {
+        &__slider {
+            cursor: pointer;
+        }
         &__slide {
             position: relative;
             padding-bottom: 56.25%;
@@ -4519,10 +4619,32 @@ body.single-gallery .welcome-inner-content > h1 {
 }
 /** END gallery-grid **/
 
+/** FIX SIDEBAR **/
+.overall-content-wrap .overall-content-inner > aside {
+    &.sidebar-mobile {
+        display: none;
+    }
+
+    @media (max-width: 767px) {
+        &.sidebar-mobile {
+            display: block;
+            padding-bottom: 20px;
+            .others-link {
+                max-width: 100% !important;
+            }
+        }
+
+        &.sidebar-desktop {
+            display: none;
+        }
+    }
+}
+/** END FIX SIDEBAR **/
+
 /* OVER RIDES */
-div.welcome-inner-content h3 {
-	color: #000 !important;
-	font-size: 26px !important;
+div.welcome-inner-content h3:not([class]) {
+	color: #074794 !important;
+	font-size: 23px !important;
 	margin-bottom: 10px;
 }
 
