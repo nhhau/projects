@@ -104,10 +104,6 @@ section, footer, header { float: left; width: 100%; position: relative; }
 
 }
 
-
-
-
-
 /* === Fonts === */
 
 /* === variables === */
@@ -924,6 +920,8 @@ body,html{height: 100%;}
                                         color: #3E3E3E; 
                                         font-family: $sofia-pro-regular; 
                                         @extend %pseudo;
+                                        transition: color .2s;
+                                        -webkit-transition: color .2s;
                                         &:after{
                                             width: 10px; 
                                             height: 10px; 
@@ -939,7 +937,7 @@ body,html{height: 100%;}
                                             display: none;
                                         }
                                         &:hover {
-                                            color: #FFCE00;
+                                            color: #074794;
                                         }
                                     }
                                 }
@@ -961,7 +959,7 @@ body,html{height: 100%;}
                     }
                     @include lgFull{
                         .mega-menu-item-wrap{
-                            padding: 83px 40px 20px;
+                            padding: 45px 40px 20px;
                             .mega-menu-item{
 
                             }
@@ -2321,11 +2319,10 @@ body,html{height: 100%;}
                 line-height: 24px;
             }
         }
-
-        p{
-            font-size: fz(fz18);
+        p {
+            font-size: fz(fz16);
             color: $black;
-            font-family: $sofia-pro-regular;
+            font-family: $sofia-pro-light;
             margin-top: 47px;
             line-height: 24px;
             max-width: 1095px;
@@ -2337,7 +2334,6 @@ body,html{height: 100%;}
                 margin-top: 25px;
             }
         }
-
     }
 
     .principal-wrap {
@@ -3556,7 +3552,8 @@ input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button
                                     line-height: 16px;
                                     padding: 16px 0;
                                     font-weight: normal;
-
+                                    transition: color .2s;
+                                    -webkit-transition: color .2s;
                                     @extend %pseudo;
                                     &:before{
                                         width: 5px;
@@ -4373,6 +4370,30 @@ ul.files {
         }
     }
 }
+
+div.subpages {
+    ul.files {
+        max-width: 100% !important;
+        > li > a:after {
+            width: 7px;
+            height: 11px;
+            margin-top: -5.5px;
+            background-image: url(../svgs/chevron_right_arrow_yellow.svg);
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    div.subpages {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -10px;
+        > .subpages-col {
+            width: 50%;
+            padding: 0 10px;
+        }
+    }
+}
 /** END FILES SHORTCODE **/
 
 /** BREADCRUMB **/
@@ -4401,10 +4422,15 @@ ul.files {
     margin-top: 60px !important;
 }
 
+.welcome-page .welcome-inner-content p strong {
+    font-family: $sofia-pro-semibold;
+    font-weight: 400;
+}
+
 .welcome-page .welcome-inner-content ul:not([class]) li,
 .welcome-page .welcome-inner-content ol:not([class]) li {
-    font-family: "SofiaProRegular";
-    font-size: 18px;
+    font-family: $sofia-pro-light;
+    font-size: 16px;
     color: #000000;
     line-height: 24px;
 }

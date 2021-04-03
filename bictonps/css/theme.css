@@ -744,7 +744,9 @@ body, html {
                     padding: 16px 12px 18px 0;
                     text-align: left;
                     color: #3E3E3E;
-                    font-family: "SofiaProRegular"; }
+                    font-family: "SofiaProRegular";
+                    transition: color .2s;
+                    -webkit-transition: color .2s; }
                     .main-header-section .main-nav > ul > li .mega-menu-inner .mega-menu-item-wrap .mega-menu-item ul li a:after {
                       width: 10px;
                       height: 10px;
@@ -762,7 +764,7 @@ body, html {
                     .main-header-section .main-nav > ul > li .mega-menu-inner .mega-menu-item-wrap .mega-menu-item ul li a:before {
                       display: none; }
                     .main-header-section .main-nav > ul > li .mega-menu-inner .mega-menu-item-wrap .mega-menu-item ul li a:hover {
-                      color: #FFCE00; }
+                      color: #074794; }
             @media (min-width: 1024px) and (max-width: 1280px) {
               .main-header-section .main-nav > ul > li .mega-menu-inner .mega-menu-item-wrap {
                 width: calc(100% - 230px); } }
@@ -778,7 +780,7 @@ body, html {
                 width: 230px; } }
           @media (min-width: 1440px) and (max-width: 1900px) {
             .main-header-section .main-nav > ul > li .mega-menu-inner .mega-menu-item-wrap {
-              padding: 83px 40px 20px; } }
+              padding: 45px 40px 20px; } }
           @media (max-width: 1366px) {
             .main-header-section .main-nav > ul > li .mega-menu-inner .mega-menu-item-wrap {
               padding: 60px 40px 20px; } }
@@ -2764,9 +2766,9 @@ body, html {
         margin-top: 30px;
         line-height: 24px; } }
   .welcome-page .welcome-inner-content p {
-    font-size: 18px;
+    font-size: 16px;
     color: #000000;
-    font-family: "SofiaProRegular";
+    font-family: "SofiaProLight";
     margin-top: 47px;
     line-height: 24px;
     max-width: 1095px; }
@@ -3998,7 +4000,9 @@ input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button
                 font-size: 16px;
                 line-height: 16px;
                 padding: 16px 0;
-                font-weight: normal; }
+                font-weight: normal;
+                transition: color .2s;
+                -webkit-transition: color .2s; }
                 .our-staff .overall-content-wrap .overall-content-inner aside .sidebar-wrap .others-link ul li a:before {
                   width: 5px;
                   height: 5px;
@@ -4696,6 +4700,23 @@ ul.files {
     ul.files > li:last-child {
       margin-bottom: 0 !important; }
 
+div.subpages ul.files {
+  max-width: 100% !important; }
+  div.subpages ul.files > li > a:after {
+    width: 7px;
+    height: 11px;
+    margin-top: -5.5px;
+    background-image: url(../svgs/chevron_right_arrow_yellow.svg); }
+
+@media (min-width: 768px) {
+  div.subpages {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px; }
+    div.subpages > .subpages-col {
+      width: 50%;
+      padding: 0 10px; } }
+
 /** END FILES SHORTCODE **/
 /** BREADCRUMB **/
 .breadcrumb p {
@@ -4719,10 +4740,14 @@ ul.files {
 .welcome-page .welcome-inner-content h1 + ul {
   margin-top: 60px !important; }
 
+.welcome-page .welcome-inner-content p strong {
+  font-family: "SofiaProSemiBold";
+  font-weight: 400; }
+
 .welcome-page .welcome-inner-content ul:not([class]) li,
 .welcome-page .welcome-inner-content ol:not([class]) li {
-  font-family: "SofiaProRegular";
-  font-size: 18px;
+  font-family: "SofiaProLight";
+  font-size: 16px;
   color: #000000;
   line-height: 24px; }
 
