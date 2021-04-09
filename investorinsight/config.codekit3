@@ -21,32 +21,6 @@
       "oF" : 3,
       "pg" : 0
     },
-    "\/css\/star-fb.png" : {
-      "ft" : 32768,
-      "iS" : 159,
-      "oA" : 0,
-      "oAP" : "\/css\/star-fb.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/css\/star-gg.png" : {
-      "ft" : 32768,
-      "iS" : 159,
-      "oA" : 0,
-      "oAP" : "\/css\/star-gg.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/css\/theme.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -72,6 +46,47 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
+    },
+    "\/index.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/index.html",
+      "oF" : 0
+    },
+    "\/js\/jquery-3.6.0.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 2,
+      "oAP" : "\/js\/jquery-3.6.0.min-min.js",
+      "oF" : 1,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/plugins.min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 2,
+      "oAP" : "\/js\/plugins.min.js",
+      "oF" : 3,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/js\/theme.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 2,
+      "oAP" : "\/js\/theme.js",
+      "oF" : 3,
+      "sC" : 3,
+      "tS" : 0
     }
   },
   "hooks" : [
@@ -82,7 +97,7 @@
   },
   "projectAttributes" : {
     "creationDate" : 629871040.72536898,
-    "displayValue" : "chross",
+    "displayValue" : "investorinsight",
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets_magenta",
     "iconImageWasSetByUser" : 0

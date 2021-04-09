@@ -61,7 +61,7 @@ h1, .h1 {
 
 h2, .h2 {
 	font-size: 36px;
-	line-height: 40px;
+	line-height: 44px;
 }
 
 p {
@@ -299,7 +299,7 @@ div.gform_wrapper {
 			margin: 0 6px 0 0 !important;
 		}
 		label {
-			font-size: 16px;
+			font-size: 14px;
 			margin: 0;
 		}
 	}
@@ -321,6 +321,19 @@ div.gform_wrapper {
 		text-align: left !important;
 	}
 }
+
+.gform_wrapper ul.gfield_checkbox li input[type=checkbox]:checked+label {
+	font-weight: 400 !important;
+}
+
+label#label_1_5_1 {
+	color: #fff;
+	a {
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
 /** END FORM **/
 
 /** SECTION HEADING **/
@@ -336,7 +349,7 @@ div.gform_wrapper {
 		line-height: 18px;
 		letter-spacing: 0.04em;
 		text-transform: uppercase;
-		margin-bottom: 8px;
+		margin-bottom: 13px;
 	}
 	span.dots {
 		position: absolute;
@@ -502,3 +515,39 @@ div.gform_wrapper {
 	}
 }
 /** END CONTACT **/
+
+/** MODAL **/
+.modal {
+	.modal-content {
+		border: 0;
+	}
+	.modal-body {
+		padding: 40px;
+		font-size: 18px;
+		button.close {
+			position: absolute;
+			top: 15px;
+			right: 15px;
+		}
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+/** END MODAL **/
+
+
+/* MOBILE VIEW */
+@media (max-width: 575px) {
+	.section-heading span.dots {
+		left: -30px;
+	}
+	
+	#about, #contact {
+		padding: 100px 0 60px;
+	}
+	h2, .h2 {
+		font-size: 30px;
+        line-height: 38px;
+	}
+}

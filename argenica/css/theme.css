@@ -56,7 +56,7 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: 36px;
-  line-height: 40px; }
+  line-height: 44px; }
 
 p {
   line-height: 28px; }
@@ -228,7 +228,7 @@ div.gform_wrapper {
     div.gform_wrapper ul.gfield_checkbox input {
       margin: 0 6px 0 0 !important; }
     div.gform_wrapper ul.gfield_checkbox label {
-      font-size: 16px;
+      font-size: 14px;
       margin: 0; }
   div.gform_wrapper .ginput_container,
   div.gform_wrapper .gform_footer {
@@ -245,6 +245,14 @@ div.gform_wrapper {
     color: #f03600 !important;
     text-align: left !important; }
 
+.gform_wrapper ul.gfield_checkbox li input[type=checkbox]:checked + label {
+  font-weight: 400 !important; }
+
+label#label_1_5_1 {
+  color: #fff; }
+  label#label_1_5_1 a:hover {
+    text-decoration: underline; }
+
 /** END FORM **/
 /** SECTION HEADING **/
 .section-heading {
@@ -258,7 +266,7 @@ div.gform_wrapper {
     line-height: 18px;
     letter-spacing: 0.04em;
     text-transform: uppercase;
-    margin-bottom: 8px; }
+    margin-bottom: 13px; }
   .section-heading span.dots {
     position: absolute;
     top: 35px;
@@ -382,3 +390,27 @@ div.gform_wrapper {
     padding-left: 100px; } }
 
 /** END CONTACT **/
+/** MODAL **/
+.modal .modal-content {
+  border: 0; }
+
+.modal .modal-body {
+  padding: 40px;
+  font-size: 18px; }
+  .modal .modal-body button.close {
+    position: absolute;
+    top: 15px;
+    right: 15px; }
+  .modal .modal-body p:last-child {
+    margin-bottom: 0; }
+
+/** END MODAL **/
+/* MOBILE VIEW */
+@media (max-width: 575px) {
+  .section-heading span.dots {
+    left: -30px; }
+  #about, #contact {
+    padding: 100px 0 60px; }
+  h2, .h2 {
+    font-size: 30px;
+    line-height: 38px; } }
