@@ -8,7 +8,7 @@
 
         <!-- Google fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
         <!-- STYLESHEET -->
         <link rel="stylesheet" href="css/plugins.min.css">
@@ -16,7 +16,751 @@
         <script src="js/jquery-3.6.0.min.js"></script>
     </head>
     <body>
-        
+        <header id="header">
+            <div class="header__main">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <a href="#" class="logo">
+                                <img src="svg/logo.svg" alt="logo">
+                            </a>
+                        </div>
+                        <div class="col-md-6 d-md-flex justify-content-end">
+                            <img src="svg/powered-by-canningspurple.svg" alt="powered-by-canningspurple">
+                        </div>
+                    </div>
+                    <!-- .row -->
+                </div>
+                <!-- .container -->
+            </div>
+            <!-- .header__main -->
+
+            <div class="header__menu">
+                <div class="container">
+                    <div class="d-flex align-items-center">
+                        <div class="toggle d-flex align-items-center d-md-none">
+                            <button type="button" data-toggle="collapse" data-target="#menu" class="collapsed">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
+
+                            <span>Navigation</span>
+                        </div>
+                        <!-- .toggle -->
+
+                        <div class="search">
+                            <form action="#">
+                                <input type="search" name="s" placeholder="Search...">
+                                <button type="button"></button>
+                            </form>
+                        </div>
+                        <!-- .search -->
+                    </div>
+
+                    <nav id="menu" class="d-lg-flex justify-content-between">
+                        <ul class="menu primary-menu d-lg-flex flex-wrap">
+                            <li><a href="#">Insight</a></li>
+                            <li><a href="#">Companies</a></li>
+                            <li>
+                                <a href="#">Commodities</a>
+                                <ul class="sub-menu">
+                                    <li>
+                                        <a href="#">Resources</a>
+                                        <ul class="sub-menu">
+                                            <li>
+                                                <span>ELEMENTS</span>
+                                                <ul class="sub-menu">
+                                                    <li><a href="#">Copper</a></li>
+                                                    <li><a href="#">Gold</a></li>
+                                                    <li><a href="#">Iron ore</a></li>
+                                                    <li><a href="#">Silver</a></li>
+                                                    <li><a href="#">Nickel</a></li>
+                                                    <li><a href="#">Lithium</a></li>
+                                                    <li><a href="#">Sulphate of Potash</a></li>
+                                                    <li><a href="#">Rare Earths</a></li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <span>TAGS</span>
+                                                <ul class="sub-menu">
+                                                    <li><a href="#">Production</a></li>
+                                                    <li><a href="#">Development</a></li>
+                                                    <li><a href="#">M&A</a></li>
+                                                    <li><a href="#">IPO</a></li>
+                                                    <li><a href="#">Equity Capital Markets</a></li>
+                                                    <li><a href="#">Drilling Results</a></li>
+                                                    <li><a href="#">Reports</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Tech</a></li>
+                                    <li><a href="#">Energy</a></li>
+                                    <li><a href="#">Agribusiness</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Video</a></li>
+                        </ul>
+
+                        <ul class="menu secondary-menu d-lg-flex flex-wrap">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li class="highlight"><a href="#">Subscribe</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <!-- .container -->
+            </div>
+            <!-- .header__menu -->
+        </header>
+        <!-- #header -->
+
+        <main id="main">
+            <section id="asx-live">
+                <div class="container">
+                    <div class="asd-place">
+                        <img src="images/ads-after-header.png" alt="ads">
+                    </div>
+
+                    <div class="asx-live__inner d-flex flex-wrap">
+                        <p class="asx-live__title">ASX <span>LIVE</span></p>
+
+                        <ul class="menu d-flex flex-wrap">
+                            <li>
+                                <strong>GRD</strong>
+                                <span class="change up"><img src="svg/arrow-up-green.svg" alt=""></span>
+                                <span>$1.24</span>
+                            </li>
+                            <li>
+                                <strong>GRD</strong>
+                                <span class="change down"><img src="svg/arrow-up-down.svg" alt=""></span>
+                                <span>$1.24</span>
+                            </li>
+                            <li>
+                                <strong>GRD</strong>
+                                <span class="change down"><img src="svg/arrow-up-down.svg" alt=""></span>
+                                <span>$1.24</span>
+                            </li>
+                            <li>
+                                <strong>GRD</strong>
+                                <span class="change no-change"></span>
+                                <span>$1.24</span>
+                            </li>
+                            <li>
+                                <strong>GRD</strong>
+                                <span class="change down"><img src="svg/arrow-up-down.svg" alt=""></span>
+                                <span>$1.24</span>
+                            </li>
+                            <li>
+                                <strong>GRD</strong>
+                                <span class="change up"><img src="svg/arrow-up-green.svg" alt=""></span>
+                                <span>$1.24</span>
+                            </li>
+                            <li>
+                                <strong>GRD</strong>
+                                <span class="change no-change"></span>
+                                <span>$1.24</span>
+                            </li>
+                            <li>
+                                <strong>GRD</strong>
+                                <span class="change up"><img src="svg/arrow-up-green.svg" alt=""></span>
+                                <span>$1.24</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- .asx-live__inner -->
+                </div>
+                <!-- .container -->
+            </section>
+            <!-- #asx-live -->
+
+            <section class="posts">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <article class="post-item post-item--overlay post-item--md">
+                                <div class="post-item__inner" style="background-image: url(images/photo-post-1.jpg)">
+                                    <ul class="meta">
+                                        <li><a href="#">INSIGHT</a></li>
+                                        <li>Nov 10</li>
+                                    </ul>
+                                    <p class="title">Taking stock - a year to remember sets up great expectations for 2021</p>
+                                    <div class="author">
+                                        <img src="images/photo-peter-klinger.jpg" alt="">
+                                        <span>Peter Klinger</span>
+                                    </div>
+
+                                    <div class="dots-more dots-more--md">
+                                        <span class="dots dots--md">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </span>
+                                        <span class="arrow"></span>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <article class="post-item post-item--stack">
+                                        <div class="post-item__photo">
+                                            <a href="#">
+                                                <img src="images/photo-post-1.jpg" alt="">
+                                            </a>
+                                        </div>
+
+                                        <div class="post-item__text">
+                                            <ul class="meta">
+                                                <li><a href="#">RECENT</a></li>
+                                                <li><a href="#">ASX</a></li>
+                                                <li>Nov 10</li>
+                                            </ul>
+                                            <p class="title"><a href="#">Battery power the key to new vehicle tech</a></p>
+
+                                            <ul class="cats">
+                                                <li><a href="#">Tech</a></li>
+                                            </ul>
+
+                                            <a href="#" class="dots-more dots-more--md">
+                                                <span class="dots dots--md">
+                                                    <span></span>
+                                                    <span></span>
+                                                    <span></span>
+                                                </span>
+                                                <span class="arrow"></span>
+                                            </a>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col-md-6">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- .row -->
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <article class="post-item post-item--minimal">
+                                <ul class="meta">
+                                    <li><a href="#">ASX</a></li>
+                                    <li>Nov 10</li>
+                                </ul>
+                                <p class="title"><a href="#">There’s Something about Silica Sands</a></p>
+
+                                <ul class="cats">
+                                    <li><a href="#">Resources</a></li>
+                                    <li><a href="#">Si</a></li>
+                                </ul>
+
+                                <a href="#" class="dots-more dots-more--sm">
+                                    <span class="dots dots--sm">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </span>
+                                    <span class="arrow"></span>
+                                </a>
+                            </article>
+                        </div>
+                        <div class="col-md-3">
+                            <article class="post-item post-item--minimal">
+                                <ul class="meta">
+                                    <li><a href="#">ASX</a></li>
+                                    <li>Nov 10</li>
+                                </ul>
+                                <p class="title"><a href="#">There’s Something about Silica Sands</a></p>
+
+                                <ul class="cats">
+                                    <li><a href="#">Resources</a></li>
+                                    <li><a href="#">Si</a></li>
+                                </ul>
+                                
+                                <a href="#" class="dots-more dots-more--sm">
+                                    <span class="dots dots--sm">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </span>
+                                    <span class="arrow"></span>
+                                </a>
+                            </article>
+                        </div>
+                        <div class="col-md-3">
+                        </div>
+                        <div class="col-md-3">
+                        </div>
+                    </div>
+                    <!-- .row -->
+                </div>
+                <!-- .container -->
+            </section>
+
+            <section id="video">
+                <div class="container">
+                    <h2>Video</h2>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <article class="post-item post-item--video">
+                                <div class="post-item__photo">
+                                    <ul class="meta">
+                                        <li><a href="#">VIDEO</a></li>
+                                        <li><a href="#">ASX</a></li>
+                                        <li>Nov 10</li>
+                                    </ul>
+                                    <div class="control">
+                                        <span>03:20</span>
+                                        <span class="dots dots--sm dots--white">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="post-item__text">
+                                    <p class="title"><a href="#">Drilling commences at Lady Ilse gold-copper porphyry target</a></p>
+                                    <ul class="cats">
+                                        <li><a href="#">Resources</a></li>
+                                        <li><a href="#">Cu</a></li>
+                                        <li><a href="#">Au</a></li>
+                                    </ul>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-md-4">
+                        </div>
+                        <div class="col-md-4">
+                        </div>
+                    </div>
+                    <!-- .row -->
+                </div>
+                <!-- .container -->
+            </section>
+            <!-- #video -->
+
+            <section id="newsletter">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="newsletter__heading">
+                                <p>INSIGHT</p>
+                                <h2 class="h3">NEWSLETTER</h2>
+                            </div>
+                            <p>Select your area of interest, and sign up to our newsletter to receive our weekly roundup, and releases of interest, as they happen.</p>
+                        </div>
+                        <div class="col-md-7">
+                            Form here
+                        </div>
+                    </div>
+                    <!-- .row -->
+                </div>
+                <!-- .container -->
+            </section>
+            <!-- #newsletter -->
+
+            <section class="posts">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <article class="post-item post-item--author post-item--md">
+                                <ul class="cats">
+                                    <li><a href="#">INSIGHT</a></li>
+                                </ul>
+                                <p class="title"><a href="#">Core Lithium soars as investor jump into promising juniors</a></p>
+                                <p>Emerging lithium producer Core Lithium has given shareholders plenty of Christmas cheer.</p>
+
+                                <a href="#" class="dots-more dots-more--md dots-more--gray">
+                                    <span class="dots dots--md dots--gray">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </span>
+                                    <span class="arrow"></span>
+                                </a>
+
+                                <div class="author">
+                                    <img src="images/photo-peter-klinger.jpg" alt="">
+                                    <span>Peter Klinger</span>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-md-3">
+                            <article class="post-item post-item--author post-item--sm">
+                                <ul class="cats">
+                                    <li><a href="#">INSIGHT</a></li>
+                                </ul>
+                                <p class="title"><a href="#">Core Lithium soars as investor jump into promising juniors</a></p>
+                                <p>Emerging lithium producer Core Lithium has given shareholders plenty of Christmas cheer.</p>
+
+                                <a href="#" class="dots-more dots-more--sm dots-more--gray">
+                                    <span class="dots dots--sm dots--gray">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </span>
+                                    <span class="arrow"></span>
+                                </a>
+
+                                <div class="author">
+                                    <img src="images/photo-peter-klinger.jpg" alt="">
+                                    <span>Fraser Beattie</span>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-md-3">
+                        </div>
+                    </div>
+                    <!-- .row -->
+                </div>
+                <!-- .container -->
+            </section>
+
+            <section class="posts section--gray">
+                <div class="container">
+                    <h2 class="h3">Category</h2>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <article class="post-item post-item--overlay post-item--md">
+                                <div class="post-item__inner" style="background-image: url(images/photo-peter-klinger.jpg);">
+                                    <ul class="meta">
+                                        <li><a href="#">TECH</a></li>
+                                        <li><a href="#">ASX</a></li>
+                                        <li>Nov 10</li>
+                                    </ul>
+                                    <p class="title">Drilling commences at Lady Ilse gold-copper porphyry target</p>
+                                    <ul class="cats">
+                                        <li><a href="#">Resources</a></li>
+                                        <li><a href="#">Cu</a></li>
+                                        <li><a href="#">Au</a></li>
+                                    </ul>
+
+                                    <a href="#" class="dots-more dots-more--md">
+                                        <span class="dots dots--md">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </span>
+                                        <span class="arrow"></span>
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-md-6">
+                            <article class="post-item post-item--inline">
+                                <div class="post-item__photo">
+                                    <a href="#">
+                                        <img src="images/photo-post-1.jpg" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="post-item__text">
+                                    <ul class="meta">
+                                        <li><a href="#">ASX</a></li>
+                                        <li>Nov 10</li>
+                                    </ul>
+                                    <p class="title">There’s Something about Silica Sands</p>
+                                    <ul class="cats">
+                                        <li><a href="#">Tech</a></li>
+                                    </ul>
+
+                                    <a href="#" class="dots-more dots-more--sm">
+                                        <span class="dots dots--sm">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </span>
+                                        <span class="arrow"></span>
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <!-- .row -->
+                </div>
+            </section>
+
+            <section class="posts">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="category-posts">
+                                <div class="category-posts__header">
+                                    <h2>Category Name</h2>
+
+                                    <form action="#">
+                                        <label for="#">Filter:</label>
+
+                                        <div class="select-field">
+                                            <select name="#">
+                                                <option value="">All subcategories</option>
+                                                <option value="">Sub category 1</option>
+                                                <option value="">Sub category 2</option>
+                                            </select>
+                                        </div>
+                                    </form>
+                                </div>
+                                <!-- .category-posts__header -->
+                                <div class="category-posts__list">
+                                    <div class="row">
+                                        <div class="col-md-4">
+                                            <article class="post-item post-item--overlay post-item--sm">
+                                                <div class="post-item__inner" style="background-image: url(images/photo-post-1.jpg);">
+                                                    <ul class="meta">
+                                                        <li>ASX</li>
+                                                        <li>Nov 10</li>
+                                                    </ul>
+                                                    <p class="title">Drilling commences at Lady Ilse gold-copper porphyry target</p>
+                                                    <ul class="cats">
+                                                        <li><a href="#">Resources</a></li>
+                                                        <li>Cu</li>
+                                                        <li>Au</li>
+                                                    </ul>
+                                                    <a href="#" class="dots-more dots-more--md">
+                                                        <span class="dots dots--md">
+                                                            <span></span>
+                                                            <span></span>
+                                                            <span></span>
+                                                        </span>
+                                                        <span class="arrow"></span>
+                                                    </a>
+                                                </div>
+                                            </article>
+                                        </div>
+                                    </div>
+                                    <!-- .row -->
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <article class="post-item post-item--minimal">
+                                                <ul class="meta">
+                                                    <li><a href="#">ASX</a></li>
+                                                    <li>Nov 10</li>
+                                                </ul>
+                                                <p class="title"><a href="#">There’s Something about Silica Sands</a></p>
+                
+                                                <ul class="cats">
+                                                    <li><a href="#">Resources</a></li>
+                                                    <li><a href="#">Si</a></li>
+                                                </ul>
+                
+                                                <a href="#" class="dots-more dots-more--sm">
+                                                    <span class="dots dots--sm">
+                                                        <span></span>
+                                                        <span></span>
+                                                        <span></span>
+                                                    </span>
+                                                    <span class="arrow"></span>
+                                                </a>
+                                            </article>
+                                        </div>
+                                    </div>
+                                    <!-- .row -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <img src="images/ads-sidebar.png" alt="">
+                        </div>
+                    </div>
+                    <!-- .row -->
+                </div>
+                <!-- .container -->
+            </section>
+
+            <section class="posts">
+                <div class="container">
+                    <article class="post-item post-item--overlay post-item--lg">
+                        <div class="post-item__inner" style="background-image: url(images/photo-post-1.jpg)">
+                            <ul class="meta">
+                                <li><a href="#">CATEGORY NAME</a></li>
+                                <li><a href="#">ASX</a></li>
+                                <li><a href="#">Nov 10</a></li>
+                            </ul>
+                            <p class="title">Drilling commences at Lady Ilse gold-copper porphyry target</p>
+                            <ul class="cats">
+                                <li><a href="#">Resources</a></li>
+                                <li><a href="#">Cu</a></li>
+                                <li><a href="#">Au</a></li>
+                            </ul>
+                            <a href="#" class="dots-more dots-more--md">
+                                <span class="dots dots--md">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </span>
+                                <span class="arrow"></span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <article class="post-item post-item--inline">
+                                <div class="post-item__photo">
+                                    <a href="#">
+                                        <img src="images/photo-post-1.jpg" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="post-item__text">
+                                    <ul class="meta">
+                                        <li><a href="#">ASX</a></li>
+                                        <li>Nov 10</li>
+                                    </ul>
+                                    <p class="title">There’s Something about Silica Sands</p>
+                                    <ul class="cats">
+                                        <li><a href="#">Tech</a></li>
+                                    </ul>
+
+                                    <a href="#" class="dots-more dots-more--sm">
+                                        <span class="dots dots--sm">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </span>
+                                        <span class="arrow"></span>
+                                    </a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <!-- .row -->
+                </div>
+                <!-- .container -->
+            </section>
+
+            <section class="posts">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h2 class="text-center">Category / Tag Name</h2>
+
+                            <article class="post-item post-item--stack">
+                                <div class="post-item__photo">
+                                    <a href="#">
+                                        <img src="images/photo-post-1.jpg" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="post-item__text">
+                                    <ul class="meta">
+                                        <li><a href="#">RECENT</a></li>
+                                        <li><a href="#">ASX</a></li>
+                                        <li>Nov 10</li>
+                                    </ul>
+                                    <p class="title"><a href="#">Battery power the key to new vehicle tech</a></p>
+
+                                    <ul class="cats">
+                                        <li><a href="#">Tech</a></li>
+                                    </ul>
+
+                                    <a href="#" class="dots-more dots-more--md">
+                                        <span class="dots dots--md">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </span>
+                                        <span class="arrow"></span>
+                                    </a>
+                                </div>
+                            </article>
+
+                            <article class="post-item post-item--minimal">
+                                <ul class="meta">
+                                    <li><a href="#">ASX</a></li>
+                                    <li>Nov 10</li>
+                                </ul>
+                                <p class="title"><a href="#">There’s Something about Silica Sands</a></p>
+
+                                <ul class="cats">
+                                    <li><a href="#">Resources</a></li>
+                                    <li><a href="#">Si</a></li>
+                                </ul>
+
+                                <a href="#" class="dots-more dots-more--sm">
+                                    <span class="dots dots--sm">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </span>
+                                    <span class="arrow"></span>
+                                </a>
+                            </article>
+                        </div>
+                    </div>
+                    <!-- .row -->
+                </div>
+                <!-- .container -->
+            </section>
+
+            <section id="twitter" class="section--gray">
+                <div class="container">
+                    <h2>Twitter Feed</h2>
+                </div>
+            </section>
+        </main>
+        <!-- #site-main -->
+
+        <footer id="footer">
+            <div class="container">
+                <div class="row footer__primary">
+                    <div class="col-md-7">
+                        <div class="about">
+                            <a href="#" class="logo">
+                                <img src="svg/logo.svg" alt="logo">
+                            </a>
+
+                            <p>Investor Insight, powered by Cannings Purple, delivers the stories that matter to the people who matter – across your preferred communications platform.</p>
+                            <p>From breaking news to analysis, opportunities and thought leadership, Investor Insight is your window into some of Australia’s most exciting ASX-listed companies.</p>
+                        </div>
+                        <!-- .about -->
+
+                        <ul class="menu">
+                            <li><a href="#">Commodities</a></li>
+                            <li><a href="#">Companies</a></li>
+                            <li><a href="#">Insight</a></li>
+                            <li><a href="#">Events</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5">
+                        <ul class="socials">
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+
+                        <a href="#" class="powered-by">
+                            <img src="svg/powered-by-canningspurple.svg" alt="powered-by-canningspurple">
+                        </a>
+                    </div>
+                </div>
+                <!-- .row -->
+
+                <div class="row footer__secondary">
+                    <div class="col-md-7">
+                        <ul class="menu">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Subscribe</a></li>
+                            <li><a href="#">Cannings Purple</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Disclaimer</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-5 text-md-right">
+                        <p class="mb-0">Copyright 2021 Cannings Purple</p>
+                    </div>
+                </div>
+                <!-- .row -->
+            </div>
+            <!-- .container -->
+        </footer>
+        <!-- #site-footer -->
+
         <!-- SCRIPT -->
         <script src="js/plugins.min.js"></script>
         <script src="js/theme.js"></script>
