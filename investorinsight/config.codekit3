@@ -179,6 +179,14 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/post.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/post.html",
+      "oF" : 0
+    },
     "\/svg\/arrow-down-red.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -199,11 +207,51 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/svg\/arrow-right-gray.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/arrow-right-gray.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/arrow-right-green.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/arrow-right-green.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/svg\/arrow-up-green.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/svg\/arrow-up-green.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/email-gray.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/email-gray.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/email-green.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/email-green.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -229,11 +277,31 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/svg\/logo-white.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/logo-white.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/svg\/logo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/svg\/logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/play-white.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/play-white.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,

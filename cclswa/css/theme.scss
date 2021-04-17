@@ -1205,14 +1205,6 @@ div.gform_wrapper {
         opacity: 0;
         visibility: hidden;
     }
-
-    .service-box:hover .inner {
-        position: absolute;
-        top: 0;
-        left: 0;
-        right: 0;
-        height: calc(100% + 150px);
-    }
 }
 
 @media (max-width: 1199px) {
@@ -1222,10 +1214,6 @@ div.gform_wrapper {
 
     .service-box .text .long {
         display: none;
-    }
-
-    .service-box:hover {
-        height: auto;
     }
 
     .service-box:hover .text .short {

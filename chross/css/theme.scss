@@ -515,6 +515,11 @@ div.gform_wrapper {
     }
 }
 
+div.gform_confirmation_message {
+    color: $color2;
+    font-style: italic;
+}
+
 @media (min-width: 768px) {
     div.gform_wrapper ul.gform_fields > li.gf_left_half,
     div.gform_wrapper ul.gform_fields > li.gf_right_half {

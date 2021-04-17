@@ -21,32 +21,6 @@
       "oF" : 3,
       "pg" : 0
     },
-    "\/css\/star-fb.png" : {
-      "ft" : 32768,
-      "iS" : 159,
-      "oA" : 0,
-      "oAP" : "\/css\/star-fb.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/css\/star-gg.png" : {
-      "ft" : 32768,
-      "iS" : 159,
-      "oA" : 0,
-      "oAP" : "\/css\/star-gg.png",
-      "oF" : 0,
-      "oIPL" : 1,
-      "opt" : 1,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/css\/theme.css" : {
       "aP" : 1,
       "bl" : 0,
