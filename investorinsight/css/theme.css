@@ -1063,7 +1063,8 @@ div.gform_confirmation_message {
     padding: 15px 40px 80px 25px; }
   .post-item--insight.post-item--md .title {
     font-size: 28px;
-    line-height: 30px; }
+    line-height: 30px;
+    margin-bottom: 30px; }
   .post-item--insight.post-item--md .author {
     bottom: -40px; }
     .post-item--insight.post-item--md .author img {
@@ -1079,7 +1080,8 @@ div.gform_confirmation_message {
     padding: 15px 20px 40px 0; }
   .post-item--insight.post-item--sm .title {
     font-size: 22px;
-    line-height: 24px; }
+    line-height: 24px;
+    margin-bottom: 20px; }
   .post-item--insight.post-item--sm .author {
     bottom: -26px; }
     .post-item--insight.post-item--sm .author img {
@@ -1138,6 +1140,8 @@ section {
       margin-left: 6px;
       color: #fff; }
   #asx-live .asx-live__embed {
+    display: flex;
+    align-items: center;
     width: calc(100% - 124px);
     padding: 0 20px; }
 
@@ -1804,6 +1808,36 @@ ul.page-numbers {
   padding-bottom: 60px; }
 
 /** END VIDEO TEMPLATE **/
+/** TWITTER FEED **/
+#ctf {
+  overflow: visible; }
+  #ctf .ctf-tweets {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px; }
+    #ctf .ctf-tweets > div.ctf-item {
+      width: 100%;
+      padding: 10px 10px;
+      border: 0;
+      font-size: 14px; }
+      #ctf .ctf-tweets > div.ctf-item p {
+        line-height: 18px; }
+      #ctf .ctf-tweets > div.ctf-item a:not([class]) {
+        color: #2C2A6C; }
+  #ctf .ctf-author-name {
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+    color: #2C2A6C !important; }
+
+@media (min-width: 992px) {
+  #ctf .ctf-tweets > div.ctf-item {
+    width: 33.333%; } }
+
+@media (min-width: 1200px) {
+  #ctf .ctf-tweets > div.ctf-item {
+    width: 25%; } }
+
+/** END TWITTER FEED **/
 /** EXTRA **/
 #archives {
   padding-bottom: 60px; }

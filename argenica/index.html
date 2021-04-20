@@ -14,20 +14,103 @@
         <script src="js/jquery-3.6.0.min.js"></script>
     </head>
     <body>
-        <main>
-            <section id="welcome" style="background-image: url(images/photo-welcome.jpg);">
-                <div class="container">
+        <header id="header">
+            <div class="header__topbar d-flex justify-content-end align-items-center">
+                <a href="#" class="subscribe-link">Subscribe to our News Updates & Alerts</a>
+                <div class="asx-price">
+                    <span class="name">ASX AGN:</span>
+                    <span class="amount">A$0.0129</span>
+                </div>
+                <!-- .asx-price -->
+            </div>
+            <!-- .header__topbar -->
+
+            <div class="header__main">
+                <div class="container d-flex justify-content-between align-items-center">
                     <a href="#" class="logo">
                         <img src="svg/logo.svg" alt="logo">
+                        <img src="svg/logo-icon.svg" alt="logo" class="sticky">
                     </a>
 
-                    <div class="welcome__text">
-                        <h1>Stroke is more common than you think. In Australia, a stroke occurs <span>every 19 minutes.</span></h1>
-                        <div class="text">
-                            <p>In 2019 there were 13 million people globally who experienced a stroke for the first time in their lives. When a stroke strikes, it attacks up to 1.9 million brain cells per minute. The damage left by stroke can cause lasting brain damage, long term disability, and even death. This makes protecting the brain crucial.</p>
-                        </div>
-                        <a href="#about" class="btn btn--arrow btn--white"><span>What we Aim to do</span></a>
+                    <button type="button" class="toggle-menu collapsed d-xl-none" data-toggle="collapse" data-target="#menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+                
+                <nav id="menu" class="collapse d-xl-block">
+                    <div class="container">
+                        <ul class="menu d-xl-flex justify-content-end align-items-center">
+                            <li><a href="#">Home</a></li>
+                            <li>
+                                <a href="#">About</a>
+                                <button type="button" class="toggle-submenu"></button>
+                                <ul class="sub-menu">
+                                    <li><a href="#">Company Overview</a></li>
+                                    <li><a href="#">Mission & Values </a></li>
+                                    <li><a href="#">Board & Management</a></li>
+                                    <li><a href="#">Medical Advisory Committee</a></li>
+                                    <li><a href="#">Partnerships</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Investor Centre</a>
+                                <button type="button" class="toggle-submenu"></button>
+                                <ul class="sub-menu">
+                                    <li><a href="#">Share Information</a></li>
+                                    <li>
+                                        <a href="#">Announcements & Reports</a>
+                                        <button type="button" class="toggle-submenu"></button>
+                                        <ul class="sub-menu">
+                                            <li><a href="#">ASX Announcements</a></li>
+                                            <li><a href="#">Analyst Reports</a></li>
+                                            <li><a href="#">Financial Reports</a></li>
+                                            <li><a href="#">Annual Reports</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Corporate Directory</a></li>
+                                    <li><a href="#">Corporate Governance</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Technology</a>
+                                <button type="button" class="toggle-submenu"></button>
+                                <ul class="sub-menu">
+                                    <li><a href="#">The Science</a></li>
+                                    <li><a href="#">Development</a></li>
+                                    <li><a href="#">Pipeline</a></li>
+                                    <li><a href="#">Publications</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">Media</a>
+                                <button type="button" class="toggle-submenu"></button>
+                                <ul class="sub-menu">
+                                    <li><a href="#">News & Media</a></li>
+                                    <li><a href="#">Presentations</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
                     </div>
+                    <!-- .container -->
+                </nav>
+                <!-- #menu -->
+            </div>
+            <!-- .header__main -->
+        </header>
+        <!-- #header -->
+
+        <main id="main">
+            <section id="welcome" style="background-image: url(images/photo-welcome.jpg);">
+                <div class="container">
+                    <div class="welcome__text">
+                        <h1>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</h1>
+                        <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+                        <a href="#about" class="btn btn--arrow btn--white"><span>Discover More</span></a>
+                    </div>
+                    <!-- .welcome__text -->
                 </div>
                 <!-- .container -->
             </section>
@@ -36,22 +119,28 @@
             <section id="about">
                 <div class="container">
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-lg-6">
                             <div class="section-heading">
-                                <span class="dots">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                </span>
                                 <p class="color-teal">About Argenica Therapeutics</p>
-                                <h2>Developing novel therapeutics to reduce brain damage after stroke and improve patient outcomes</h2>
+                                <div class="inner">
+                                    <span class="dots">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                    </span>
+                                    <h2>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. </h2>
+                                </div>
+                                <!-- .inner -->
                             </div>
                             <!-- .section-heading -->
                         </div>
-                        <div class="col-md-6">
-                            <p>Our lead neuroprotective peptide candidate, ARG007 has been successfully demonstrated to improve outcomes in pre-clinical stroke models and is in the process of being verified for its safety and toxicology before commencing Phase 1 clinical trials in humans.</p>
-                            <p>Our aim is for our therapeutics to be administered by first responders to protect brain tissue against damage during a stroke with further potential to enhance recovery once a stroke has taken place.</p>
-                            <a href="#contact" class="btn btn--arrow btn--teal"><span>Get More information</span></a>
+                        <div class="col-lg-6">
+                            <p>Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p>
+                            <p>Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+
+                            <a href="#" class="btn btn--arrow"><span>About Us</span></a>
+                            <a href="#" class="btn btn--arrow"><span>Our People</span></a>
+                            <a href="#" class="btn btn--arrow"><span>Investor Centre</span></a>
                         </div>
                     </div>
                     <!-- .row -->
@@ -60,35 +149,210 @@
             </section>
             <!-- #about -->
 
-            <section id="contact">
+            <section class="section-text-photo">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-6 contact__text">
-                            <div class="section-heading">
+                    <div class="photo" style="background-image: url(images/photo-post-1.jpg);"></div>
+                    <div class="text">
+                        <div class="section-heading">
+                            <p class="color-teal">Therapeutic Drug Development</p>
+                            <div class="inner">
                                 <span class="dots">
                                     <span></span>
                                     <span></span>
                                     <span></span>
                                 </span>
-                                <p class="color-teal">More about Argenica Therapeutics</p>
-                                <h2>The Company has lodged a Prospectus to raise $7m and list on ASX</h2>
+                                <h2>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</h2>
                             </div>
-                            <!-- .section-heading -->
+                            <!-- .inner -->
+                        </div>
+                        <!-- .section-heading -->
 
-                            <p>Disclaimer text here … Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. </p>
-                        </div>
-                        <div class="col-md-6 contact__form">
-                            <a href="#" class="btn btn--email btn--white"><span>Send me a prospectus</span></a>
-                        </div>
+                        <p>Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+
+                        <a href="#" class="btn btn--arrow btn--white"><span>Development</span></a>
+                        <a href="#" class="btn btn--arrow btn--white"><span>Pipeline</span></a>
                     </div>
-                    <!-- .row -->
-
-                    <p class="copyright mb-0">&copy; Copyright 2021 Argenica Therapeutics Pty Ltd</p>
+                    <!-- .text -->
                 </div>
                 <!-- .container -->
             </section>
-            <!-- #contact -->
+            <!-- .section-text-photo -->
+
+            <section id="news">
+                <div class="container">
+                    <div class="section-heading">
+                        <div class="inner">
+                            <span class="dots">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </span>
+                            <h2>Latest News & Announcements</h2>
+                        </div>
+                        <!-- .inner -->
+                    </div>
+                    <!-- .section-heading -->
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="cta-box">
+                                <p class="cta-box__heading">
+                                    <img src="" alt="">
+                                    <a href="#">ASX Announcements</a>
+                                </p>
+                                <div class="cta-box__description">
+                                    <p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p>
+                                </div>
+                                <p class="cta-box__date">28 Jun 2021</p>
+                                <a href="#" class="cta-box__more"></a>
+                            </div>
+                            <!-- .cta-box -->
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="cta-box">
+                                <p class="cta-box__heading">
+                                    <img src="" alt="">
+                                    <a href="#">ASX Announcements</a>
+                                </p>
+                                <div class="cta-box__description">
+                                    <p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p>
+                                </div>
+                                <p class="cta-box__date">28 Jun 2021</p>
+                                <a href="#" class="cta-box__more"></a>
+                            </div>
+                            <!-- .cta-box -->
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="cta-box">
+                                <p class="cta-box__heading">
+                                    <img src="" alt="">
+                                    <a href="#">ASX Announcements</a>
+                                </p>
+                                <div class="cta-box__description">
+                                    <p>Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.</p>
+                                </div>
+                                <p class="cta-box__date">28 Jun 2021</p>
+                                <a href="#" class="cta-box__more"></a>
+                            </div>
+                            <!-- .cta-box -->
+                        </div>
+                    </div>
+                    <!-- .row -->
+                </div>
+                <!-- .container -->
+            </section>
+            <!-- #news -->
+
+            <section id="subscribe" class="subscribe--style-1">
+                <div class="container">
+                    <div class="subscribe__photo" style="background-image: url(images/photo-post-1.jpg);"></div>
+                    <div class="subscribe__form">
+                        <p class="h3 title">Subscribe to get our news updates and alerts in your inbox</p>
+                    </div>
+                    <!-- .subscribe__form -->
+                </div>
+                <!-- .container -->
+            </section>
+            <!-- #subscribe -->
+
+            <section id="subscribe" class="subscribe--style-2" style="background-image: url(images/photo-welcome.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="images/photo-post-1.jpg" alt="">
+                        </div>
+                        <div class="col-md-6">
+                            <p class="sub-title">Our Prospectus</p>
+                            <p class="h3 title">Please enter your details for a copy of our Prospectus.</p>
+                        </div>
+                    </div>
+                    <!-- .row -->
+                </div>
+                <!-- .container -->
+            </section>
+            <!-- #subscribe -->
+
+            <section id="subscribe" class="subscribe--style-3" style="background-image: url(images/photo-welcome.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p class="h3 title">Subscribe to get our news updates and alerts in your inbox</p>
+                        </div>
+                        <div class="col-md-6">
+
+                        </div>
+                    </div>
+                    <!-- .row -->
+                </div>
+                <!-- .container -->
+            </section>
+            <!-- #subscribe -->
         </main>
+        <!-- #main -->
+
+        <footer id="footer">
+            <div class="container">
+                <div class="row footer__main">
+                    <div class="col-md-5">
+                        <div class="widget widget-contact">
+                            <a href="#" class="logo">
+                                <img src="svg/logo.svg" alt="logo">
+                            </a>
+                            <p>Argenica Therapeutics Pty Ltd<br/> Suite 2, 29 The Avenue, Nedlands WA 6009, Australia <br/>PO Box 1458, West Perth WA 6872</p>
+                            <ul class="contact">
+                                <li class="email"><a href="#">info@argenica.com.au</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-7 d-md-flex">
+                        <div class="wiget">
+                            <ul class="menu">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Investor Centre</a></li>
+                                <li><a href="#">Media</a></li>
+                                <li><a href="#">News & Media</a></li>
+                                <li><a href="#">Presentations</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="widget">
+                            <ul class="menu">
+                                <li><a href="#">Technology</a></li>
+                                <li><a href="#">The Science</a></li>
+                                <li><a href="#">Development</a></li>
+                                <li><a href="#">Pipeline</a></li>
+                                <li><a href="#">Publications</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- .row -->
+
+                <div class="row footer__copyright">
+                    <div class="col-md-5 d-md-flex align-items-center">
+                        <ul class="socials">
+                            <li><a href="#"></a></li>
+                            <li><a href="#"></a></li>
+                        </ul>
+
+                        <form action="#" method="get">
+                            <input type="search" name="s" placeholder="Search">
+                        </form>
+                    </div>
+                    <div class="col-md-7">
+                        <p class="copyright">&copy; Copyright 2021 Argenica Therapeutics Pty Ltd <a href="#">Privacy Policy</a> <a href="#">Terms & Conditions</a></p>
+                        <p>Website by <a href="#">Crux Creative</a> and <a href="#">Meta Creative</a></p>
+                    </div>
+                </div>
+                <!-- .row -->
+            </div>
+            <!-- .container -->
+        </footer>
+        <!-- #footer -->
         
         <!-- SCRIPT -->
         <script src="js/plugins.min.js"></script>

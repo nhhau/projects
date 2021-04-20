@@ -49,9 +49,35 @@
     },
     "\/images\/bg-dots.png" : {
       "ft" : 32768,
-      "iS" : 8881,
+      "iS" : 2484,
       "oA" : 0,
       "oAP" : "\/images\/bg-dots.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/circle-cluster.png" : {
+      "ft" : 32768,
+      "iS" : 9868,
+      "oA" : 0,
+      "oAP" : "\/images\/circle-cluster.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/circle-overlay.png" : {
+      "ft" : 32768,
+      "iS" : 121328,
+      "oA" : 0,
+      "oAP" : "\/images\/circle-overlay.png",
       "oF" : 0,
       "oIPL" : 1,
       "opt" : 1,
@@ -60,9 +86,35 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/images\/photo-post-1.jpg" : {
+      "ft" : 16384,
+      "iS" : 156084,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/photo-post-1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/photo-post-2.jpg" : {
+      "ft" : 16384,
+      "iS" : 156864,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/photo-post-2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/images\/photo-welcome.jpg" : {
       "ft" : 16384,
-      "iS" : 198307,
+      "iS" : 181451,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/images\/photo-welcome.jpg",
@@ -134,6 +186,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/svg\/icon-asx.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/icon-asx.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/svg\/icon-mail-teal.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -149,6 +211,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/svg\/icon-mail-white.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/logo-icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/logo-icon.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,

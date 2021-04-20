@@ -69,7 +69,7 @@ div.gform_wrapper form input[type="text"], div.gform_wrapper form input[type="em
 
 div.gform_wrapper form textarea { height: 196px; padding: 20px 25px !important; resize: vertical; }
 
-div.gform_wrapper ul.gform_fields > li { width: 100% !important; max-width: 100% !important; margin: 0 0 18px !important; padding: 0 !important; border: 0 !important; background-color: transparent !important; }
+div.gform_wrapper ul.gform_fields > li { width: 100% !important; max-width: 100% !important; margin: 0 0 18px !important; padding: 0 !important; border: 0 !important; background-color: transparent !important; clear: both !important; }
 
 div.gform_wrapper div.gfield_description { padding: 5px 0 0 !important; font-size: 12px; }
 
@@ -84,6 +84,8 @@ div.gform_wrapper div.gform_footer .button-primary:after { display: block; width
 div.gform_wrapper div.gform_footer .button-primary:hover { border-color: #fff !important; color: #fff !important; }
 
 div.gform_wrapper div.gform_footer .button-primary:hover:after { border-left-color: #fff; }
+
+@media (min-width: 768px) { div.gform_wrapper ul.gform_fields > li.gf_left_half, div.gform_wrapper ul.gform_fields > li.gf_right_half { float: left !important; width: 50% !important; } div.gform_wrapper ul.gform_fields > li.gf_left_half { padding-right: 9px !important; } div.gform_wrapper ul.gform_fields > li.gf_right_half { padding-left: 9px !important; clear: none !important; } }
 
 /** END FORM **/
 /** HEADER **/
@@ -292,6 +294,10 @@ div.gform_wrapper div.gform_footer .button-primary:hover:after { border-left-col
 @media (max-width: 767px) { #contact .row > div:nth-child(1) { margin-bottom: 30px; } }
 
 /** END CONTACT SECTION **/
+/** QUICK CONTACT SECTION **/
+#quick-contact { padding: 120px 0; background-color: #000000; color: #fff; }
+
+/** END QUICK CONTACT SECTION **/
 /** PAGE TITLE **/
 #page-title { position: relative; background-repeat: no-repeat; background-position: center; background-size: cover; overflow: hidden; }
 

@@ -991,7 +991,7 @@ div.gform_confirmation_wrapper {
         .brand {
             .slogan {
                 width: calc(100% - 187px);
-                padding-left: 70px;
+                padding-left: 65px;
                 font-size: 38px;
                 line-height: 38px;
                 font-weight: 700;
@@ -1033,16 +1033,41 @@ div.gform_confirmation_wrapper {
                 text-transform: uppercase;
             }
         }
+        a.chat {
+            display: flex;
+            align-items: center;
+            font-size: 16px;
+            line-height: 18px;
+            color: #473382;
+            font-weight: 600;
+            img {
+                width: 40px;
+                height: auto;
+                margin-right: 8px;
+            }
+            span {
+                display: inline-block;
+                white-space: nowrap;
+                span {
+                    display: block;
+                    color: #fbad4f;
+                }
+            }
+        }
     }
     nav {
+        width: 100%;
         background-color: #FEAE44;
         padding: 12px 0;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
         ul.menu {
             > li {
                 display: inline-block;
                 > a {
                     color: #492E84;
                     font-weight: 700;
+                    white-space: nowrap;
                     &:hover {
                         color: #fff;
                     }
@@ -1057,9 +1082,13 @@ body.admin-bar #site-header .main .exit > a {
 }
 
 @media (min-width: 992px) {
-    #site-header .main .action {
-        width: calc(100% - 85px);
-        padding-right: 35px;
+    #site-header {
+        .main {
+            .action {
+                width: calc(100% - 85px);
+                padding-right: 35px;
+            }
+        }
     }
 
     #site-header nav ul.menu > li:not(:first-child) {
@@ -1067,71 +1096,90 @@ body.admin-bar #site-header .main .exit > a {
     }
 }
 
+@media (min-width: 1450px) {
+    #site-header {
+        .main {
+            a.chat {
+                position: relative;
+                left: -32px;
+                font-size: 20px;
+                line-height: 22px;
+                img {
+                    width: 48px;
+                    margin-right: 12px;
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 991px) {
     #site-header {
         padding-top: 32px;
-    }
-    
-    #site-header .main .slogan {
-        font-size: 18px;
-        line-height: 24px;
-        padding-top: 20px;
-    }
-
-    #site-header nav ul.menu > li {
-        margin: 0 30px;
+        .main {
+            .slogan {
+                font-size: 18px;
+                line-height: 24px;
+                padding-top: 20px;
+            }
+        }
     }
 
-    #site-header nav ul.menu > li:first-child {
-        margin-left: 0;
-    }
-
-    #site-header nav ul.menu > li:last-child {
-        margin-right: 0;
+    #site-header nav {
+        ul.menu > li {
+            margin: 0 20px;
+            &:first-child {
+                margin-left: 0;
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+        }
     }
 }
 
 @media (max-width: 767px) {
-    #site-header .topbar {
-        .container {
-            padding-right: 65px;
-            text-align: center;
-        }
-        .toggle-megamenu {
-            position: absolute;
-            top: -1px;
-            right: 15px;
+    #site-header {
+        .topbar {
+            .container {
+                padding-right: 65px;
+                text-align: center;
+            }
+            .toggle-megamenu {
+                position: absolute;
+                top: -1px;
+                right: 15px;
+            }
         }
     }
 }
 
 @media (max-width: 575px) {
-    #site-header .main {
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-
-    #site-header .main .slogan {
-        padding-top: 15px;
-    }
-
-    #site-header .main .action {
-        font-size: 13px;
-        p:not([class]) {
-            line-height: 16px;
-        }
-        .phone {
-            font-size: 18px;
-            line-height: 20px;
-        }
-    }
-
-    #site-header .main .row {
-        margin-left: -5px;
-        margin-right: -5px;
-        > div {
-            padding-left: 5px;
-            padding-right: 5px;
+    #site-header {
+        .main {
+            padding-top: 15px;
+            padding-bottom: 15px;
+            .row {
+                margin-left: -5px;
+                margin-right: -5px;
+                > div {
+                    padding-left: 5px;
+                    padding-right: 5px;
+                }
+            }
+            .slogan {
+                padding-top: 15px;
+            }
+            .action {
+                font-size: 13px;
+                p:not([class]) {
+                    line-height: 16px;
+                }
+                .phone {
+                    font-size: 18px;
+                    line-height: 20px;
+                }
+            }
         }
     }
 }
@@ -1143,17 +1191,19 @@ body.admin-bar #site-header .main .exit > a {
 }
 
 @media (max-width: 400px) {
-    #site-header .topbar .container {
-        font-size: 12px;
-    }
-
-    #site-header .main .slogan {
-        font-size: 16px;
-        line-height: 20px;
-    }
-
-    #site-header .main .action .phone {
-        font-size: 16px;
+    #site-header {
+        .topbar .container {
+            font-size: 12px;
+        }
+        .main {
+            .slogan {
+                font-size: 16px;
+                line-height: 20px;
+            }
+            .action .phone {
+                font-size: 16px;
+            }
+        }
     }
 }
 /** END HEADER **/

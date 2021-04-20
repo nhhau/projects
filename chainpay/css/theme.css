@@ -729,7 +729,7 @@ input, button {
       #chainpay-flow .chainpay-flow--customers span.arrow--two {
         bottom: -90px;
         left: 50%;
-        width: 184px;
+        width: 180px;
         transform: rotate(35.75deg); }
         #chainpay-flow .chainpay-flow--customers span.arrow--two span {
           left: 10px;
@@ -739,9 +739,9 @@ input, button {
       height: 179px;
       margin: 0 auto; }
       #chainpay-flow .chainpay-flow--chainpay span.arrow--one {
-        top: 40%;
-        width: 184px;
-        right: -205px;
+        top: 14%;
+        width: 180px;
+        right: -200px;
         transform: rotate(-35.75deg); }
     #chainpay-flow .chainpay-flow--merchant {
       position: absolute;

@@ -1507,6 +1507,7 @@ div.gform_confirmation_message {
 			.title {
 				font-size: 28px;
 				line-height: 30px;
+				margin-bottom: 30px;
 			}
 			.author {
 				bottom: -40px;
@@ -1528,6 +1529,7 @@ div.gform_confirmation_message {
 			.title {
 				font-size: 22px;
 				line-height: 24px;
+				margin-bottom: 20px;
 			}
 			.author {
 				bottom: -26px;
@@ -1607,6 +1609,8 @@ section {
 			}
 		}
 		&__embed {
+			display: flex;
+			align-items: center;
 			width: calc(100% - 124px);
 			padding: 0 20px;
 		}
@@ -2584,6 +2588,50 @@ ul.page-numbers {
 	padding-bottom: 60px;
 }
 /** END VIDEO TEMPLATE **/
+
+/** TWITTER FEED **/
+#ctf {
+	overflow: visible;
+	.ctf-tweets {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 0 -10px;
+		> div.ctf-item {
+			width: 100%;
+			padding: 10px 10px;
+			border: 0;
+			font-size: 14px;
+			p {
+				line-height: 18px;
+			}
+			a:not([class]) {
+				color: $color_blue;
+			}
+		}
+	}
+	.ctf-author-name {
+		font-family: $font_mer;
+		font-size: 16px;
+		color: $color_blue !important;
+	}
+}
+
+@media (min-width: 992px) {
+	#ctf .ctf-tweets {
+		> div.ctf-item {
+			width: 33.333%;
+		}
+	}
+}
+
+@media (min-width: 1200px) {
+	#ctf .ctf-tweets {
+		> div.ctf-item {
+			width: 25%;
+		}
+	}
+}
+/** END TWITTER FEED **/
 
 /** EXTRA **/
 #archives {
