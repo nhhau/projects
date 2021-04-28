@@ -637,6 +637,8 @@ div.gform_confirmation_message {
         color: #B7D433; }
       #footer .footer__primary ul.menu li:not(:last-child) {
         margin-right: 20px; }
+      #footer .footer__primary ul.menu ul.sub-menu {
+        display: none; }
     #footer .footer__primary ul.socials {
       width: 100%; }
       #footer .footer__primary ul.socials li a svg {
