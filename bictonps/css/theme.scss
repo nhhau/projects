@@ -873,6 +873,12 @@ body,html{height: 100%;}
                 &:hover .mega-menu-wrap{
                     img{height: auto!important;}
                 }
+				
+				&:first-child {
+					a:after {
+						display: none !important;
+					}
+				}
 
                 &:first-child > a:after{left: 0;}
 
@@ -2347,6 +2353,9 @@ body,html{height: 100%;}
             height: 186px;
             border-radius: 50%;
             overflow: hidden;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
             img {
                 display: block;
                 width: 100%;

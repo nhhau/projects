@@ -680,6 +680,10 @@ div.gform_wrapper {
     box-shadow: 0 3px 6px rgba(0,0,0,.16);
 }
 
+div.gform_wrapper input:read-only {
+	background: #efefef;
+}
+
 @media (min-width: 641px) {
     div.gform_wrapper ul.gform_fields > li.gf_left_half,
     div.gform_wrapper ul.gform_fields > li.gf_right_half {
@@ -2587,6 +2591,10 @@ div.single-product {
                 line-height: 18px;
                 strong {
                     display: block;
+                }
+                span.price-note {
+                    display: block;
+                    margin-bottom: 5px;
                 }
             }
         }

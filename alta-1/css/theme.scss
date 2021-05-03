@@ -150,12 +150,12 @@ div.gform_wrapper {
                 flex-wrap: wrap;
                 align-items: center;
                 li {
-                    margin-right: 40px;
+                    margin-right: 35px;
                     a {
-                        font-size: 20px;
+                        font-size: 18px;
                         color: #9FC2CB;
                         font-weight: 600;
-                        line-height: 24px;
+                        line-height: 20px;
                         &:hover {
                             color: #fff;
                         }
@@ -246,17 +246,17 @@ div.gform_wrapper {
             ul.menu {
                 > li {
                     > a {
-                        font-size: 24px;
-                        line-height: 29px;
+                        font-size: 20px;
+                        line-height: 26px;
                         color: #fff;
                     }
                     &.menu-item-button {
                         > a {
                             background-color: #AF241E;
                             border-radius: 25px;
-                            padding: 0 30px;
+                            padding: 0 25px;
                             font-weight: 700;
-                            line-height: 56px;
+                            line-height: 52px;
                             text-align: center;
                             &:hover {
                                 background-color: #bf2a23;
@@ -340,27 +340,6 @@ div.gform_wrapper {
                     > li {
                         &:not(:last-child) {
                             margin-right: 50px;
-                        }
-                    }
-                }
-            }
-
-            @media (min-width: 1364px) and (max-width: 1599px) {
-                ul.menu {
-                    > li {
-                        > a {
-                            font-size: 20px;
-                            line-height: 24px;
-                        }
-                    }
-                }
-            }
-
-            @include breakpoint_min(1800px) {
-                ul.menu {
-                    > li {
-                        &:not(:last-child) {
-                            margin-right: 70px;
                         }
                     }
                 }

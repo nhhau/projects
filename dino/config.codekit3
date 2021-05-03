@@ -43,7 +43,7 @@
       "oA" : 0,
       "oAP" : "\/css\/theme.css",
       "oF" : 1,
-      "oS" : 0,
+      "oS" : 3,
       "pg" : 0,
       "sct" : 1
     },
@@ -65,6 +65,27 @@
       "iS" : 1324,
       "oA" : 0,
       "oAP" : "\/images\/bg-pattern-logo-sm.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/favicon.ico" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/favicon.ico",
+      "oF" : 0
+    },
+    "\/images\/favicon.png" : {
+      "ft" : 32768,
+      "iS" : 1955,
+      "oA" : 0,
+      "oAP" : "\/images\/favicon.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -112,14 +133,27 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/images\/photo-welcome-logo-lg.png" : {
+      "ft" : 32768,
+      "iS" : 178027,
+      "oA" : 0,
+      "oAP" : "\/images\/photo-welcome-logo-lg.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/images\/photo-welcome-logo.png" : {
       "ft" : 32768,
       "iS" : 177845,
       "oA" : 0,
       "oAP" : "\/images\/photo-welcome-logo.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -178,6 +212,26 @@
       "oF" : 3,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/svg\/btn-gradient-border.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/btn-gradient-border.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/circle-gradient-80.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/circle-gradient-80.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/svg\/icon-chart.svg" : {
       "ft" : 2097152,

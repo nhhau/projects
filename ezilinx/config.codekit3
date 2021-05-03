@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34127",
   "files" : {
+    "\/about.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/about.html",
+      "oF" : 0
+    },
     "\/css\/plugins.min.css" : {
       "aP" : 1,
       "bl" : 0,
@@ -46,6 +54,22 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
+    },
+    "\/demo.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/demo.html",
+      "oF" : 0
+    },
+    "\/faq.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/faq.html",
+      "oF" : 0
     },
     "\/images\/logo-arenberg.jpg" : {
       "ft" : 16384,
@@ -257,6 +281,34 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/page.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/page.html",
+      "oF" : 0
+    },
+    "\/svg\/chevron-right-blue.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/chevron-right-blue.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/chevron-right-pink.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/chevron-right-pink.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/svg\/distributors.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -317,11 +369,11 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/svg\/logo-pattern-gray.svg" : {
+    "\/svg\/logo-pattern-white.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/svg\/logo-pattern-gray.svg",
+      "oAP" : "\/svg\/logo-pattern-white.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
@@ -362,6 +414,16 @@
       "miP" : 0,
       "oA" : 2,
       "oAP" : "\/svg\/retailers.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/search-white.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/search-white.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
