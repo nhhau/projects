@@ -37,7 +37,13 @@ div.gform_wrapper form input[type="submit"] { background-color: #AF241E; border:
 
 div.gform_wrapper form input[type="submit"]:hover { background-color: #bf2a23; }
 
-div.gform_wrapper label.gfield_label { font-size: 18px; font-weight: 700; color: #005A6B; }
+div.gform_wrapper ul.gform_fields > li { max-width: 100% !important; width: 100% !important; padding: 0 !important; margin: 0 0 20px !important; border: 0 !important; background-color: transparent !important; }
+
+div.gform_wrapper div.ginput_container, div.gform_wrapper div.gform_footer { margin: 0 !important; padding: 0 !important; }
+
+div.gform_wrapper div.gfield_description { padding: 5px 0 0 !important; }
+
+div.gform_wrapper label.gfield_label { display: block; margin: 0 0 5px; font-size: 18px; font-weight: 700; color: #005A6B; }
 
 /** END FORM **/
 /** HEADER **/
@@ -113,6 +119,8 @@ div.gform_wrapper label.gfield_label { font-size: 18px; font-weight: 700; color:
 
 @media (max-width: 789px) { #header .header__main .toggle-menu-wrap { top: 72px; } #header .header__main a.phone { display: inline-block; } }
 
+@media (max-width: 575px) { #header .header__main a.logo img { max-width: 200px; height: auto; } #header .header__main .toggle-menu-wrap { top: 47px; } }
+
 @media (max-width: 1363px) { #header.open-menu { background-color: #005A6B; } }
 
 /** END HEADER **/
@@ -160,3 +168,11 @@ div.gform_wrapper label.gfield_label { font-size: 18px; font-weight: 700; color:
 #page-title div.wrapper { position: relative; z-index: 10; }
 
 /** END PAGE TITLE **/
+/** elementor popup **/
+.elementor-popup-modal div.gform_wrapper form input[type="text"], .elementor-popup-modal div.gform_wrapper form textarea, .elementor-popup-modal div.gform_wrapper form select { display: block; width: 100%; height: 50px; padding: 0 15px !important; margin: 0 !important; border: 1px solid #005A6B; font-size: 16px !important; }
+
+.elementor-popup-modal div.gform_wrapper form textarea { height: 200px; padding: 10px 15px !important; resize: vertical; }
+
+.elementor-popup-modal div.gform_wrapper form input[type="submit"] { font-size: 20px; }
+
+/** END elementor popup **/
