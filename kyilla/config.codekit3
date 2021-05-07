@@ -47,6 +47,264 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/fonts\/futura-pt\/2acd9263-c166-4d81-97ca-7318c4753945.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/futura-pt\/2acd9263-c166-4d81-97ca-7318c4753945.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/futura-pt\/10cee8c3-6e4c-4f57-8121-cf5e361423a7.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/futura-pt\/10cee8c3-6e4c-4f57-8121-cf5e361423a7.woff",
+      "oF" : 0
+    },
+    "\/fonts\/futura-pt\/21fe5b07-01c8-4b82-8e0b-2bf22f6481fa.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/futura-pt\/21fe5b07-01c8-4b82-8e0b-2bf22f6481fa.woff",
+      "oF" : 0
+    },
+    "\/fonts\/futura-pt\/81d44d4b-ac07-4ad4-8cdd-4df771a3c1c3.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/futura-pt\/81d44d4b-ac07-4ad4-8cdd-4df771a3c1c3.woff",
+      "oF" : 0
+    },
+    "\/fonts\/futura-pt\/83e72918-97c3-41cd-8a7d-4056788a00f0.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/futura-pt\/83e72918-97c3-41cd-8a7d-4056788a00f0.woff",
+      "oF" : 0
+    },
+    "\/fonts\/futura-pt\/97eeb983-cbcb-40c4-b724-919d44b8d4af.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/futura-pt\/97eeb983-cbcb-40c4-b724-919d44b8d4af.woff",
+      "oF" : 0
+    },
+    "\/fonts\/futura-pt\/38909ddd-1d42-49a0-987a-dcf1aa3ab39e.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/futura-pt\/38909ddd-1d42-49a0-987a-dcf1aa3ab39e.woff",
+      "oF" : 0
+    },
+    "\/fonts\/futura-pt\/848602e3-bda3-4b1c-976b-fe26eecfab31.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/futura-pt\/848602e3-bda3-4b1c-976b-fe26eecfab31.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/futura-pt\/6650716f-e079-48f1-861d-00f498c16e8e.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/futura-pt\/6650716f-e079-48f1-861d-00f498c16e8e.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/futura-pt\/28351402-8fc5-4d21-a3df-e99d2d814bd4.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/futura-pt\/28351402-8fc5-4d21-a3df-e99d2d814bd4.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/futura-pt\/aafdd021-88d4-41d8-8e15-fe91f83e4b17.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/futura-pt\/aafdd021-88d4-41d8-8e15-fe91f83e4b17.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/futura-pt\/bbf607bd-4426-47a9-ae87-c843830b7c4a.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/futura-pt\/bbf607bd-4426-47a9-ae87-c843830b7c4a.woff",
+      "oF" : 0
+    },
+    "\/fonts\/futura-pt\/cf12a4d6-3bc0-4ae9-85b5-26fc0fa6b321.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/futura-pt\/cf12a4d6-3bc0-4ae9-85b5-26fc0fa6b321.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/futura-pt\/e4eacf8d-aba1-40d4-9597-1198e91dcf00.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/futura-pt\/e4eacf8d-aba1-40d4-9597-1198e91dcf00.woff",
+      "oF" : 0
+    },
+    "\/fonts\/futura-pt\/e28dd043-42c3-47cb-815e-32648d6a8a2a.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/futura-pt\/e28dd043-42c3-47cb-815e-32648d6a8a2a.woff2",
+      "oF" : 0
+    },
+    "\/fonts\/futura-pt\/f7552419-a773-41ab-ae4a-b12b1d853f02.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/fonts\/futura-pt\/f7552419-a773-41ab-ae4a-b12b1d853f02.woff2",
+      "oF" : 0
+    },
+    "\/images\/bg-footer-mb.png" : {
+      "ft" : 32768,
+      "iS" : 13595,
+      "oA" : 0,
+      "oAP" : "\/images\/bg-footer-mb.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/bg-footer.png" : {
+      "ft" : 32768,
+      "iS" : 68292,
+      "oA" : 0,
+      "oAP" : "\/images\/bg-footer.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/favicon.png" : {
+      "ft" : 32768,
+      "iS" : 25699,
+      "oA" : 0,
+      "oAP" : "\/images\/favicon.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/photo featured event.jpg" : {
+      "ft" : 16384,
+      "iS" : 82790,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/photo featured event.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/photo jo hine.jpg" : {
+      "ft" : 16384,
+      "iS" : 149064,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/photo jo hine.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/photo sample 1.jpg" : {
+      "ft" : 16384,
+      "iS" : 499140,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/photo sample 1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/photo sample 2.jpg" : {
+      "ft" : 16384,
+      "iS" : 266420,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/photo sample 2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/photo sample 3.jpg" : {
+      "ft" : 16384,
+      "iS" : 402941,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/photo sample 3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/photo sample 4.jpg" : {
+      "ft" : 16384,
+      "iS" : 181422,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/photo sample 4.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/photo sample 5.jpg" : {
+      "ft" : 16384,
+      "iS" : 247305,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/photo sample 5.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/index.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -87,6 +345,226 @@
       "oF" : 3,
       "sC" : 3,
       "tS" : 0
+    },
+    "\/svg\/0A4B6F\/arrow-right.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/0A4B6F\/arrow-right.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/0A4B6F\/chevrons-down.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/0A4B6F\/chevrons-down.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/0A4B6F\/slogan.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/0A4B6F\/slogan.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/59B7CC\/arrow-right.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/59B7CC\/arrow-right.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/59B7CC\/calendar.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/59B7CC\/calendar.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/59B7CC\/download.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/59B7CC\/download.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/59B7CC\/location.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/59B7CC\/location.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/59B7CC\/login.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/59B7CC\/login.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/59B7CC\/search.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/59B7CC\/search.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/34945C\/arrow-right.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/34945C\/arrow-right.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/absentees.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/absentees.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/canteen.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/canteen.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/enrolment.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/enrolment.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/FFFFFF\/arrow-right.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/FFFFFF\/arrow-right.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/FFFFFF\/calendar.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/FFFFFF\/calendar.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/FFFFFF\/location.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/FFFFFF\/location.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/FFFFFF\/login.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/FFFFFF\/login.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/FFFFFF\/slogan.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/FFFFFF\/slogan.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/logo-icon.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/logo-icon.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/logo-taglines.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/logo-taglines.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/logo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/logo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/svg\/uniforms.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/svg\/uniforms.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     }
   },
   "hooks" : [

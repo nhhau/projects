@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="27px" height="26px" viewBox="0 0 27 26" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>calendar</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="calendar" stroke="#FFFFFF" stroke-width="1.5">
+            <rect id="Rectangle_23" fill-opacity="0" fill="#000000" fill-rule="nonzero" x="0.75" y="2" width="25" height="23" rx="2"></rect>
+            <line x1="0.75" y1="6" x2="25.75" y2="6" id="Line_5"></line>
+            <rect id="Rectangle_24" fill-opacity="0" fill="#000000" fill-rule="nonzero" x="3.75" y="10" width="5" height="4"></rect>
+            <rect id="Rectangle_25" fill-opacity="0" fill="#000000" fill-rule="nonzero" x="10.75" y="10" width="5" height="4"></rect>
+            <rect id="Rectangle_26" fill-opacity="0" fill="#000000" fill-rule="nonzero" x="18.75" y="10" width="4" height="4"></rect>
+            <rect id="Rectangle_27" fill-opacity="0" fill="#000000" fill-rule="nonzero" x="3.75" y="17" width="5" height="4"></rect>
+            <rect id="Rectangle_28" fill-opacity="0" fill="#000000" fill-rule="nonzero" x="10.75" y="17" width="5" height="4"></rect>
+            <line x1="6.75" y1="-5.55111512e-17" x2="6.75" y2="4" id="Line_6"></line>
+            <line x1="20.75" y1="-5.55111512e-17" x2="20.75" y2="4" id="Line_7"></line>
+        </g>
+    </g>
+</svg>
