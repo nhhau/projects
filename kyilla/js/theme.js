@@ -1,29 +1,9 @@
 (function($) {
     $(document).ready( function() {
-        function header_init() {
-            var scroll_pos = $(window).scrollTop(),
-                header_height = $('#header').outerHeight();
-
-            if( $('#welcome').length ) {
-                welcome_height = $('#welcome').outerHeight();
-                header_height = welcome_height - header_height;
-            }
-
-            if( scroll_pos > header_height ) {
-                $('#header').sticky({
-                    topSpacing: 0,
-                    zIndex: 200
-                });
-            } else {
-                $('#header').unstick();
-            }
-        }
-
         function site_init() {
-            header_init();
-            
-            $(window).scroll( function() {
-                header_init();
+            $('#header').sticky({
+                topSpacing: 0,
+                zIndex: 200
             });
 
             $('#header .header__primary button.toggle-menu, #sidemenu button.close').on('click', function(e) {
@@ -45,5 +25,34 @@
         }
         
         site_init();
+
+        function welcome_section() {
+            var set_height = function() {
+                var window_height = $(window).height(),
+                    header_height = $('#header').outerHeight();
+                    bar_height = $('#welcome .welcome__bar').outerHeight();
+                    height = window_height - header_height - bar_height;
+
+                $('#welcome .welcome__primary').css({
+                    height: height + 'px'
+                });
+            }
+
+            $(window).resize( function(e) {
+                set_height();
+            });
+
+            set_height();
+
+            $('div.welcome__slideshow').slick({
+                dots: false,
+                arrows: false,
+                fade: true
+            });
+        }
+
+        if( $('#welcome').length ) {
+            welcome_section();
+        }
     });
 })(jQuery);

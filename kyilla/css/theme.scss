@@ -57,6 +57,30 @@ $color_red: #C22238;
 $color_green: #34945C;
 $color_yellow: #E4C24A;
 
+@-webkit-keyframes mouse-scroll {
+    0%   { opacity: 0;}
+    50%  { opacity: .5;}
+    100% { opacity: 1;}
+}
+
+@-moz-keyframes mouse-scroll {
+    0%   { opacity: 0; }
+    50%  { opacity: .5; }
+    100% { opacity: 1; }
+}
+
+@-o-keyframes mouse-scroll {
+    0%   { opacity: 0; }
+    50%  { opacity: .5; }
+    100% { opacity: 1; }
+}
+
+@keyframes mouse-scroll {
+    0%   { opacity: 0; }
+    50%  { opacity: .5; }
+    100% { opacity: 1; }
+}
+
 body {
     font-family: $font_fu_boo;
     font-size: 18px;
@@ -163,7 +187,10 @@ input, button {
 
 /** HEADER **/
 #header {
-    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: #fff;
     font-family: $font_fu_med;
     font-size: 14px;
@@ -851,5 +878,252 @@ div.megamenu {
 
 /** welcome **/
 #welcome {
+    .welcome__slideshow,
+    .slick-list,
+    .slick-track,
+    .slick-slide {
+        height: 100%;
+    }
+
+    .slick-slide {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .welcome {
+        &__primary {
+            position: relative;
+            min-height: 450px;
+            z-index: 15;
+        }
+
+        &__slideshow {
+            position: relative;
+            z-index: 5;
+        }
+        
+        &__text {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 0 20px 120px;
+            background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%);
+            background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+            background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
+            z-index: 10;
+
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+
+        &__bar {
+            position: relative;
+            background-color: #DEEEF1;
+            padding-bottom: 115px;
+            z-index: 20;
+
+            a.scroll {
+                position: absolute;
+                bottom: 10px;
+                left: 0;
+                right: 0;
+                display: block;
+                width: 17px;
+                margin: 0 auto;
+
+                span {
+                    display: block;
+                    width: 17px;
+                    height: 11px;
+                    margin-bottom: -2px;
+                    background-image: url(../svg/0A4B6F/chevrons-down.svg);
+                    background-repeat: no-repeat;
+                    background-position: 0;
+                    animation: mouse-scroll 1s infinite;
+
+                    &:nth-child(1) {
+                        animation-delay: .1s;
+                        animation-direction: alternate;
+                    }
+
+                    &:nth-child(2) {
+                        animation-delay: .2s;
+                        animation-direction: alternate;
+                    }
+
+                    &:nth-child(3) {
+                        animation-delay: .3s;
+                        animation-direction: alternate;
+                    }
+                }
+            }
+
+            ul.menu {
+                > li {
+                    position: relative;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-flow: column;
+                    width: 20%;
+                    height: 154px;
+                    padding: 20px 20px;
+                    font-size: 16px;
+                    color: #000000;
+                    text-align: center;
+                    
+                    a {
+                        color: inherit;
+                    }
+                    
+                    span {
+                        display: block;
+                        transition: .4s;
+    
+                        &.title {
+                            margin-bottom: 10px;
+                            font-family: $font_fu_boo;
+                            font-size: 25px;
+                        }
+    
+                        &.description {
+                            line-height: 20px;
+                        }
+
+                        &.logo {
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            width: 272px;
+                            height: 272px;
+                            background-color: #fff;
+                            border-radius: 50%;
+                            box-shadow: 0 3px 6px rgba($color: #000000, $alpha: 0.08);
+                            z-index: 5;
+                            transform: translateX(-50%) translateY(-50%);
+                            -webkit-transform: translateX(-50%) translateY(-50%);
+                        }
+                        
+                        &:not(.logo) {
+                            max-width: 260px;
+                            margin: 0 auto;
+                            opacity: 0;
+                            visibility: hidden;
+                        }
+                    }
+                    
+                    img {
+                        position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        transition: .3s;
+                        transform: translateX(-50%) translateY(-50%);
+                        -webkit-transform: translateX(-50%) translateY(-50%);
+                    }
+    
+                    &.logo {
+                        &:before,
+                        &:after {
+                            content: '';
+                            position: absolute;
+                            top: 0;
+                            width: 50%;
+                            height: 100%;
+                            z-index: 1;
+                        }
+    
+                        &:before {
+                            left: 0;
+                            background-color: #59B7CC;
+                        }
+    
+                        &:after {
+                            right: 0;
+                            background-color: #34945C;
+                        }
+                    }
+
+                    &:not(.logo) {
+                        img {
+                            border-radius: 50%;
+                            width: 154px;
+                            height: 154px;
+                        }
+                    }
+                    
+                    &.enrolment {
+                        background-color: #E4C24A;
+                    }
+    
+                    &.uniforms {
+                        background-color: #59B7CC;
+                    }
+    
+                    &.canteen {
+                        background-color: #34945C;
+                        color: #fff;
+                    }
+    
+                    &.absentees {
+                        background-color: #C22238;
+                        color: #fff;
+                    }
+                    
+                    &:hover {
+                        span {
+                            &:not(.logo) {
+                                opacity: 1;
+                                visibility: visible;
+                            }
+                        }
+                        
+                        &:not(.logo) {
+                            img {
+                                width: 96px;
+                                height: 96px;
+                                margin-top: -92px;
+                                box-shadow: 0 3px 6px rgba($color: #000000, $alpha: 0.16);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    @media (min-width: 992px) {
+        
+    }
+
+    @media (max-width: 1439px) {
+        .welcome__bar {
+            ul.menu {
+                > li {
+                    &:not(.logo) img {
+                        width: 120px;
+                        height: 120px;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 991px) {
+        .welcome__bar {
+            ul.menu {
+                > li {
+                    &:not(.logo) img {
+                        width: 80px;
+                        height: 80px;
+                    }
+                }
+            }
+        }
+    }
 }
 /** END welcome **/

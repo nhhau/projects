@@ -227,12 +227,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/images\/photo jo hine.jpg" : {
+    "\/images\/photo-jo-hine.jpg" : {
       "ft" : 16384,
       "iS" : 149064,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/photo jo hine.jpg",
+      "oAP" : "\/images\/photo-jo-hine.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -240,12 +240,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/images\/photo sample 1.jpg" : {
+    "\/images\/photo-sample-1.jpg" : {
       "ft" : 16384,
       "iS" : 499140,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/photo sample 1.jpg",
+      "oAP" : "\/images\/photo-sample-1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -253,12 +253,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/images\/photo sample 2.jpg" : {
+    "\/images\/photo-sample-2.jpg" : {
       "ft" : 16384,
       "iS" : 266420,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/photo sample 2.jpg",
+      "oAP" : "\/images\/photo-sample-2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -266,12 +266,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/images\/photo sample 3.jpg" : {
+    "\/images\/photo-sample-3.jpg" : {
       "ft" : 16384,
       "iS" : 402941,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/photo sample 3.jpg",
+      "oAP" : "\/images\/photo-sample-3.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -279,12 +279,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/images\/photo sample 4.jpg" : {
+    "\/images\/photo-sample-4.jpg" : {
       "ft" : 16384,
       "iS" : 181422,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/photo sample 4.jpg",
+      "oAP" : "\/images\/photo-sample-4.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -292,12 +292,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/images\/photo sample 5.jpg" : {
+    "\/images\/photo-sample-5.jpg" : {
       "ft" : 16384,
       "iS" : 247305,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/images\/photo sample 5.jpg",
+      "oAP" : "\/images\/photo-sample-5.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
