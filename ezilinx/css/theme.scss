@@ -811,6 +811,12 @@ div.gform_wrapper {
 						}
 					}
 				}
+
+				button.toggle-submenu,
+				ul.sub-menu {
+					display: none;
+					visibility: hidden;
+				}
 			}
 
 			@include breakpoint_min(768px) {
@@ -1117,7 +1123,8 @@ section {
 		.the-platform__video {
 			position: absolute;
 			right: 15px;
-			bottom: -100px;
+			//bottom: -100px;
+			top: 50px;
 			left: 15px;
 			z-index: 10;
 		}
@@ -1132,7 +1139,8 @@ section {
 
 	@include breakpoint_max(1199px) {
 		.the-platform__video {
-			padding-top: 50px;
+			top: 0;
+			margin-top: 50px;
 		}
 	}
 
@@ -1722,6 +1730,8 @@ section.two-buttons {
 			}
 
 			h2 {
+				font-size: 48px;
+				line-height: 54px;
 				margin-bottom: 60px;
 				color: inherit;
 			}
@@ -2248,11 +2258,12 @@ section.two-buttons {
 /** END block-quote **/
 
 /** book-appointment **/
-#book-appointment {
+section.book-appointment {
 	position: relative;
 	background-color: #D5D5D5;
 	padding: 45px 0 85px;
 	overflow: hidden;
+	
 	&:before {
 		content: '';
 		position: absolute;
@@ -2267,9 +2278,11 @@ section.two-buttons {
 		background-size: contain;
 		z-index: 1;
 	}
+
 	h2 {
 		margin-bottom: 35px;
 	}
+
 	.book-appointment {
 		&__embed {
 			max-width: 1077px;
@@ -3274,7 +3287,10 @@ body.page-template-page_flexible {
 /** END template flexible **/
 
 /** EXTRA **/
-.mejs-container, .mejs-container .mejs-controls, .mejs-embed, .mejs-embed body {
+.mejs-container, 
+.mejs-container .mejs-controls, 
+.mejs-embed, 
+.mejs-embed body {
 	background: $color_brown;
 }
 /** END EXTRA **/

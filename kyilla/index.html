@@ -9,7 +9,7 @@
 
         <!-- Google fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=BioRhyme&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@400;700&display=swap" rel="stylesheet">
 
         <!-- Stylesheet -->
         <link rel="stylesheet" href="css/plugins.min.css">
@@ -76,7 +76,7 @@
                                 <div class="megamenu__inner">
                                     <p class="megamenu__title">Our School</p>
 
-                                    <div class="megamenu__photo" style="background-image: url(images/photo\ sample\ 1.jpg);"></div>
+                                    <div class="megamenu__photo" style="background-image: url(images/photo-sample-1.jpg);"></div>
 
                                     <div class="megamenu__items">
                                         <ul>
@@ -104,7 +104,7 @@
                                 <div class="megamenu__inner">
                                     <p class="megamenu__title">Our School</p>
 
-                                    <div class="megamenu__photo" style="background-image: url(images/photo\ sample\ 1.jpg);"></div>
+                                    <div class="megamenu__photo" style="background-image: url(images/photo-sample-2.jpg);"></div>
 
                                     <div class="megamenu__items">
                                         <ul>
@@ -141,14 +141,15 @@
         <main id="main">
             <section id="welcome">
                 <div class="welcome__primary">
-                    <div class="welcome__slideshow">
+                    <div class="welcome__slideshow equal-height">
                         <div class="slick-slide" style="background-image: url(images/photo-sample-3.jpg);"></div>
                         <div class="slick-slide" style="background-image: url(images/photo-sample-4.jpg);"></div>
                         <div class="slick-slide" style="background-image: url(images/photo-sample-5.jpg);"></div>
                     </div>
 
                     <div class="welcome__text">
-                        <img src="svg/FFFFFF/slogan.svg" alt="slogan">
+                        <img src="svg/FFFFFF/slogan.svg" alt="slogan" class="d-none d-sm-block">
+                        <img src="svg/FFFFFF/slogan-sm.svg" alt="slogan" class="d-sm-none">
                     </div>
                 </div>
 
@@ -200,8 +201,8 @@
 
             <section id="about">
                 <div class="container">
-                    <div class="about__text">
-                        <h2>Welcome to Kyilla Primary School</h2>
+                    <div class="about__text text-center">
+                        <h2 class="h1">Welcome to Kyilla Primary School</h2>
                         <p>An Independent Public School for over 300 Kindergarten to Year 6 children; ‘Building a strong foundation for life’ is our vision for all of our children. At Kyilla Primary School we are proud of our achievements. We have a proven track record for ensuring that children are given every opportunity to do their best academically, socially and physically. Children are taught and supported by experienced teachers and school support staff.</p>
                         
                         <a href="#" class="button-secondary">
@@ -212,37 +213,46 @@
                 <!-- .container -->
 
                 <div class="about__principal">
-                    <img src="images/photo jo hine.jpg" alt="jo hine">
-                    <span class="name">Jo Hine, Principal</span>
+                    <span class="shape-1"></span>
+                    <span class="shape-2"></span>
+                    <span class="shape-3"></span>
+                    <span class="shape-4"></span>
+
+                    <div class="photo-frame">
+                        <img src="svg/frame-1.svg" alt="frame" class="frame">
+                        <img src="images/photo-jo-hine.jpg" alt="jo hine">
+                    </div>
+                    <p class="name mb-0"><strong>Jo Hine,</strong> Principal</p>
                 </div>
             </section>
             <!-- #about -->
 
             <section id="learning">
-                <div class="learning__slogan">
-                    <img src="svg/0A4B6F/slogan.svg" alt="slogan">
+                <div class="learning__slogan d-flex align-items-center justify-content-center">
+                    <img src="svg/0A4B6F/slogan.svg" alt="slogan" class="d-none d-sm-block">
+                    <img src="svg/0A4B6F/slogan-sm.svg" alt="slogan" class="d-sm-none">
                 </div>
 
                 <div class="container learning__photo">
                     <div class="row no-gutters">
-                        <div class="col-md-3">
-                            <div class="learning__photo-item">
-                                <img src="images/photo sample 1.jpg" alt="">
+                        <div class="col-lg-3 col-6">
+                            <div class="item">
+                                <img src="images/photo-sample-1.jpg" alt="">
                             </div>
                         </div>
-                        <div class="col-md-3">
-                            <div class="learning__photo-item">
-                                <img src="images/photo sample 1.jpg" alt="">
+                        <div class="col-lg-3 col-6">
+                            <div class="item">
+                                <img src="images/photo-sample-1.jpg" alt="">
                             </div>
                         </div>
-                        <div class="col-md-3">
-                            <div class="learning__photo-item">
-                                <img src="images/photo sample 1.jpg" alt="">
+                        <div class="col-lg-3 col-6">
+                            <div class="item">
+                                <img src="images/photo-sample-1.jpg" alt="">
                             </div>
                         </div>
-                        <div class="col-md-3">
-                            <div class="learning__photo-item">
-                                <img src="images/photo sample 1.jpg" alt="">
+                        <div class="col-lg-3 col-6">
+                            <div class="item">
+                                <img src="images/photo-sample-1.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -251,29 +261,38 @@
                 <!-- .container -->
 
                 <div class="container learning__content">
-                    <div class="row no-gutters">
-                        <div class="col-lg-6">
-                            <div class="learning__heading">
+                    <div class="row">
+                        <div class="col-xl-6">
+                            <div class="learning__heading d-sm-flex align-items-center justify-content-between">
                                 <h2>Teaching and Learning</h2>
-                                <a href="#" class="button-secondary"><span>READ MORE ABOUT LEARNING AT KYILLA</span></a>
+                                <a href="#" class="button-secondary d-none d-md-flex"><span>READ MORE ABOUT LEARNING AT KYILLA</span></a>
                             </div>
 
                             <p>Kyilla has a strong focus on Literacy and Numeracy, providing students with the ability to develop the skills and knowledge needed to be competent to use these skills in the real world, now and into the future.</p>
                             <p>In the Australian Curriculum, English has three main areas: literacy, literature and language. Embedded in these strands are reading, writing, spelling, speaking and listening, and grammar and punctuation.</p>
+
+                            <a href="#" class="button-secondary d-md-none"><span>READ MORE ABOUT LEARNING AT KYILLA</span></a>
                         </div>
-                        <div class="col-lg-6">
-                            <ul class="menu">
-                                <li><a href="#">Early Childhood Education</a></li>
-                                <li><a href="#">Science</a></li>
-                                <li><a href="#">Humanities and Social Sciences</a></li>
-                                <li><a href="#">Health and Physical Education</a></li>
-                            </ul>
-                            <ul class="menu">
-                                <li><a href="#">Music</a></li>
-                                <li><a href="#">Visual Art</a></li>
-                                <li><a href="#">Technologies</a></li>
-                                <li><a href="#">Japanese</a></li>
-                            </ul>
+                        <div class="col-xl-6 learning__list">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <ul class="menu fancy-list">
+                                        <li><a href="#">Early Childhood Education</a></li>
+                                        <li><a href="#">Science</a></li>
+                                        <li><a href="#">Humanities and Social Sciences</a></li>
+                                        <li><a href="#">Health and Physical Education</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <ul class="menu fancy-list">
+                                        <li><a href="#">Music</a></li>
+                                        <li><a href="#">Visual Art</a></li>
+                                        <li><a href="#">Technologies</a></li>
+                                        <li><a href="#">Japanese</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- .row -->
                         </div>
                     </div>
                     <!-- .row -->
@@ -285,18 +304,20 @@
             <section id="news">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-3">
+                        <div class="col-xl-3 col-lg-4 d-md-flex align-items-center justify-content-between d-lg-block mb-5 mb-lg-0">
                             <h2>Latest news and events</h2>
-                            <a href="#" class="button-secondary"><span>SEE ALL NEWS AND EVENTS</span></a>
+                            <a href="#" class="button-secondary d-none d-md-flex"><span>SEE ALL NEWS AND EVENTS</span></a>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="row">
-                                <div class="col-lg-6">
+                        <div class="col-xl-9 col-lg-8">
+                            <div class="news_slider equal-height">
+                                <div class="slick-slide">
                                     <article class="post-item">
                                         <div class="post-item__photo">
                                             <a href="#">
-                                                <img src="images/photo sample 1.jpg" alt="">
+                                                <img src="images/photo-sample-1.jpg" alt="">
                                             </a>
+        
+                                            <p class="date"><span>AUG</span> 20</span>
                                         </div>
                                         <div class="post-item__text">
                                             <p class="title"><a href="#">New website launch</a></p>
@@ -304,26 +325,33 @@
                                         </div>
                                     </article>
                                 </div>
-                                <div class="col-lg-6">
+
+                                <div class="slick-slide">
                                     <article class="post-item">
                                         <div class="post-item__photo">
                                             <a href="#">
-                                                <img src="images/photo sample 1.jpg" alt="">
+                                                <img src="images/photo-sample-1.jpg" alt="">
                                             </a>
+        
+                                            <p class="date"><span>AUG</span> 20</span>
                                         </div>
                                         <div class="post-item__text">
                                             <p class="title"><a href="#">New website launch</a></p>
                                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe aliquam eum doloremque quod architecto nobis!</p>
                                         </div>
+                                    </article>
+                                </div>
+                                
+                                <div class="slick-slide">
+                                    <article class="post-item featured-event">
+                                        <a href="#">
+                                            <img src="images/photo featured event.jpg" alt="">
+                                        </a>
                                     </article>
                                 </div>
                             </div>
-                            <!-- .row -->
-                        </div>
-                        <div class="col-lg-3">
-                            <a href="#">
-                                <img src="images/photo featured event.jpg" alt="">
-                            </a>
+
+                            <a href="#" class="button-secondary d-md-none"><span>SEE ALL NEWS AND EVENTS</span></a>
                         </div>
                     </div>
                     <!-- .row -->
@@ -333,8 +361,10 @@
             <!-- #news -->
 
             <section id="acknowledgement">
+                <div class="acknowledgement__photo" style="background-image: url(images/photo-sample-2.jpg);"></div>
+
                 <div class="container">
-                    <div class="acknowledgement__inner">
+                    <div class="acknowledgement__inner text-center">
                         <h2>Acknowledgement of Country</h2>
                         <p>We respectfully acknowledge the Whadjuk people of the Noongar nation as the traditional owners of the land on which we stand and pay our respects to elders past, present and future. Together, we acknowledge the contributions of Aboriginal Australians and non-Aboriginal Australians to the education of all children and people in this country we all live in and share together – Australia.</p>
                     </div>
