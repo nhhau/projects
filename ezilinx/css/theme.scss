@@ -278,6 +278,7 @@ div.gform_wrapper {
 		margin: 0;
 
 		input[type="text"],
+		input[type="email"],
 		textarea,
 		select {
 			display: block;
@@ -321,10 +322,16 @@ div.gform_wrapper {
 		padding: 5px 0 0 !important;
 	}
 
+	div.gform_validation_errors,
 	div.validation_error {
 		margin: 0 0 20px !important;
 		padding: 0 !important;
 		border: 0 !important;
+
+		h2 {
+			color: inherit;
+			line-height: 1.2;
+		}
 	}
 
 	@include breakpoint_min(768px) {
@@ -1304,7 +1311,7 @@ section {
 /** END for-whom **/
 
 /** two-buttons **/
-section.two-buttons {
+div.two-buttons {
 	padding: 80px 0 0;
 
 	ul.menu {
@@ -1470,7 +1477,7 @@ section.two-buttons {
 		}
 	}
 
-	section.two-buttons {
+	div.two-buttons {
 		position: absolute;
 		top: -86px;
 		left: 0;
@@ -1507,7 +1514,7 @@ section.two-buttons {
 	}
 
 	@include breakpoint_max(991px) {
-		section.two-buttons {
+		div.two-buttons {
 			top: -57px;
 		}
 	}
@@ -1515,7 +1522,7 @@ section.two-buttons {
 	@include breakpoint_max(575px) {
 		padding: 120px 0;
 
-		section.two-buttons {
+		div.two-buttons {
 			top: -47px;
 		}
 	}
@@ -1820,6 +1827,7 @@ section.two-buttons {
 	div.gform_wrapper {
 		form {
 			input[type="text"],
+			input[type="email"],
 			textarea {
 				color: #fff;
 			}
@@ -1830,7 +1838,8 @@ section.two-buttons {
 		}
 
 		div.gfield_description,
-		div.validation_error {
+		div.validation_error,
+		div.gform_validation_errors {
 			color: #fff;
 		}
 	}
@@ -3118,6 +3127,7 @@ section.text-photo-one {
 
 /** text-photo-two **/
 section.text-photo-two {
+	padding: 80px 0;
 	.text-photo-two {
 		&__inner {
 			padding: 90px;
@@ -3292,5 +3302,11 @@ body.page-template-page_flexible {
 .mejs-embed, 
 .mejs-embed body {
 	background: $color_brown;
+}
+
+.entry-content ul.sitemap {
+	ul {
+		margin: 0 0 0 20px;
+	}
 }
 /** END EXTRA **/

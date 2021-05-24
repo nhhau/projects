@@ -4,7 +4,7 @@
     {
       "name" : "Process All Remaining Files and Folders",
       "stepType" : 1,
-      "uuidString" : "512D1041-4435-4516-895F-A6C89E5141B1"
+      "uuidString" : "2C672797-E0AD-48E5-ABF2-9E9FD8458674"
     }
   ],
   "creatorBuild" : "34127",
@@ -16,21 +16,9 @@
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 2,
       "oAP" : "\/css\/plugins.min.css",
       "oF" : 3,
-      "pg" : 0
-    },
-    "\/css\/print.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/css\/print-min.css",
-      "oF" : 1,
       "pg" : 0
     },
     "\/css\/theme.css" : {
@@ -54,31 +42,23 @@
       "ma" : 0,
       "oA" : 0,
       "oAP" : "\/css\/theme.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 3,
       "pg" : 0,
-      "sct" : 0
+      "sct" : 1
     }
   },
   "hooks" : [
-    {
-      "enabled" : 1,
-      "name" : "Hook #1",
-      "predicateDataBase64Encoded" : "YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMSAAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVRyb290gAGvEBYLDBMYICorLjU5Pj9CRkpPUFNZXWFjVSRudWxs0w0ODxAREl8QF05TQ29tcG91bmRQcmVkaWNhdGVUeXBlXxAPTlNTdWJwcmVkaWNhdGVzViRjbGFzcxACgAKAFdIUDxUXWk5TLm9iamVjdHOhFoADgBTUDxkaGxwdHh9fEBFOU1JpZ2h0RXhwcmVzc2lvbl8QEE5TTGVmdEV4cHJlc3Npb25fEBNOU1ByZWRpY2F0ZU9wZXJhdG9ygBOADoAEgBHVISIjJA8lJicoKVlOU09wZXJhbmReTlNTZWxlY3Rvck5hbWVfEBBOU0V4cHJlc3Npb25UeXBlW05TQXJndW1lbnRzgAaABRADgAiADVx2YWx1ZUZvcktleTrSIw8sLRABgAfSLzAxMlokY2xhc3NuYW1lWCRjbGFzc2VzXxAQTlNTZWxmRXhwcmVzc2lvbqMxMzRcTlNFeHByZXNzaW9uWE5TT2JqZWN00hQPNjihN4AJgAzTDyM6Ozw9WU5TS2V5UGF0aIALEAqACl1pbnB1dEZ1bGxQYXRo0i8wQEFfEBxOU0tleVBhdGhTcGVjaWZpZXJFeHByZXNzaW9uo0AzNNIvMENEXk5TTXV0YWJsZUFycmF5o0NFNFdOU0FycmF50i8wR0hfEBNOU0tleVBhdGhFeHByZXNzaW9upEdJMzRfEBROU0Z1bmN0aW9uRXhwcmVzc2lvbtNLIw9MTU5fEA9OU0NvbnN0YW50VmFsdWWADxAAgBBYZHZhc3Npc3TSLzBRUl8QGU5TQ29uc3RhbnRWYWx1ZUV4cHJlc3Npb26jUTM01A9UVVZXTSxYWk5TTW9kaWZpZXJXTlNGbGFnc15OU09wZXJhdG9yVHlwZYASEGPSLzBaW18QFU5TSW5QcmVkaWNhdGVPcGVyYXRvcqNaXDRfEBNOU1ByZWRpY2F0ZU9wZXJhdG9y0i8wXl9fEBVOU0NvbXBhcmlzb25QcmVkaWNhdGWjXmA0W05TUHJlZGljYXRl0i8wRWKiRTTSLzBkZV8QE05TQ29tcG91bmRQcmVkaWNhdGWjZGA0AAgAEQAaACQAKQAyADcASQBMAFEAUwBsAHIAeQCTAKUArACuALAAsgC3AMIAxADGAMgA0QDlAPgBDgEQARIBFAEWASEBKwE6AU0BWQFbAV0BXwFhAWMBcAF1AXcBeQF+AYkBkgGlAakBtgG\/AcQBxgHIAcoB0QHbAd0B3wHhAe8B9AITAhcCHAIrAi8CNwI8AlICVwJuAnUChwKJAosCjQKWApsCtwK7AsQCzwLXAuYC6ALqAu8DBwMLAyEDJgM+A0IDTgNTA1YDWwNxAAAAAAAAAgEAAAAAAAAAZgAAAAAAAAAAAAAAAAAAA3U=",
-      "runOrder" : 0,
-      "scriptSourceString" : "",
-      "scriptType" : 1,
-      "uuidString" : "0D245EAE-264D-42A7-A81D-D46F5FACE989"
-    }
+
   ],
   "manualImportLinks" : {
 
   },
   "projectAttributes" : {
-    "creationDate" : 618805583.60208499,
-    "displayValue" : "dvassist",
-    "displayValueWasSetByUser" : 0,
-    "iconImageName" : "brackets_gray",
+    "creationDate" : 629871040.72536898,
+    "displayValue" : "auski",
+    "displayValueWasSetByUser" : 1,
+    "iconImageName" : "brackets_magenta",
     "iconImageWasSetByUser" : 0
   },
   "projectSettings" : {
@@ -1497,7 +1477,7 @@
       }
     },
     "esLintSourceType" : 0,
-    "externalServerAddress" : "https:\/\/metastage.com.au\/dvassist\/",
+    "externalServerAddress" : "http:\/\/localhost:8888",
     "gitIgnoreBuildFolder" : 1,
     "hideConfigFile" : 0,
     "jsCheckerReservedNamesString" : "",
@@ -2104,7 +2084,7 @@
     "npmInstallOptionalDependencies" : 0,
     "npmSaveExactVersion" : 0,
     "npmTargetDependencyListType" : 1,
-    "overrideExternalServerCSS" : 1,
+    "overrideExternalServerCSS" : 0,
     "previewPathAddition" : "",
     "purgeCSS" : {
       "blocklistEntries" : [
