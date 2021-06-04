@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="14px" viewBox="0 0 17 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>two-arrows-right-white</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
+        <g id="two-arrows-right-white" stroke="#000000" stroke-width="2">
+            <polyline id="Path_121" transform="translate(12.194000, 6.753000) rotate(-90.000000) translate(-12.194000, -6.753000) " points="6.148 3.73 12.194 9.776 18.24 3.73"></polyline>
+            <polyline id="Path_122" transform="translate(3.730000, 6.753000) rotate(-90.000000) translate(-3.730000, -6.753000) " points="-2.316 3.73 3.73 9.776 9.776 3.73"></polyline>
+        </g>
+    </g>
+</svg>

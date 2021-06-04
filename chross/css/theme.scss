@@ -585,11 +585,13 @@ div.gform_confirmation_message {
         position: relative;
         background-color: $color2;
         z-index: 10;
+
         div.container {
             position: relative;
             padding-top: 10px;
             padding-bottom: 10px;
         }
+
         a.phone {
             display: inline-block;
             font-size: 20px;
@@ -598,6 +600,7 @@ div.gform_confirmation_message {
             line-height: 1;
             white-space: nowrap;
         }
+
         a.btn {
             display: inline-block;
             position: absolute;
@@ -614,6 +617,7 @@ div.gform_confirmation_message {
             line-height: 64px;
             letter-spacing: 0.03em;
             text-transform: uppercase;
+
             &:after {
                 @extend %btn_arrow_white;
                 @extend %btn_arrow_down;
@@ -625,6 +629,7 @@ div.gform_confirmation_message {
                 margin-top: -6.5px;
             }
         }
+
         button.toggle-menu {
             position: relative;
             display: block;
@@ -634,6 +639,7 @@ div.gform_confirmation_message {
             background-color: transparent;
             padding: 0;
             outline: none;
+
             span {
                 display: block;
                 position: absolute;
@@ -645,20 +651,24 @@ div.gform_confirmation_message {
                 transition: all .25s;
                 -webkit-transition: all .25s;
             }
+
             &.collapsed {
                 span {
                     &:nth-child(1) {
                         top: 0;
                     }
+
                     &:nth-child(2) {
                         top: 50%;
                         margin-top: -1.5px;
                     }
+
                     &:nth-child(3) {
                         bottom: 0;
                     }
                 }
             }
+
             &:not(.collapsed) {
                 span {
                     &:nth-child(1),
@@ -666,32 +676,41 @@ div.gform_confirmation_message {
                         top: 50%;
                         margin-top: -1.5px;
                     }
+
                     &:nth-child(1) {
                         transform: rotate(45deg);
                     }
+
                     &:nth-child(2) {
                         opacity: 0;
                     }
+
                     &:nth-child(3) {
                         transform: rotate(-45deg);
                     }
                 }
             }
         }
+
         ul.menu {
             padding-bottom: 3px;
+
             li {
                 position: relative;
+
                 a {
                     display: inline-block;
+
                     &:hover {
                         opacity: 0.85;
                     }
                 }
+
                 &.menu-item-is-sticky {
                     display: none;
                 }
             }
+
             > li {
                 a {
                     font-size: 16px;
@@ -699,9 +718,11 @@ div.gform_confirmation_message {
                     color: #fff;
                     text-transform: uppercase;
                 }
+
                 &:not(:last-child) {
                     margin-right: 15px;
                     padding-right: 15px;
+
                     &:before {
                         content: '';
                         width: 2px;
@@ -712,6 +733,7 @@ div.gform_confirmation_message {
                         background-color: #fff;
                     }
                 }
+
                 &:hover {
                     > ul.sub-menu {
                         margin-top: 0;
@@ -720,6 +742,7 @@ div.gform_confirmation_message {
                     }
                 }
             }
+
             ul.sub-menu {
                 position: absolute;
                 top: 100%;
@@ -732,6 +755,7 @@ div.gform_confirmation_message {
                 visibility: hidden;
                 transition: all .25s;
                 -webkit-transition: all .25s;
+
                 li {
                     a {
                         position: relative;
@@ -739,17 +763,21 @@ div.gform_confirmation_message {
                         text-align: right;
                         white-space: nowrap;
                     }
+
                     &:not(:last-child) {
                         margin-bottom: 20px;
                     }
                 }
             }
         }
+
         ul.socials {
             > li {
                 margin-left: 25px;
+
                 a {
                     display: inline-block;
+
                     img {
                         display: block;
                     }
@@ -757,11 +785,13 @@ div.gform_confirmation_message {
             }
         }
     }
+
     &__main {
         position: relative;
         transition: all .25s;
         -webkit-transition: all .25s;
         z-index: 5;
+
         a.logo {
             position: relative;
             display: inline-block;
@@ -779,6 +809,7 @@ div.gform_confirmation_message {
         li {
             position: relative;
             text-align: right;
+
             a {
                 position: relative;
                 display: inline-block;
@@ -787,6 +818,7 @@ div.gform_confirmation_message {
                 text-transform: uppercase;
                 transition: all .25s;
                 -webkit-transition: all .25s;
+
                 &:after {
                     @extend %btn_arrow_white;
                     width: 14px;
@@ -804,12 +836,15 @@ div.gform_confirmation_message {
 .is-sticky {
     .site-header__topbar {
         background-color: $color1;
+
         a.btn {
             background-color: $color2;
         }
+        
         ul.socials {
             display: none !important;
         }
+
         ul.menu {
             li.menu-item-is-sticky {
                 display: block;
@@ -927,36 +962,45 @@ div.gform_confirmation_message {
         width: 100%;
         background-color: $color2;
         z-index: 10;
+        
         div.container {
             padding-top: 30px;
             padding-bottom: 30px;
         }
+
         ul.menu {
             li {
                 margin-bottom: 20px;
+
                 a {
                     display: block;
                     font-size: 16px;
                     font-weight: 700;
+
                     &:after {
                         width: 11px;
                         height: 10px;
                         top: 7px;
                     }
+
                     &:hover {
                         opacity: 0.85;
                     }
                 }
+
                 ul {
                     margin-top: 20px;
                 }
+
                 &.menu-item-is-sticky {
                     display: none !important;
                 }
+
                 &.menu-item-has-children {
                     > a[href="#"] {
                         display: none;
                     }
+
                     > a:after {
                         opacity: 0.11;
                     }
