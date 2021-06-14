@@ -291,17 +291,20 @@ ul.socials {
 /** FOOTER **/
 #site-footer {
 	background-color: #f5f5f5;
+
+	a {
+		display: inline-block;
+		color: #db3328;
+	}
+
 	p {
 		margin-bottom: 0;
-		a {
-			display: inline-block;
-			margin-left: 20px;
-			color: #db3328;
-		}
 	}
+
 	.container-fluid {
 		padding: 3rem 1.5rem 6rem;
 	}
+	
 	ul.socials {
 		display: flex;
 		flex-wrap: wrap;
@@ -533,3 +536,11 @@ ul.socials {
 	}
 }
 /** END ENTRY CONTENT **/
+
+/** EXTRA **/
+html[lang="vi-VN"] {
+	#welcome ul.quick-links li a.quick-link span.title {
+		font-family: sans-serif;
+	}
+}
+/** END EXTRA **/

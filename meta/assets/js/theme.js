@@ -1,29 +1,51 @@
 (function($) {
     $(document).ready( function() {
-        function site_init() {
-            var button_primary = function() {
+        function siteInit() {
+            var headerInit = function() {
+                var scrollPos = $(window).scrollTop(),
+                    headerHeight = $('#header').outerHeight();
+
+                if( $('#welcome').length ) {
+                    headerHeight = $('#welcome').outerHeight();
+                } else if( $('#cs-header').length ) {
+                    headerHeight = $('#cs-header').outerHeight();
+                }
+                
+                if( scrollPos > headerHeight ) {
+                    $('#header').sticky({
+                        topSpacing: 0,
+                        zIndex: 300
+                    });
+                } else {
+                    $('#header').unstick();
+                }
+            }
+
+            var buttonPrimary = function() {
                 $('.button-primary').each( function(i, item) {
-                    var span_ele = $(item).find('span');
+                    var spanElement = $(item).find('span');
 
-                    if( span_ele.length ) {
-                        var width = span_ele.outerWidth();
+                    if( spanElement.length ) {
+                        var width = spanElement.outerWidth();
 
-                        span_ele.css({
+                        spanElement.css({
                             width: (width+2) + 'px'
                         });
                     }
                 });
             }
 
-            button_primary();
-
-            $(window).resize( function() {
+            $(window).scroll( function() {
+                headerInit();
             });
+
+            headerInit();
+            buttonPrimary();
         }
         
-        site_init();
+        siteInit();
 
-        function fullscreen_menu() {
+        function fullscreenMenu() {
             $('#header .toggle-menu').on('click', function(e) {
                 $('#fullscreen-menu').addClass('show');
                 $('body').addClass('show-menu');
@@ -50,7 +72,7 @@
         }
 
         if( $('#fullscreen-menu').length ) {
-            fullscreen_menu();
+            fullscreenMenu();
         }
 
         function section_logo_collections() {

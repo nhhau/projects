@@ -3786,3 +3786,22 @@ div.post-date {
 	font-weight: 500;
 	text-transform: uppercase;
 }
+
+a.print-now {
+    position: relative;
+    padding-left: 40px;
+
+    &:before {
+        content: '';
+        width: 16px;
+        height: 16px;
+        position: absolute;
+        top: 50%;
+        left: 12px;
+        margin-top: -8px;
+        background-image: url(../images/icon-print.svg);
+        background-repeat: no-repeat;
+        background-position: 0;
+        background-size: contain;
+    }
+}

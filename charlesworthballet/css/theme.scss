@@ -327,6 +327,12 @@ button {
     }
 }
 
+.form-check {
+    label {
+        cursor: pointer;
+    }
+}
+
 .select-field {
     position: relative;
     &:after {
@@ -499,7 +505,7 @@ div.gform_wrapper {
             border: 0 !important;
         }
         div.gfield_repeater_item:nth-child(even) {
-            background-color: rgb(255 255 255 / 0.3);
+            background-color: rgb(255, 255, 255 / 0.3);
         }
     }
     .gfield_repeater_buttons .add_repeater_item_text, 
@@ -1352,6 +1358,8 @@ div.gform_wrapper.gf-normal_wrapper {
             color: #fff;
             .h1 {
                 color: inherit;
+				font-size: 42px;
+				line-height: 110%;
             }
         }
     }
@@ -1363,7 +1371,7 @@ div.gform_wrapper.gf-normal_wrapper {
     }
 
     #welcome .slideshow .slide-text {
-        height: 240px;
+        height: 150px;
     }
 
     #welcome .slideshow .slick-slide {
@@ -2137,5 +2145,9 @@ div.highlight-text {
 
 body.page-template-page_search #page-content {
     padding-top: 40px;
+}
+
+section.trybooking {
+	background: #fbfbfb;
 }
 /** END EXTRA **/

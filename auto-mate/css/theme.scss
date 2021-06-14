@@ -606,7 +606,7 @@ div.gform_wrapper {
     .secondary-slider {
         position: absolute;
         bottom: -120px;
-        right: 104px;
+        right: 133px;
         width: 700px;
         z-index: 20;
     }
@@ -668,7 +668,7 @@ div.gform_wrapper {
 @media (min-width: 1200px) {
     #welcome .primary-slider {
         background-color: $color_orange;
-        padding-right: 381px;
+        padding-right: 410px;
     }
 
     #welcome .primary-slider .slick-slide .inner {
@@ -1024,7 +1024,7 @@ div.gform_wrapper {
 @media (min-width: 992px) {
     #page-title:after {
         content: '';
-        width: 381px;
+        width: 410px;
         height: 100%;
         position: absolute;
         top: 0;
@@ -1036,7 +1036,7 @@ div.gform_wrapper {
     #page-title .inner:before {
         content: '';
         position: absolute;
-        right: 110px;
+        right: 138px;
         bottom: -15px;
         width: 530px;
         height: 262px;
@@ -1184,6 +1184,130 @@ body.single-post {
     }
 }
 /** END Side menu **/
+
+/** EVENT TEMPLATE **/
+.event-container {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.event-list {
+}
+
+.event-item {
+    $self: &;
+    background-color: #f9f9f9;
+    padding: 25px;
+    margin-bottom: 25px;
+
+    #{ $self } {
+        &__title {
+            h3 {
+                margin-bottom: 12px;
+            }
+            
+            img {
+                display: block;
+                margin: 0 0 20px;
+            }
+
+            ul {
+                display: flex;
+                margin: 0 0 20px;
+
+                li {
+                    position: relative;
+                    padding-left: 26px;
+                    padding-right: 15px;
+
+                    &:before {
+                        content: '';
+                        position: absolute;
+                        top: 2px;
+                        left: 0;
+                        width: 20px;
+                        height: 20px;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        background-size: contain;
+                    }
+
+                    &.location {
+                        &:before {
+                            background-image: url(../images/icon-map-marker-alt.svg);
+                        }
+                    }
+
+                    &.date {
+                        &:before {
+                            background-image: url(../images/icon-calendar-alt.svg);
+                        }
+                    }
+                }
+            }
+
+            .button-primary {
+                padding: 10px 50px 10px 15px;
+                margin: 0 5px 5px 0;
+                font-size: 18px;
+                
+                &.black {
+                    &:hover,
+                    &:focus {
+                        color: #000;
+                        border-color: #000;
+    
+                        &:after {
+                            border-left-color: #000;
+                        }
+                    }
+    
+                    &.active {
+                        &:after {
+                            transform: rotate(90deg);
+                        }
+                    }
+                }
+            }
+        }
+
+        &__content {
+            display: none;
+            padding-top: 25px;
+
+            p:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .event-container {
+        .row {
+            margin-left: -40px;
+            margin-right: -40px;
+
+            > div {
+                padding-left: 40px;
+                padding-right: 40px;
+            }
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .event-item .event-item__title {
+        ul {
+            display: block;
+
+            li {
+                margin-bottom: 10px;
+            }
+        }
+    }
+}
+/** END EVENT TEMPLATE **/
 
 /** EXTRA **/
 .wpb_wrapper > div {
